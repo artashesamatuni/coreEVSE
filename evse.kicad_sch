@@ -1700,7 +1700,7 @@
 					)
 				)
 			)
-			(property "Footprint" "OpenEVSE:Converter_ACDC_MeanWell_IRM-10-12_THT"
+			(property "Footprint" "Converter_ACDC:Converter_ACDC_MeanWell_IRM-10-xx_THT"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1966,6 +1966,266 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DL_CT:DL-CT08CL19-1000-1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "GFCI_CT"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DL-CT08CL19-1000/1"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "DL_CT:DL-CT08CL19-1000-1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ae01.alicdn.com/kf/S8ee21b9fff4b4583b455c04371da38dej.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Nanjing UP DL-CT08CL19-1000/1 zero-phase current transformer, 1000:1, 15 mm window, with external 5-turn GFCI test winding"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "GFCI RCD zero phase current transformer residual current 1000:1 5 turn test winding DL-CT08CL19"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DL-CT08CL19-1000-1_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.5921)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1000:1"
+					(at -0.508 -5.334 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(text "TEST 5T"
+					(at -0.254 5.334 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(symbol "DL-CT08CL19-1000-1_1_1"
+				(pin passive line
+					(at -10.16 3.81 0)
+					(length 3.175)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 3.81 180)
+					(length 3.175)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 1.27 0)
+					(length 3.175)
+					(name "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 1.27 180)
+					(length 3.175)
+					(name "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -1.27 0)
+					(length 3.175)
+					(name "N1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 3.175)
+					(name "N2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -3.81 0)
+					(length 3.175)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -3.81 180)
+					(length 3.175)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10172,7 +10432,7 @@
 		(uuid "128c9f92-9c3c-4e3a-ba64-9c25970ced7c")
 	)
 	(rectangle
-		(start 27.94 228.6)
+		(start 13.97 228.6)
 		(end 175.26 280.67)
 		(stroke
 			(width 0)
@@ -10794,6 +11054,12 @@
 		(uuid "b9413476-9a3d-45cf-b3eb-d78b1ec4a59a")
 	)
 	(junction
+		(at 50.8 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1da4baf-8d40-45ab-a80d-78d3e25794a6")
+	)
+	(junction
 		(at 90.17 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10860,6 +11126,12 @@
 		(uuid "e8f2e720-95c7-47d7-bb83-0d3a7bebb80a")
 	)
 	(junction
+		(at 62.23 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9b4c199-f088-43fa-834d-7b2b4c4d1cc7")
+	)
+	(junction
 		(at 55.88 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10900,6 +11172,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f87fdbdc-9523-4e3c-9d57-bda2cffe2739")
+	)
+	(junction
+		(at 44.45 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f883b30e-f011-4ea1-8be2-98ffed43cf44")
 	)
 	(junction
 		(at 83.82 241.3)
@@ -10952,7 +11230,7 @@
 		(uuid "b88938c4-4f53-4dc3-a456-c096ce8e5faf")
 	)
 	(no_connect
-		(at 53.34 265.43)
+		(at 53.34 262.89)
 		(uuid "c36e1a41-4b67-45c6-9c33-c3f5215ebfcd")
 	)
 	(no_connect
@@ -11485,6 +11763,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 156.21) (xy 40.64 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b8655e-e896-4193-80ee-4dbc363a9ccc")
+	)
+	(wire
+		(pts
 			(xy 316.992 51.816) (xy 316.992 54.356)
 		)
 		(stroke
@@ -11555,7 +11843,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 260.35) (xy 55.88 254)
+			(xy 55.88 257.81) (xy 55.88 254)
 		)
 		(stroke
 			(width 0.1524)
@@ -11592,6 +11880,16 @@
 			(type default)
 		)
 		(uuid "27607bfd-7144-4c5f-9fed-5171baeb71ee")
+	)
+	(wire
+		(pts
+			(xy 38.1 161.29) (xy 40.64 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b81dee-1b54-4588-a2a4-6ea89a97bc1d")
 	)
 	(wire
 		(pts
@@ -11632,6 +11930,16 @@
 			(type default)
 		)
 		(uuid "29653d24-549f-4264-b996-30acd87f4df2")
+	)
+	(wire
+		(pts
+			(xy 62.23 156.21) (xy 62.23 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4d6ad5-3239-4289-b053-5734ed714b43")
 	)
 	(wire
 		(pts
@@ -11715,6 +12023,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 158.75) (xy 64.77 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305d311c-e3d9-45e1-8c76-41d70d70a9b8")
+	)
+	(wire
+		(pts
 			(xy 290.83 123.19) (xy 290.83 128.27)
 		)
 		(stroke
@@ -11742,6 +12060,16 @@
 			(type default)
 		)
 		(uuid "31dceb1f-b17e-47d1-b5c7-f1bf3b42b7d8")
+	)
+	(wire
+		(pts
+			(xy 44.45 240.03) (xy 44.45 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31eb1fa5-5c33-41b7-87ec-3aa3c79424d6")
 	)
 	(wire
 		(pts
@@ -11862,6 +12190,16 @@
 			(type default)
 		)
 		(uuid "396bf299-66ad-4c8a-8729-01951ffbcea6")
+	)
+	(wire
+		(pts
+			(xy 39.37 240.03) (xy 44.45 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b038eda-0762-402d-a91d-bb651dabd2eb")
 	)
 	(wire
 		(pts
@@ -12395,6 +12733,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 163.83) (xy 62.23 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cddb060-0b34-45b4-ae7c-7538a1f5f1dd")
+	)
+	(wire
+		(pts
 			(xy 81.28 259.08) (xy 83.82 259.08)
 		)
 		(stroke
@@ -12595,7 +12943,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 270.51) (xy 55.88 271.78)
+			(xy 55.88 267.97) (xy 55.88 271.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -13035,7 +13383,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 254) (xy 55.88 254)
+			(xy 43.18 254) (xy 44.45 254)
 		)
 		(stroke
 			(width 0.1524)
@@ -13115,6 +13463,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 256.54) (xy 48.26 256.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "913e539e-a794-44a2-bd6b-03e56e909eca")
+	)
+	(wire
+		(pts
 			(xy 85.09 49.53) (xy 85.09 52.07)
 		)
 		(stroke
@@ -13132,6 +13490,16 @@
 			(type default)
 		)
 		(uuid "92eb88cb-35b1-40b8-a8dc-9a148efb5d7b")
+	)
+	(wire
+		(pts
+			(xy 60.96 156.21) (xy 64.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931c68ce-4615-47b3-b485-18620d819544")
 	)
 	(wire
 		(pts
@@ -13302,6 +13670,16 @@
 			(type default)
 		)
 		(uuid "9c2287b4-3f03-497e-89b2-e6ee0dcd877c")
+	)
+	(wire
+		(pts
+			(xy 227.33 203.2) (xy 232.41 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2a8565-0091-4944-af55-32d489a79f08")
 	)
 	(wire
 		(pts
@@ -14025,6 +14403,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 163.83) (xy 40.64 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8dd9248-8e59-4543-acf3-cc9cdec1beaa")
+	)
+	(wire
+		(pts
 			(xy 129.54 205.74) (xy 129.54 210.82)
 		)
 		(stroke
@@ -14042,6 +14430,16 @@
 			(type default)
 		)
 		(uuid "c9cd25a5-8399-45be-aa1a-c8ca9b89f3a0")
+	)
+	(wire
+		(pts
+			(xy 48.26 246.38) (xy 50.8 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb007056-5cbd-4024-bb35-b34d988e72c1")
 	)
 	(wire
 		(pts
@@ -14212,6 +14610,16 @@
 			(type default)
 		)
 		(uuid "d8744e8e-c77f-41f6-937b-e684b008ee3d")
+	)
+	(wire
+		(pts
+			(xy 48.26 234.95) (xy 48.26 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89ca013-b6fb-4d43-b3f0-93b23a6331eb")
 	)
 	(wire
 		(pts
@@ -14525,16 +14933,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 256.54) (xy 48.26 256.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f0d046da-1635-42df-a1e6-26fdfdee624d")
-	)
-	(wire
-		(pts
 			(xy 113.03 149.86) (xy 120.65 149.86)
 		)
 		(stroke
@@ -14552,6 +14950,16 @@
 			(type default)
 		)
 		(uuid "f1b6161e-bf9e-4402-ba89-ac899e772e4c")
+	)
+	(wire
+		(pts
+			(xy 38.1 158.75) (xy 40.64 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c65160-e0b9-41bd-9fc2-a69f9c898b2a")
 	)
 	(wire
 		(pts
@@ -14612,6 +15020,16 @@
 			(type default)
 		)
 		(uuid "f86316d4-4af7-43f2-9d7f-e0bd49a78156")
+	)
+	(wire
+		(pts
+			(xy 60.96 161.29) (xy 64.77 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f890b616-dd83-4d0b-8d2c-afa733d68c16")
 	)
 	(wire
 		(pts
@@ -14702,6 +15120,16 @@
 			(type default)
 		)
 		(uuid "fc7709e6-4fb8-443b-a599-f2d6b2396957")
+	)
+	(wire
+		(pts
+			(xy 44.45 254) (xy 55.88 254)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd4f6514-9e32-4d84-971c-e14841721b0e")
 	)
 	(global_label "ACLIN"
 		(shape bidirectional)
@@ -14893,6 +15321,29 @@
 			)
 		)
 	)
+	(global_label "GFCI_TEST_DRIVE"
+		(shape bidirectional)
+		(at 38.1 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "193b05e9-e796-485e-8f98-20e63f3621dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.6009 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "WELD_DETECT"
 		(shape bidirectional)
 		(at 267.97 256.54 0)
@@ -14978,6 +15429,29 @@
 		(uuid "2241d5d9-283d-4c4f-bb18-00d9bae15bb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 281.94 160.1855 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GFCI_SENSE"
+		(shape bidirectional)
+		(at 39.37 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b8b0ebe-9d0c-415c-a451-7d4fe7a6d13b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.8709 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15181,6 +15655,29 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 64.77 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b30f59f-0e44-41ef-8189-0037446fbd8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.2691 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "PE"
 		(shape bidirectional)
 		(at 365.76 198.12 180)
@@ -15242,6 +15739,29 @@
 		(uuid "50f98955-2715-4902-8332-134bf7ec6528")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 334.01 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AC_N_OUT_P2"
+		(shape bidirectional)
+		(at 38.1 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53909f1e-f5af-4886-9509-ce7578e579f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.6009 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15415,6 +15935,29 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "AC_N_OUT_P3"
+		(shape bidirectional)
+		(at 64.77 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61390719-8605-458c-bff3-8d8d2687e898")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.2691 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -15608,7 +16151,7 @@
 			)
 		)
 	)
-	(global_label "AC_L_OUT"
+	(global_label "AC_L_OUT_P1"
 		(shape bidirectional)
 		(at 373.38 148.59 0)
 		(effects
@@ -16132,7 +16675,30 @@
 			)
 		)
 	)
-	(global_label "AC_L_OUT"
+	(global_label "AC_L_OUT_P1"
+		(shape bidirectional)
+		(at 38.1 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad4fe3f2-c67e-46f2-83d5-d2f9260d7cfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.6009 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AC_L_OUT_P2"
 		(shape bidirectional)
 		(at 374.65 100.33 180)
 		(effects
@@ -16227,7 +16793,7 @@
 			)
 		)
 	)
-	(global_label "AC_N_OUT_P2"
+	(global_label "AC_N_OUT_P3"
 		(shape bidirectional)
 		(at 379.73 107.95 180)
 		(effects
@@ -16239,6 +16805,52 @@
 		(uuid "b9d701ac-cb76-49fc-b11e-d0735b47a8ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2309 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GFCI_TEST_DRIVE"
+		(shape bidirectional)
+		(at 48.26 234.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba2fc534-5035-4af2-8d94-5a1fad03dac7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.7609 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GFCI_SENSE"
+		(shape bidirectional)
+		(at 38.1 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c27ad9b4-d125-4d89-8df0-e14ef36be01b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.6009 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16715,6 +17327,53 @@
 		(uuid "f662ed5b-5b1a-45e8-ad54-ed9b0cafad61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 379.73 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "AC_L_OUT_P2"
+		(shape bidirectional)
+		(at 64.77 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f869bd10-25a9-49f7-9fad-2cabe83c408c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.2691 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 232.41 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa6bf806-56ec-4f21-885a-1f191c195611")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.377 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17348,7 +18007,7 @@
 	)
 	(symbol
 		(lib_id "GFI_Original:diode_BAS40-06")
-		(at 55.88 265.43 90)
+		(at 55.88 262.89 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17358,7 +18017,7 @@
 		(dnp no)
 		(uuid "0bcd9371-ca18-42a8-89fe-f0b3bf870eec")
 		(property "Reference" "D1"
-			(at 53.8734 264.668 0)
+			(at 53.8734 262.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17369,7 +18028,7 @@
 			)
 		)
 		(property "Value" "AZ23C5V6-7-F"
-			(at 59.8424 269.748 0)
+			(at 59.944 271.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17379,8 +18038,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 55.88 265.43 0)
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOT23"
+			(at 55.88 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17391,7 +18050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 265.43 0)
+			(at 55.88 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17401,8 +18060,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 55.88 265.43 0)
+		(property "Description" "Silicon Schottky Diodes\n\nGeneral-purpose diode for high-speed switching"
+			(at 55.88 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17868,7 +18527,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SIL8-2"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SIL8-2"
 			(at 245.11 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -18146,7 +18805,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 227.33 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -18461,7 +19120,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 119.38 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -18483,7 +19142,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 119.38 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -18842,7 +19501,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 228.6 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -18921,7 +19580,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 113.03 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -18977,7 +19636,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SMA_AC"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SMA"
 			(at 220.98 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -18999,7 +19658,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Surface Mount Schottky Power Rectifier\n\nSource: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF"
 			(at 220.98 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -19058,7 +19717,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SMA_AC"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SMA"
 			(at 220.98 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -19080,7 +19739,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Surface Mount Schottky Power Rectifier\n\nSource: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF"
 			(at 220.98 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -19161,7 +19820,7 @@
 				)
 			)
 		)
-		(property "Description" "Power flag declares a driven power net"
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 90.17 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -19375,7 +20034,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 27.94 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -19397,7 +20056,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 27.94 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -20056,7 +20715,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 121.92 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -20078,7 +20737,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor Standard 0603 ceramic capacitor, and 0.1\" leaded capacitor."
 			(at 121.92 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -20254,7 +20913,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 258.06 192.37 0)
 			(hide yes)
 			(show_name no)
@@ -20276,7 +20935,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 258.06 192.37 0)
 			(hide yes)
 			(show_name no)
@@ -20335,7 +20994,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOT23"
 			(at 53.34 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -20357,7 +21016,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Silicon Schottky Diodes\n\nGeneral-purpose diode for high-speed switching"
 			(at 53.34 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -20419,7 +21078,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
 			(at 213.36 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -21140,7 +21799,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
 			(at 213.36 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -21340,7 +21999,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SOD-123_AC"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOD123"
 			(at 359.41 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21362,7 +22021,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE"
 			(at 359.41 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21591,7 +22250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 22.86 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -21613,7 +22272,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor Standard 0603 ceramic capacitor, and 0.1\" leaded capacitor."
 			(at 22.86 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -21905,7 +22564,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 88.9 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -21927,7 +22586,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 88.9 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -21986,7 +22645,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
 			(at 203.2 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -22270,7 +22929,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:C_1206_3216Metric_AC"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:EIA3216"
 			(at 116.84 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -22292,7 +22951,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor Polarized These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in electrolytic and tantalum varieties. Always verify the external diameter of the through hole cap, it varies with capacity, voltage, and manufacturer. The EIA devices should be standard."
 			(at 116.84 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -22429,7 +23088,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 96.52 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -22451,7 +23110,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor Standard 0603 ceramic capacitor, and 0.1\" leaded capacitor."
 			(at 96.52 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -22815,7 +23474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SO08"
 			(at 134.62 254 0)
 			(hide yes)
 			(show_name no)
@@ -23030,7 +23689,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 72.39 254 0)
 			(hide yes)
 			(show_name no)
@@ -23052,7 +23711,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 72.39 254 0)
 			(hide yes)
 			(show_name no)
@@ -23575,7 +24234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lf353.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
 			(at 351.282 30.226 0)
 			(hide yes)
 			(show_name no)
@@ -23586,7 +24245,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual JFET-input operational amplifier, SOIC-8; OpenEVSE v5.5 PILOT driver"
+		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
 			(at 351.282 30.226 0)
 			(hide yes)
 			(show_name no)
@@ -24142,7 +24801,7 @@
 				)
 			)
 		)
-		(property "Description" "MCP9808 ±0.5°C digital temperature sensor, MSOP-8"
+		(property "Description" "±0.25°C (±0.5°C) Typical (Maximum), Digital Temperature Sensor, MSOP-8"
 			(at 274.28 207.87 0)
 			(hide yes)
 			(show_name no)
@@ -24219,7 +24878,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
 			(at 203.2 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -24311,7 +24970,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:MOV"
 			(at 353.06 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -24550,7 +25209,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 355.6 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -24572,7 +25231,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 355.6 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -24789,7 +25448,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 66.04 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -24811,7 +25470,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 66.04 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -25107,7 +25766,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SOD-123_AC"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOD123"
 			(at 146.05 254 0)
 			(hide yes)
 			(show_name no)
@@ -25129,7 +25788,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE"
 			(at 146.05 254 0)
 			(hide yes)
 			(show_name no)
@@ -25394,7 +26053,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lf353.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
 			(at 319.532 72.136 0)
 			(hide yes)
 			(show_name no)
@@ -25405,7 +26064,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual JFET-input operational amplifier, SOIC-8; OpenEVSE v5.5 PILOT driver"
+		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
 			(at 319.532 72.136 0)
 			(hide yes)
 			(show_name no)
@@ -25560,7 +26219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:Converter_ACDC_MeanWell_IRM-10-12_THT"
+		(property "Footprint" "Converter_ACDC:Converter_ACDC_MeanWell_IRM-10-xx_THT"
 			(at 196.85 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -25647,7 +26306,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SMA_AC"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SMA"
 			(at 220.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -25669,7 +26328,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Surface Mount Schottky Power Rectifier\n\nSource: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF"
 			(at 220.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -25728,7 +26387,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
 			(at 213.36 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -25999,7 +26658,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 370.84 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -26716,7 +27375,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SUPPLY SYMBOL"
 			(at 334.01 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -26979,7 +27638,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SMA_AC"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SMA"
 			(at 220.98 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -27001,7 +27660,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Surface Mount Schottky Power Rectifier\n\nSource: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF"
 			(at 220.98 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -27138,7 +27797,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 121.92 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -27160,7 +27819,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 121.92 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -27219,7 +27878,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 345.44 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -27241,7 +27900,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 345.44 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -27519,7 +28178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lf353.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
 			(at 362.712 68.326 0)
 			(hide yes)
 			(show_name no)
@@ -27530,7 +28189,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual JFET-input operational amplifier, SOIC-8; OpenEVSE v5.5 PILOT driver"
+		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
 			(at 362.712 68.326 0)
 			(hide yes)
 			(show_name no)
@@ -27607,7 +28266,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 27.94 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -27629,7 +28288,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 27.94 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -28153,7 +28812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SO08"
 			(at 91.44 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -28458,6 +29117,104 @@
 			(project "evse"
 				(path "/11cad39f-0746-4064-b162-743100309dbd"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DL_CT:DL-CT08CL19-1000-1")
+		(at 50.8 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c42799b0-0170-4582-9699-43b991079c02")
+		(property "Reference" "GFCI_CT2"
+			(at 50.8 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DL-CT08CL19-1000/1"
+			(at 50.8 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DL_CT:DL-CT08CL19-1000-1"
+			(at 50.8 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ae01.alicdn.com/kf/S8ee21b9fff4b4583b455c04371da38dej.pdf"
+			(at 50.8 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Nanjing UP DL-CT08CL19-1000/1 zero-phase current transformer, 1000:1, 15 mm window, with external 5-turn GFCI test winding"
+			(at 50.8 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aeee23b8-b222-4075-85dc-bb1dac3ea4ad")
+		)
+		(pin "2"
+			(uuid "effa2106-7d47-471b-b887-1c90f11f7966")
+		)
+		(pin "3"
+			(uuid "9453aba4-e4d4-4ba8-861f-fd60a9814934")
+		)
+		(pin "4"
+			(uuid "40985d29-3020-4c12-8683-e02503879933")
+		)
+		(pin "6"
+			(uuid "13059e12-9273-459d-b4ec-8c2e9cec4df3")
+		)
+		(pin "5"
+			(uuid "d86b143c-9ee0-43bf-a94f-517548175aac")
+		)
+		(pin "8"
+			(uuid "7a5e3991-af09-483a-946c-26e21f295523")
+		)
+		(pin "7"
+			(uuid "2455c9e4-4b2e-4024-839c-5d0b6bdbb292")
+		)
+		(instances
+			(project "evse"
+				(path "/11cad39f-0746-4064-b162-743100309dbd"
+					(reference "GFCI_CT2")
 					(unit 1)
 				)
 			)
@@ -28775,7 +29532,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional 16 V TVS diode, P6SMB series"
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 380.492 75.946 0)
 			(hide yes)
 			(show_name no)
@@ -28844,7 +29601,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/21348a.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/lt1044.pdf"
 			(at 319.532 41.656 0)
 			(hide yes)
 			(show_name no)
@@ -28855,7 +29612,7 @@
 				)
 			)
 		)
-		(property "Description" "12V-capable switched-capacitor voltage inverter, SOIC-8"
+		(property "Description" "Switched Capacitor Voltage Converter, 1.5V to 9V supply operation, 200uA Max No Load Supply Current at 5V, DIP-8/TO-99"
 			(at 316.992 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -28932,7 +29689,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
 			(at 213.36 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -29024,7 +29781,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 157.48 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -29046,7 +29803,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 157.48 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -29105,7 +29862,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SOD-123_AC"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOD123"
 			(at 101.6 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -29127,7 +29884,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE"
 			(at 101.6 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -29302,7 +30059,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
 			(at 203.2 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -29560,7 +30317,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:MOV"
 			(at 386.08 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -29664,7 +30421,7 @@
 				)
 			)
 		)
-		(property "Description" "Power flag declares a driven power net"
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 57.15 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -29914,7 +30671,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 285.47 188.98 0)
 			(hide yes)
 			(show_name no)
@@ -29936,7 +30693,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Capacitor Standard 0603 ceramic capacitor, and 0.1\" leaded capacitor."
 			(at 285.47 188.98 0)
 			(hide yes)
 			(show_name no)
@@ -30107,7 +30864,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 258.83 191.17 0)
 			(hide yes)
 			(show_name no)
@@ -30129,7 +30886,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 258.83 191.17 0)
 			(hide yes)
 			(show_name no)
@@ -30304,7 +31061,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 57.15 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -30326,7 +31083,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 57.15 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -30463,7 +31220,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 31.75 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -30485,7 +31242,7 @@
 				)
 			)
 		)
-		(property "Description" "Burden resistor for OPCT16AL-1000/1; 20 ohm, 1%, >=0.25 W"
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 31.75 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -30544,7 +31301,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
 			(at 132.08 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -30566,7 +31323,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
 			(at 132.08 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -30796,7 +31553,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:MOV"
 			(at 369.57 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -30993,7 +31750,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
 			(at 203.2 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -31095,25 +31852,6 @@
 			"d4ce5979-a13d-47bb-8190-0b57f7e5648b" "e176c022-06c0-4690-9854-b9f501b1aad6"
 			"e1e97ada-60bc-458e-bb4e-8f3b282fd73a" "e6ab4175-199a-44cd-a3a3-c4f3434fe68e"
 			"eb2bf57e-1a04-47f3-9c09-a29512b87948"
-		)
-	)
-	(group ""
-		(uuid "a04deeb9-b411-4b76-8f77-ccae714f0348")
-		(members "11bdb613-e351-43d7-8a7b-1ce3f86edf3f" "13a3605c-87fc-4cf3-8fe9-93f184c872eb"
-			"13b3fa25-019a-4f43-80be-f2647b2c41c9" "1593dab6-140a-4dc9-a3cf-4d47aed84a4a"
-			"173d0316-87a7-4218-b8a3-33d42e263fc3" "1aaf2f4b-86e5-4ebe-8c41-f89bf67ac429"
-			"1bee1d80-9369-49ae-83f8-aaee81f5a9a9" "1d3a9881-bdd5-4364-9b44-b4a2dbed5b63"
-			"28d806ef-288c-46ad-9b95-415094c0378d" "2db55b99-7625-4fc3-8399-3e46ec8c332b"
-			"32d97464-d4fd-4532-9de8-1b8eee4c670d" "58c190a8-6e86-4da8-bc87-20af7cdbf754"
-			"5bcc6d71-d600-494a-9d80-8a7168f93421" "5ee823e2-edaf-4123-a1c2-7f48f4484493"
-			"738dfa33-f166-4294-bf86-249bdf79933e" "7742608c-dace-41ec-880e-76016f395234"
-			"8af3a215-2085-4d4f-851b-6192c90dced4" "92eb88cb-35b1-40b8-a8dc-9a148efb5d7b"
-			"96ddce82-345f-455d-bd28-4c5c02f6a436" "99de86cf-56d9-4d65-a9ee-39653528fe0a"
-			"a6960e26-07c8-4f6a-b16c-dc590de98773" "afffa6bd-06d6-45be-b5b2-84a5cd46ac41"
-			"b1809c7a-2f10-463f-8644-d655cb6703e1" "b8a112f1-f9fb-4dc3-a6ec-7a4a7e08216e"
-			"b8ddc74c-dbd3-4858-b34a-34e7a9989a48" "b9d41587-b733-4a1a-9224-7ddfca3adb12"
-			"c1408dc1-9a45-4992-8c8a-9e2b8b904287" "f2987e17-19e9-4e60-993c-8a29f5d0825c"
-			"fc7709e6-4fb8-443b-a599-f2d6b2396957" "fd969e1b-bd44-427b-a938-3cb551c3d6cb"
 		)
 	)
 	(group ""

@@ -1,0 +1,11 @@
+# KiCad local state and recovery files
+*.bak
+*.kicad_prl
+~*.lck
+.history/
+_restore_backup_*/
+
+# Local validation output
+*.rpt
+*-3d-check.png
+*-3d-bottom*.png
