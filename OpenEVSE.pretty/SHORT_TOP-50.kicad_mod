@@ -1,0 +1,13 @@
+(footprint "SHORT_TOP-50"
+	(version 20251024)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "OpenEVSE soldered top-layer short, original Eagle SHORT_TOP-50")
+	(property "Reference" "REF**" (at 0 -2.032 0) (layer "F.SilkS") (effects (font (size 1.27 1.27) (thickness 0.15))))
+	(property "Value" "SHORT_TOP-50" (at 0 2.032 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+	(fp_line (start -1.27 -0.635) (end 1.27 -0.635) (stroke (width 0.15) (type default)) (layer "F.SilkS"))
+	(fp_line (start -1.27 0.635) (end 1.27 0.635) (stroke (width 0.15) (type default)) (layer "F.SilkS"))
+	(pad "1" smd rect (at 0.635 0) (size 1.27 1.27) (layers "F.Cu"))
+	(pad "2" smd rect (at -0.635 0) (size 1.27 1.27) (layers "F.Cu"))
+)

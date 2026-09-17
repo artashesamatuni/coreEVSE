@@ -1,0 +1,13 @@
+(footprint "NR5040"
+	(version 20251024)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Original OpenEVSE NR5040 5x5 mm inductor footprint")
+	(property "Reference" "REF**" (at 0 -3.1 0) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
+	(property "Value" "NR5040" (at 0 3.1 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+	(fp_rect (start -2.088 -2.05) (end 1.988 1.95) (stroke (width 0.2032) (type default)) (fill none) (layer "F.SilkS"))
+	(fp_circle (center 0 0) (end 1.259 0) (stroke (width 0.127) (type default)) (fill none) (layer "F.SilkS"))
+	(pad "1" smd rect (at -1.55 0) (size 1.5 3.6) (layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "2" smd rect (at 1.5 0) (size 1.5 3.6) (layers "F.Cu" "F.Paste" "F.Mask"))
+)

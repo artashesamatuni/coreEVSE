@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "OpenEVSE") (type "KiCad") (uri "${KIPRJMOD}/OpenEVSE.kicad_sym") (options "") (descr "OpenEVSE project symbols"))
+  (lib (name "GFI_Original") (type "KiCad") (uri "${KIPRJMOD}/GFI_Original.kicad_sym") (options "") (descr "Symbols imported from the original OpenEVSE GFI circuit"))
+  (lib (name "MOV_Original") (type "KiCad") (uri "${KIPRJMOD}/MOV_Original.kicad_sym") (options "") (descr "MOV symbol imported from the original OpenEVSE schematic"))
+  (lib (name "ACTEST_Original") (type "KiCad") (uri "${KIPRJMOD}/ACTEST_Original.kicad_sym") (options "") (descr "Symbols imported from the original OpenEVSE ACTEST circuit"))
+  (lib (name "DL_CT") (type "KiCad") (uri "${KIPRJMOD}/DL_CT.kicad_sym") (options "") (descr "Nanjing UP current transformer symbols"))
+)
