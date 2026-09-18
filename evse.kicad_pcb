@@ -1772,7 +1772,7 @@
 	(footprint "PCM_SparkFun-Clock:Crystal_SMD_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "1dbcb07e-46e7-4cb1-b31b-f435b97db2a7")
-		(at 49.12 45.8542 90)
+		(at 49.6 43.9)
 		(property "Reference" "Y1"
 			(at 0 0 90)
 			(unlocked yes)
@@ -1846,16 +1846,6 @@
 		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.6 -1.2)
-			(end -1.6 -1.2)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ab953ff2-47bd-405e-beca-312978887e5a")
-		)
-		(fp_line
 			(start -1.6 -1.2)
 			(end -1.6 1.2)
 			(stroke
@@ -1866,24 +1856,14 @@
 			(uuid "90dda9fd-feb7-43ae-9f15-2880201e12fd")
 		)
 		(fp_line
-			(start -1.0825 -1)
-			(end 1.0825 -1)
+			(start -1.6 1.2)
+			(end 1.6 1.2)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "96bda3db-8d9d-4187-accb-ac57c20f9e5e")
-		)
-		(fp_line
-			(start 1.4 -0.6825)
-			(end 1.4 0.6825)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "424ee848-4c68-4385-b1d1-ee011a9496fe")
+			(uuid "cb427716-ffbb-41b2-8e70-38363690760a")
 		)
 		(fp_line
 			(start -1.4 0.6825)
@@ -1896,6 +1876,16 @@
 			(uuid "07343f0e-581a-4472-ad51-6a4e67c8080e")
 		)
 		(fp_line
+			(start -1.0825 -1)
+			(end 1.0825 -1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "96bda3db-8d9d-4187-accb-ac57c20f9e5e")
+		)
+		(fp_line
 			(start 1.0825 1)
 			(end -1.0825 1)
 			(stroke
@@ -1906,6 +1896,26 @@
 			(uuid "e117a387-c523-4f62-bdc6-38f3e896efcc")
 		)
 		(fp_line
+			(start 1.4 -0.6825)
+			(end 1.4 0.6825)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "424ee848-4c68-4385-b1d1-ee011a9496fe")
+		)
+		(fp_line
+			(start 1.6 -1.2)
+			(end -1.6 -1.2)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ab953ff2-47bd-405e-beca-312978887e5a")
+		)
+		(fp_line
 			(start 1.6 1.2)
 			(end 1.6 -1.2)
 			(stroke
@@ -1914,27 +1924,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c0b6dd57-ba03-4c49-9451-6ad12b4a83c4")
-		)
-		(fp_line
-			(start -1.6 1.2)
-			(end 1.6 1.2)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cb427716-ffbb-41b2-8e70-38363690760a")
-		)
-		(fp_arc
-			(start 1.0825 -1)
-			(mid 1.307006 -0.907006)
-			(end 1.4 -0.6825)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9cbc2a08-1886-4546-9263-c8784c89350b")
 		)
 		(fp_arc
 			(start -1.4 -0.6825)
@@ -1948,17 +1937,6 @@
 			(uuid "a3844bac-fcd2-4abb-b45a-4155774291da")
 		)
 		(fp_arc
-			(start 1.4 0.6825)
-			(mid 1.307006 0.907006)
-			(end 1.0825 1)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b431cd5c-30a0-4191-9061-d0abf8075d30")
-		)
-		(fp_arc
 			(start -1.0825 1)
 			(mid -1.307006 0.907006)
 			(end -1.4 0.6825)
@@ -1968,6 +1946,28 @@
 			)
 			(layer "F.SilkS")
 			(uuid "ddc53401-2098-4683-b8da-36cb35689c92")
+		)
+		(fp_arc
+			(start 1.0825 -1)
+			(mid 1.307006 -0.907006)
+			(end 1.4 -0.6825)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9cbc2a08-1886-4546-9263-c8784c89350b")
+		)
+		(fp_arc
+			(start 1.4 0.6825)
+			(mid 1.307006 0.907006)
+			(end 1.0825 1)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b431cd5c-30a0-4191-9061-d0abf8075d30")
 		)
 		(pad "1" smd rect
 			(at -1.1 -0.8 180)
@@ -3084,7 +3084,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2b1b496a-b11d-43a4-91d4-0f7e58cb388f")
-		(at 49.728 42.5576)
+		(at 50.7 47.2 90)
 		(property "Reference" "C1"
 			(at -2.4238 0.1761 0)
 			(unlocked yes)
@@ -12054,7 +12054,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "bd934496-d604-4622-b16a-a314b3944fcf")
-		(at 51.9976 43.87 -90)
+		(at 48.5 47.2 90)
 		(property "Reference" "C2"
 			(at 1.7128 0.1143 90)
 			(unlocked yes)
@@ -12156,16 +12156,6 @@
 		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.3 0.6)
-			(end 0.3 0.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e4523b73-925b-4ad1-bcda-ad2c97f71245")
-		)
-		(fp_line
 			(start -0.3 -0.6)
 			(end 0.3 -0.6)
 			(stroke
@@ -12174,6 +12164,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "58ab91e0-7174-47cd-870e-21fa876f023c")
+		)
+		(fp_line
+			(start -0.3 0.6)
+			(end 0.3 0.6)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e4523b73-925b-4ad1-bcda-ad2c97f71245")
 		)
 		(pad "1" smd rect
 			(at -0.9 0 270)
@@ -27583,6 +27583,26 @@
 				(xy 24.405077 69.459178) (xy 24.697184 69.297736) (xy 24.699575 69.296585) (xy 25.007924 69.168863)
 				(xy 25.010448 69.167979) (xy 25.331147 69.075587) (xy 25.333758 69.074991) (xy 25.662788 69.019087)
 				(xy 25.665447 69.018787) (xy 25.999323 69.000037) (xy 26.000669 69) (xy 31.999331 69)
+			)
+		)
+	)
+	(zone
+		(net "UGND")
+		(layer "B.Cu")
+		(uuid "26f831a1-72e2-4f83-a6a5-f102b11c7f61")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.25)
+		)
+		(min_thickness 0.25)
+		(fill yes
+			(thermal_gap 0.3)
+			(thermal_bridge_width 0.3)
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 45 30) (xy 67 30) (xy 67 50) (xy 45 50)
 			)
 		)
 	)
