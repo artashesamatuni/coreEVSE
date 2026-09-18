@@ -355,7 +355,7 @@
 			(uuid "16c20d15-44bc-47cb-bf17-b6d11e01bc5d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1077,7 +1077,7 @@
 			(uuid "55e10a23-a4ed-4584-894c-272df0aaf07b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Clock.3dshapes/Crystal_SMD_3.2x2.5mm.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Clock.3dshapes/Crystal_SMD_3.2x2.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2893,7 +2893,7 @@
 			(uuid "3bf80e2e-2fb2-4a47-bb46-b0ab1b0af1dd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5132,7 +5132,7 @@
 			(uuid "96757511-d171-4847-ac26-2a1a5e607b73")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5966,7 +5966,7 @@
 			(uuid "736a0687-4825-4f8f-ad3a-ff81689dc9cd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6364,7 +6364,7 @@
 			(uuid "552712e0-6a08-4abf-a3fc-698b15122706")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7162,7 +7162,7 @@
 			(uuid "dbc8013b-8d94-4a5f-8a7b-d6b89a0efc8f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7536,7 +7536,7 @@
 			(uuid "ffd2272c-768b-4b5a-9797-9bde61d96e05")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Semiconductor-Standard.3dshapes/SOT-23.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Semiconductor-Standard.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8918,7 +8918,7 @@
 			(uuid "d3139948-572f-4493-a226-48397532b828")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9156,7 +9156,7 @@
 			(uuid "1de7f6cd-97ce-4e65-a9a9-69da0035a92c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9326,7 +9326,7 @@
 			(uuid "672e038e-d257-4f4a-99cb-a79d3726b73e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Coil.3dshapes/L_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Coil.3dshapes/L_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9804,7 +9804,7 @@
 			(uuid "b09b6324-baec-426b-a637-1a95b39c9447")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10098,7 +10098,7 @@
 			(uuid "cc6b915c-21de-4010-ae8c-da0213515d7d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10405,7 +10405,7 @@
 			(uuid "d3943ba9-d4ca-49ae-b4e6-449df123ab71")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11502,7 +11502,7 @@
 			(uuid "1ae7a4bd-dd0a-4cce-89b2-13f9bb51aeb3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Semiconductor-Standard.3dshapes/TQFP-32_7x7mm_P0.8mm.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Semiconductor-Standard.3dshapes/TQFP-32_7x7mm_P0.8mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11797,7 +11797,7 @@
 			(uuid "2e8a3cce-8f87-4622-a70c-713d09819ed6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12746,7 +12746,7 @@
 			(uuid "1b66cb2b-93e8-4fae-bbc4-6e5a203eea6c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13155,7 +13155,7 @@
 			(uuid "ab2f2397-8865-4e83-9e90-bc477d5e9d9d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13469,7 +13469,7 @@
 			(uuid "b4a2982c-77fa-4e5a-a256-942dfd66c13d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14554,7 +14554,7 @@
 			(uuid "7283a2dc-0721-4e33-800f-4cd36bd42f1a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Capacitor.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14904,7 +14904,6 @@
 				(pins "P$1" "P$2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.27 2.54)
@@ -15070,7 +15069,6 @@
 				(pins "P$1" "P$2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.35 -2.54)
@@ -15662,7 +15660,6 @@
 				(pins "P$1" "P$2")
 			)
 		)
-		(attr dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.35 -2.54)

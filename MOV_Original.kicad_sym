@@ -30,7 +30,7 @@
 						(justify left bottom)
 					)
 				)
-				(property "Footprint" "OpenEVSE_PLUS_v6.5.1:MOV"
+				(property "Footprint" "OpenEVSE:MOV"
 					(at 0 0 0)
 					(show_name no)
 					(do_not_autoplace no)
