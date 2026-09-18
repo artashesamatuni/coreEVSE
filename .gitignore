@@ -1,11 +1,11 @@
-# KiCad local state and recovery files
+# KiCad backup and temporary files
 *.bak
+*.bck
+*~
+_autosave-*
 *.kicad_prl
-~*.lck
-.history/
-_restore_backup_*/
+*.lck
 
-# Local validation output
-*.rpt
-*-3d-check.png
-*-3d-bottom*.png
+# Optional: Exclude manufacturing outputs if you want to regenerate them later
+# Gerbers/
+# *.pdf
