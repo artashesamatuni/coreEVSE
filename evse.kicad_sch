@@ -18742,7 +18742,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 27.94 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -19621,7 +19621,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 258.06 192.37 0)
 			(hide yes)
 			(show_name no)
@@ -19702,7 +19702,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOT23"
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SOT23-3"
 			(at 53.34 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -20958,7 +20958,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 22.86 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -27072,7 +27072,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 27.94 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -29385,7 +29385,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 285.47 188.98 0)
 			(hide yes)
 			(show_name no)
@@ -29578,7 +29578,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 258.83 191.17 0)
 			(hide yes)
 			(show_name no)
@@ -29934,7 +29934,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 31.75 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -30521,76 +30521,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group ""
-		(uuid "1bc2a2fa-7f1d-401b-a326-6b2707230c4a")
-		(members "0150f1ee-3ddb-45d1-a93a-68d5b43eb26a" "05566ec5-d18a-4cb0-91f0-c7007a9c3655"
-			"1652bb21-09e8-4f50-949d-bfaaa688c8bb" "27607bfd-7144-4c5f-9fed-5171baeb71ee"
-			"3918a914-e8fb-41dc-8956-8c8d1accdbd4" "3db30cde-c1b3-47cf-abab-59a34cf6864f"
-			"437aecb1-64fe-4e4b-b312-11f1719704e9" "49d9bc98-6d2d-46c0-bf79-b25bf2d69009"
-			"4d3b8c27-821d-4fa3-955a-a01474f5c566" "51ea36ec-46a7-4cd9-9022-566e493a99cf"
-			"51fa1529-d820-4d39-9883-bbac1c0f7a5f" "58c01b5e-9781-4874-a6a4-13f2f90a2d21"
-			"67175e68-0e76-4e8f-a5d5-abdc5924b20c" "7a949b37-d8f9-4208-b3e6-7515d7be09be"
-			"7b9bbf12-11ed-4070-9796-8260e15d3b95" "836f294c-e41b-40fa-a815-f98bc8fb3bc6"
-			"8538e35d-a2e8-460d-8506-a6588b99ed7a" "89e9f540-5eb7-44ea-a18e-e285ede40baa"
-			"966ad803-d287-4280-88d8-548c8f1b2cfc" "99282e18-dcff-43a6-a69f-2ae58aafce4c"
-			"99a951c5-b12a-4e99-8011-116192af101a" "9f623f4b-3c8c-4e50-bf23-9065c2092166"
-			"a2b46822-9a93-4399-83f7-c739ac0f7a8a" "a5736786-2e78-4d72-834d-95c8f0453dc1"
-			"aeaee68c-390e-449e-aba7-33edcc3de626" "b88938c4-4f53-4dc3-a456-c096ce8e5faf"
-			"ba549474-b5c1-4070-92b8-e29f67a0de40" "c2f0083b-6f8e-4209-bb80-ea17242344de"
-			"c73a2e97-82c2-4da3-a002-c47b6f96a7fe" "c7d7a0af-b741-4939-948a-a6a7bbd24a7f"
-			"cf7f48c5-33b3-434d-96a3-fd0acd0bfa30" "d0fae2c7-342e-4edc-b451-1a6658a7649c"
-			"dcaf714a-1a3c-4cca-9cdc-86587880428f" "dce7e27f-015a-4c30-9b43-195469e2d9bd"
-			"e708e6bd-6583-4dcc-8948-b989abd55eea" "e9812008-b3b9-4322-9f84-6acb19d824e1"
-			"ec8ecf1a-60e6-49b9-90ef-f00abd80a509"
-		)
-	)
-	(group ""
-		(uuid "5b5ebea6-9be6-49a0-9079-be3810cf512c")
-		(members "05880ae4-ffb8-465e-9965-5dc48a78febb" "128c9f92-9c3c-4e3a-ba64-9c25970ced7c"
-			"150a9e26-e28f-4adb-8368-29d9a2145472" "1edb5314-6a10-482a-8013-dcfcde3ec843"
-			"2241d5d9-283d-4c4f-bb18-00d9bae15bb3" "2312bbe6-05e5-4f81-a07e-7535623c0a57"
-			"23e33003-2d2b-41da-ba12-92be9f1ee6c2" "317572c7-c9e7-4d17-b815-28a8c0203193"
-			"3193fb08-9f4f-42b2-b9e3-ca4547e4f342" "37002b02-f408-4216-877e-d16e1c12ce83"
-			"399d34ed-0065-4ce6-ae4d-6c2bf346dd01" "3c02fcce-fde1-421d-bf6c-5b0805dc7990"
-			"542cdb57-2aa5-4c6e-9631-215ebb85f0d5" "56f0c0d7-ca58-41dd-a843-99d5aa66bb8c"
-			"663ba912-8c12-44a0-885e-f0f4d601ff2e" "69f098a2-a4a1-4f42-8ecb-8976d7e7930e"
-			"70c59e90-0f47-488e-a790-f342e6b6a906" "823490dd-f2ff-4c8f-80e1-66f9469edb4b"
-			"86badaf0-9429-46bd-b43b-6fee6870c126" "8dc05aa8-e8df-4a5e-93b7-f1195bcc3c18"
-			"934e3dc3-76d6-4114-bc28-7a973a4b7a7d" "9733aaa1-37da-4ec1-8fd8-a2b1ad8650fb"
-			"9ad9f03f-e520-4729-9a73-d8a3da58a8e5" "9ec16322-bd26-4c64-b6e4-d2bfcb662dc0"
-			"a45b20ba-fa91-4669-91ed-59f0804d75b5" "b0e30814-af05-4300-af88-81cdfdd03561"
-			"b113b14b-60c2-45c9-a6ed-66b12728b738" "b392ee4c-3bc0-4c3a-8513-b6a97cd90683"
-			"be1659e2-e593-4fda-a33e-2836480201bc" "c38ecdc1-20bf-4260-b797-4ccd00f28717"
-			"d4ce5979-a13d-47bb-8190-0b57f7e5648b" "e176c022-06c0-4690-9854-b9f501b1aad6"
-			"e1e97ada-60bc-458e-bb4e-8f3b282fd73a" "e6ab4175-199a-44cd-a3a3-c4f3434fe68e"
-			"eb2bf57e-1a04-47f3-9c09-a29512b87948"
-		)
-	)
-	(group ""
-		(uuid "a5ea11e6-ff7b-43b8-95b3-e6778124777c")
-		(members "00898e12-c0f5-47f5-b818-c2f86090b2e1" "0a0f60b0-e68d-48c8-ae6d-9d76b365da15"
-			"0a6239d2-c7ce-459c-92d6-9b0f0386a031" "1784fee7-033f-4208-9ed2-40f9758faa8c"
-			"1dddb10c-077b-431b-845d-0f7cdd6c8632" "1e257e41-957d-4e67-99a4-38d46081dc05"
-			"295385a1-1431-43ba-8425-e98a5b17e1e7" "34ff2a58-ec8e-447c-9d4d-e3de15e1999d"
-			"3fface58-2b26-40d1-9fd3-1f24fda1456a" "40ffd01f-2d1c-4ff2-8ad6-7811daa64cf8"
-			"4343be41-3148-4c16-a778-add6482de325" "43eab943-c8db-4eb9-aec6-0fbb810e9b55"
-			"53c92a07-e83b-43ea-bb6f-089623b8d878" "56a2bf08-c933-4907-b7a0-c42cc6c9fbb8"
-			"626f252e-1435-4d44-b253-e8ddbfd3820a" "651e7d44-8085-4583-a13a-913d16f2b4d7"
-			"6f405628-ec93-47ae-a434-2ba09705ae89" "7030f1c3-4287-41a7-bd77-1b5f54c6a877"
-			"70daacb8-786d-4c26-8bbe-54b4eaba6b30" "7d33a86a-e2f4-4d35-9515-2111d14bbc6e"
-			"80d1c68f-6a3f-4417-a215-8739e34ed6e8" "815e0172-79cd-4702-a4ce-edaececaf69f"
-			"a203c902-3481-4dc9-aa9e-297251b74127" "a5498c1e-77a2-498a-a66e-cf7078670eb3"
-			"a57c5759-3002-4c3f-aba6-d553c456b46d" "a64e622d-1ae8-419a-b533-ff18c163213e"
-			"a9c87ad2-f607-4a5e-b1a2-cfa51ae856a7" "ad0fa6ef-0160-404c-919a-02c638e9aaf2"
-			"ae510a4f-4374-4c23-91bd-f0a8675a777d" "b2c54960-aea5-473b-b250-3ee5dfc331f9"
-			"b7691738-2598-42f6-8c63-606edeea7d1f" "c2b7560e-15de-4177-8384-f0a4cc9a060a"
-			"c6eeacde-06fe-4775-a7d9-b70d7e5e7a46" "c720aee2-45e4-413c-ba77-3deabb59b4d3"
-			"c7b62fdd-687a-480b-93c5-33948823cf0f" "c8ed74be-94d2-4bee-acb2-ceccb2975801"
-			"d5efe008-c10c-40cb-a058-0a519281aaf6" "e28349c8-9ad8-4dc2-b6d7-30c388ad8f8d"
-			"e3a6a799-e9ea-4809-8a57-e346645b5ce6" "f63d424e-1d98-4a25-b931-c57246f8b572"
-			"f7d626f0-ece5-45e3-abe5-89e3a05616c2"
 		)
 	)
 	(group ""
