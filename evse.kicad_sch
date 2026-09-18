@@ -1066,269 +1066,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1966,495 +1703,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DL_CT:DL-CT08CL19-1000-1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "GFCI_CT"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DL-CT08CL19-1000/1"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "DL_CT:DL-CT08CL19-1000-1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ae01.alicdn.com/kf/S8ee21b9fff4b4583b455c04371da38dej.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Nanjing UP DL-CT08CL19-1000/1 zero-phase current transformer, 1000:1, 15 mm window, with external 5-turn GFCI test winding"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "GFCI RCD zero phase current transformer residual current 1000:1 5 turn test winding DL-CT08CL19"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DL-CT08CL19-1000-1_0_1"
-				(rectangle
-					(start -7.62 6.35)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 3.5921)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "1000:1"
-					(at -0.508 -5.334 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "TEST 5T"
-					(at -0.254 5.334 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(symbol "DL-CT08CL19-1000-1_1_1"
-				(pin passive line
-					(at -10.16 3.81 0)
-					(length 3.175)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 3.81 180)
-					(length 3.175)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 1.27 0)
-					(length 3.175)
-					(name "L1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 1.27 180)
-					(length 3.175)
-					(name "L2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -1.27 0)
-					(length 3.175)
-					(name "N1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -1.27 180)
-					(length 3.175)
-					(name "N2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -3.81 0)
-					(length 3.175)
-					(name "S3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -3.81 180)
-					(length 3.175)
-					(name "S4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DL_CT:DL-CT10C1.0"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CT"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DL-CT10C1.0"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "DL_CT:DL-CT10C1.0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ae01.alicdn.com/kf/S8ee21b9fff4b4583b455c04371da38dej.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Nanjing UP DL-CT10C1.0 current transformer with P1/P2 one-turn primary and S1/S2 secondary, 50 A / 50 mA, 1000:1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "current transformer CT 1000:1 50A 50mA DL-CT10C1.0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "DL-CT10C1.0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DL-CT10C1.0_0_1"
-				(arc
-					(start -1.905 1.524)
-					(mid -0.635 0)
-					(end -1.905 -1.524)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.635 1.524)
-					(mid 0.635 0)
-					(end -0.635 -1.524)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.175) (xy 0 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.635 1.524)
-					(mid 1.905 0)
-					(end 0.635 -1.524)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DL-CT10C1.0_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.905)
-					(name "P1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.905)
-					(name "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 1.905)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 1.905)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10742,12 +9990,6 @@
 		(uuid "38cd322d-5888-4f23-b82f-d09712d7c772")
 	)
 	(junction
-		(at 73.66 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cb0ec90-4b7a-456c-a73c-329f3975834b")
-	)
-	(junction
 		(at 157.48 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10800,6 +10042,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53c92a07-e83b-43ea-bb6f-089623b8d878")
+	)
+	(junction
+		(at 66.04 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55ab59dc-baba-4209-8151-e732e2e2ca1e")
 	)
 	(junction
 		(at 151.13 193.04)
@@ -11054,12 +10302,6 @@
 		(uuid "b9413476-9a3d-45cf-b3eb-d78b1ec4a59a")
 	)
 	(junction
-		(at 50.8 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1da4baf-8d40-45ab-a80d-78d3e25794a6")
-	)
-	(junction
 		(at 90.17 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11126,12 +10368,6 @@
 		(uuid "e8f2e720-95c7-47d7-bb83-0d3a7bebb80a")
 	)
 	(junction
-		(at 62.23 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9b4c199-f088-43fa-834d-7b2b4c4d1cc7")
-	)
-	(junction
 		(at 55.88 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11172,12 +10408,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f87fdbdc-9523-4e3c-9d57-bda2cffe2739")
-	)
-	(junction
-		(at 44.45 254)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f883b30e-f011-4ea1-8be2-98ffed43cf44")
 	)
 	(junction
 		(at 83.82 241.3)
@@ -11293,6 +10523,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 189.23) (xy 66.04 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0486f46e-6250-4fb2-aba2-988fdde83875")
+	)
+	(wire
+		(pts
 			(xy 22.86 215.9) (xy 27.94 215.9)
 		)
 		(stroke
@@ -11333,7 +10573,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 118.11) (xy 327.66 118.11)
+			(xy 321.31 115.57) (xy 327.66 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11393,16 +10633,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 215.9) (xy 68.58 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c481aab-68ac-4d6f-8fee-f48c440a58f4")
-	)
-	(wire
-		(pts
 			(xy 350.012 70.866) (xy 353.822 70.866)
 		)
 		(stroke
@@ -11450,6 +10680,16 @@
 			(type default)
 		)
 		(uuid "0eefc054-4acd-41e3-a2f7-127b09377d9f")
+	)
+	(wire
+		(pts
+			(xy 193.04 46.99) (xy 201.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f373443-83ff-4e5d-aa11-8e5117de63e4")
 	)
 	(wire
 		(pts
@@ -11510,16 +10750,6 @@
 			(type default)
 		)
 		(uuid "13a3605c-87fc-4cf3-8fe9-93f184c872eb")
-	)
-	(wire
-		(pts
-			(xy 186.69 41.91) (xy 200.66 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c82779-b9ed-472c-a687-0aedc981ac65")
 	)
 	(wire
 		(pts
@@ -11713,7 +10943,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 118.11) (xy 386.08 118.11)
+			(xy 374.65 115.57) (xy 386.08 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11733,7 +10963,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 189.23) (xy 59.69 189.23)
+			(xy 53.34 185.42) (xy 67.31 185.42)
 		)
 		(stroke
 			(width 0)
@@ -11760,16 +10990,6 @@
 			(type solid)
 		)
 		(uuid "21a11335-f4b3-4a58-84b3-8dc38ed6cc45")
-	)
-	(wire
-		(pts
-			(xy 38.1 156.21) (xy 40.64 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22b8655e-e896-4193-80ee-4dbc363a9ccc")
 	)
 	(wire
 		(pts
@@ -11883,16 +11103,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 161.29) (xy 40.64 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28b81dee-1b54-4588-a2a4-6ea89a97bc1d")
-	)
-	(wire
-		(pts
 			(xy 328.93 199.39) (xy 334.01 199.39)
 		)
 		(stroke
@@ -11900,16 +11110,6 @@
 			(type default)
 		)
 		(uuid "28c302f6-7563-4ba8-83f7-1b91c8e02a62")
-	)
-	(wire
-		(pts
-			(xy 73.66 224.79) (xy 73.66 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28f4184f-174e-4c6e-aa64-ac9dfd8f62a4")
 	)
 	(wire
 		(pts
@@ -11930,16 +11130,6 @@
 			(type default)
 		)
 		(uuid "29653d24-549f-4264-b996-30acd87f4df2")
-	)
-	(wire
-		(pts
-			(xy 62.23 156.21) (xy 62.23 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a4d6ad5-3239-4289-b053-5734ed714b43")
 	)
 	(wire
 		(pts
@@ -11970,16 +11160,6 @@
 			(type default)
 		)
 		(uuid "2c3a6d28-e34d-4702-9896-09a693380e94")
-	)
-	(wire
-		(pts
-			(xy 186.69 46.99) (xy 201.93 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d933798-09fa-4973-80a9-3a712692e196")
 	)
 	(wire
 		(pts
@@ -12023,16 +11203,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 158.75) (xy 64.77 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "305d311c-e3d9-45e1-8c76-41d70d70a9b8")
-	)
-	(wire
-		(pts
 			(xy 290.83 123.19) (xy 290.83 128.27)
 		)
 		(stroke
@@ -12060,16 +11230,6 @@
 			(type default)
 		)
 		(uuid "31dceb1f-b17e-47d1-b5c7-f1bf3b42b7d8")
-	)
-	(wire
-		(pts
-			(xy 44.45 240.03) (xy 44.45 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31eb1fa5-5c33-41b7-87ec-3aa3c79424d6")
 	)
 	(wire
 		(pts
@@ -12143,16 +11303,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 215.9) (xy 82.55 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3851cd6f-f531-462f-b339-830d35eea7f9")
-	)
-	(wire
-		(pts
 			(xy 80.01 71.12) (xy 86.36 71.12)
 		)
 		(stroke
@@ -12193,16 +11343,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 240.03) (xy 44.45 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b038eda-0762-402d-a91d-bb651dabd2eb")
-	)
-	(wire
-		(pts
 			(xy 50.8 251.46) (xy 50.8 246.38)
 		)
 		(stroke
@@ -12210,16 +11350,6 @@
 			(type solid)
 		)
 		(uuid "3b05e772-b0ae-41fb-b187-ce053336c1d1")
-	)
-	(wire
-		(pts
-			(xy 186.69 49.53) (xy 207.01 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bd894ec-c47f-454a-b775-80f4a5f829bc")
 	)
 	(wire
 		(pts
@@ -12370,16 +11500,6 @@
 			(type default)
 		)
 		(uuid "45d13113-8307-46f6-a1f9-41a6053109d8")
-	)
-	(wire
-		(pts
-			(xy 80.01 224.79) (xy 73.66 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d65a25-05a8-4e8e-a270-80fd547569a2")
 	)
 	(wire
 		(pts
@@ -12733,16 +11853,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 163.83) (xy 62.23 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cddb060-0b34-45b4-ae7c-7538a1f5f1dd")
-	)
-	(wire
-		(pts
 			(xy 81.28 259.08) (xy 83.82 259.08)
 		)
 		(stroke
@@ -12783,7 +11893,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 201.93) (xy 73.66 201.93)
+			(xy 53.34 201.93) (xy 66.04 201.93)
 		)
 		(stroke
 			(width 0)
@@ -13020,6 +12130,16 @@
 			(type default)
 		)
 		(uuid "7398eea8-4431-471c-83b0-1d6950ea86bf")
+	)
+	(wire
+		(pts
+			(xy 66.04 191.77) (xy 66.04 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a8a1ca-5a1b-44e5-993f-8c29d730b64c")
 	)
 	(wire
 		(pts
@@ -13383,16 +12503,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 254) (xy 44.45 254)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8cfe5a95-1be5-4185-815e-df36f01e8c69")
-	)
-	(wire
-		(pts
 			(xy 232.41 256.54) (xy 231.14 256.54)
 		)
 		(stroke
@@ -13490,16 +12600,6 @@
 			(type default)
 		)
 		(uuid "92eb88cb-35b1-40b8-a8dc-9a148efb5d7b")
-	)
-	(wire
-		(pts
-			(xy 60.96 156.21) (xy 64.77 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "931c68ce-4615-47b3-b485-18620d819544")
 	)
 	(wire
 		(pts
@@ -13623,7 +12723,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 109.22) (xy 327.66 109.22)
+			(xy 321.31 107.95) (xy 327.66 107.95)
 		)
 		(stroke
 			(width 0)
@@ -13983,13 +13083,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 44.45) (xy 207.01 44.45)
+			(xy 193.04 44.45) (xy 207.01 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afcce65e-1eda-4178-be8c-a293fc69210f")
+		(uuid "b09a458e-e99c-4602-ba87-e515a669ce79")
 	)
 	(wire
 		(pts
@@ -14293,6 +13393,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 41.91) (xy 200.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c325c317-a7fd-4cd8-8edd-c33b5ec9805d")
+	)
+	(wire
+		(pts
 			(xy 232.41 259.08) (xy 232.41 261.62)
 		)
 		(stroke
@@ -14403,16 +13513,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 163.83) (xy 40.64 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8dd9248-8e59-4543-acf3-cc9cdec1beaa")
-	)
-	(wire
-		(pts
 			(xy 129.54 205.74) (xy 129.54 210.82)
 		)
 		(stroke
@@ -14430,16 +13530,6 @@
 			(type default)
 		)
 		(uuid "c9cd25a5-8399-45be-aa1a-c8ca9b89f3a0")
-	)
-	(wire
-		(pts
-			(xy 48.26 246.38) (xy 50.8 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb007056-5cbd-4024-bb35-b34d988e72c1")
 	)
 	(wire
 		(pts
@@ -14613,16 +13703,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 234.95) (xy 48.26 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d89ca013-b6fb-4d43-b3f0-93b23a6331eb")
-	)
-	(wire
-		(pts
 			(xy 109.22 96.52) (xy 115.57 96.52)
 		)
 		(stroke
@@ -14700,16 +13780,6 @@
 			(type default)
 		)
 		(uuid "de99dba4-8c16-4dda-b39a-e3fd7061e7f7")
-	)
-	(wire
-		(pts
-			(xy 73.66 201.93) (xy 78.74 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df949e31-b720-4125-ab8d-1cc1db70fa41")
 	)
 	(wire
 		(pts
@@ -14803,6 +13873,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 201.93) (xy 78.74 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e429e7fe-6fb8-4012-b331-3b4a07eb66b7")
+	)
+	(wire
+		(pts
 			(xy 330.962 36.576) (xy 330.962 39.116)
 		)
 		(stroke
@@ -14873,16 +13953,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 201.93) (xy 73.66 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed37cf12-9a8a-4fb5-bd7b-3332630bda89")
-	)
-	(wire
-		(pts
 			(xy 109.22 60.96) (xy 115.57 60.96)
 		)
 		(stroke
@@ -14933,6 +14003,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 185.42) (xy 53.34 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b99c85-2475-4be8-92bf-75127ed860b7")
+	)
+	(wire
+		(pts
 			(xy 113.03 149.86) (xy 120.65 149.86)
 		)
 		(stroke
@@ -14953,16 +14033,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 158.75) (xy 40.64 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2c65160-e0b9-41bd-9fc2-a69f9c898b2a")
-	)
-	(wire
-		(pts
 			(xy 104.14 236.22) (xy 104.14 241.3)
 		)
 		(stroke
@@ -14970,6 +14040,16 @@
 			(type solid)
 		)
 		(uuid "f318b437-3f7f-40b4-ba33-6bda4e807f36")
+	)
+	(wire
+		(pts
+			(xy 193.04 49.53) (xy 207.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f31762-598b-41f9-94f4-df3c7b66a643")
 	)
 	(wire
 		(pts
@@ -14983,7 +14063,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 100.33) (xy 386.08 100.33)
+			(xy 379.73 100.33) (xy 386.08 100.33)
 		)
 		(stroke
 			(width 0)
@@ -15020,16 +14100,6 @@
 			(type default)
 		)
 		(uuid "f86316d4-4af7-43f2-9d7f-e0bd49a78156")
-	)
-	(wire
-		(pts
-			(xy 60.96 161.29) (xy 64.77 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f890b616-dd83-4d0b-8d2c-afa733d68c16")
 	)
 	(wire
 		(pts
@@ -15123,7 +14193,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 254) (xy 55.88 254)
+			(xy 43.18 254) (xy 55.88 254)
 		)
 		(stroke
 			(width 0.1524)
@@ -15297,53 +14367,6 @@
 			)
 		)
 	)
-	(global_label "AMP_READ"
-		(shape bidirectional)
-		(at 80.01 224.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1920b5ba-c821-4979-b6b6-fdf3a8100be1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.6617 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GFCI_TEST_DRIVE"
-		(shape bidirectional)
-		(at 38.1 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "193b05e9-e796-485e-8f98-20e63f3621dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.6009 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "WELD_DETECT"
 		(shape bidirectional)
 		(at 267.97 256.54 0)
@@ -15429,29 +14452,6 @@
 		(uuid "2241d5d9-283d-4c4f-bb18-00d9bae15bb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 281.94 160.1855 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GFCI_SENSE"
-		(shape bidirectional)
-		(at 39.37 240.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2b8b0ebe-9d0c-415c-a451-7d4fe7a6d13b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.8709 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15655,29 +14655,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 64.77 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4b30f59f-0e44-41ef-8189-0037446fbd8e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.2691 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "PE"
 		(shape bidirectional)
 		(at 365.76 198.12 180)
@@ -15704,7 +14681,7 @@
 	)
 	(global_label "ACNIN"
 		(shape bidirectional)
-		(at 321.31 109.22 180)
+		(at 321.31 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15714,7 +14691,7 @@
 		)
 		(uuid "4f69b865-992c-4340-b745-a87b7947ebb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.5891 109.22 0)
+			(at 311.5891 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15739,29 +14716,6 @@
 		(uuid "50f98955-2715-4902-8332-134bf7ec6528")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 334.01 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "AC_N_OUT_P2"
-		(shape bidirectional)
-		(at 38.1 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "53909f1e-f5af-4886-9509-ce7578e579f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.6009 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15938,29 +14892,6 @@
 			)
 		)
 	)
-	(global_label "AC_N_OUT_P3"
-		(shape bidirectional)
-		(at 64.77 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "61390719-8605-458c-bff3-8d8d2687e898")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.2691 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "UGND"
 		(shape bidirectional)
 		(at 27.94 67.31 180)
@@ -16011,7 +14942,7 @@
 	)
 	(global_label "PE"
 		(shape bidirectional)
-		(at 321.31 118.11 180)
+		(at 321.31 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16021,7 +14952,7 @@
 		)
 		(uuid "74220b45-92e6-4147-9b8c-b0f1c975517d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.7945 118.11 0)
+			(at 314.7945 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16046,29 +14977,6 @@
 		(uuid "75118967-0cba-4315-8514-7f12a3dcc403")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.2217 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "AC_N_OUT_P2"
-		(shape bidirectional)
-		(at 82.55 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7572842a-8ae2-443d-8fa9-6ba7181ee2b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.0491 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16151,7 +15059,7 @@
 			)
 		)
 	)
-	(global_label "AC_L_OUT_P1"
+	(global_label "AC_L_OUT"
 		(shape bidirectional)
 		(at 373.38 148.59 0)
 		(effects
@@ -16197,7 +15105,7 @@
 			)
 		)
 	)
-	(global_label "AC_N_OUT_P1"
+	(global_label "AC_N_OUT"
 		(shape bidirectional)
 		(at 373.38 172.72 0)
 		(effects
@@ -16484,29 +15392,6 @@
 			)
 		)
 	)
-	(global_label "AC_N_OUT_P1"
-		(shape bidirectional)
-		(at 63.5 215.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "98cd5fe9-6243-48ad-a19f-5a1b35e70742")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.0009 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "ADC6"
 		(shape bidirectional)
 		(at 127 81.28 0)
@@ -16675,32 +15560,9 @@
 			)
 		)
 	)
-	(global_label "AC_L_OUT_P1"
+	(global_label "AC_L_OUT"
 		(shape bidirectional)
-		(at 38.1 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad4fe3f2-c67e-46f2-83d5-d2f9260d7cfd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.6009 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "AC_L_OUT_P2"
-		(shape bidirectional)
-		(at 374.65 100.33 180)
+		(at 379.73 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16709,7 +15571,7 @@
 		)
 		(uuid "add1012d-fc08-499c-923e-9014f3fb86f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.1509 100.33 0)
+			(at 392.2309 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16723,7 +15585,7 @@
 	)
 	(global_label "AMP_READ"
 		(shape bidirectional)
-		(at 59.69 189.23 0)
+		(at 67.31 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16733,7 +15595,7 @@
 		)
 		(uuid "b286c146-dd5b-4e47-91df-79d513d367b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.3417 189.23 0)
+			(at 80.9617 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16793,7 +15655,7 @@
 			)
 		)
 	)
-	(global_label "AC_N_OUT_P3"
+	(global_label "AC_N_OUT"
 		(shape bidirectional)
 		(at 379.73 107.95 180)
 		(effects
@@ -16805,52 +15667,6 @@
 		(uuid "b9d701ac-cb76-49fc-b11e-d0735b47a8ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2309 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GFCI_TEST_DRIVE"
-		(shape bidirectional)
-		(at 48.26 234.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba2fc534-5035-4af2-8d94-5a1fad03dac7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7609 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GFCI_SENSE"
-		(shape bidirectional)
-		(at 38.1 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c27ad9b4-d125-4d89-8df0-e14ef36be01b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.6009 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17102,7 +15918,7 @@
 	)
 	(global_label "PE"
 		(shape bidirectional)
-		(at 374.65 118.11 180)
+		(at 374.65 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17112,7 +15928,7 @@
 		)
 		(uuid "e4ae9a74-6716-4ace-9ced-9c2d5b80683f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.1345 118.11 0)
+			(at 368.1345 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17327,29 +16143,6 @@
 		(uuid "f662ed5b-5b1a-45e8-ad54-ed9b0cafad61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 379.73 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "AC_L_OUT_P2"
-		(shape bidirectional)
-		(at 64.77 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f869bd10-25a9-49f7-9fad-2cabe83c408c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.2691 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17843,7 +16636,7 @@
 	)
 	(symbol
 		(lib_id "OpenEVSE:T44009")
-		(at 332.74 109.22 0)
+		(at 332.74 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17854,7 +16647,7 @@
 		(fields_autoplaced yes)
 		(uuid "05cbfb27-2b55-4909-84bf-0c518f5b88e3")
 		(property "Reference" "J7"
-			(at 336.55 107.9499 0)
+			(at 336.55 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17865,7 +16658,7 @@
 			)
 		)
 		(property "Value" "T44009"
-			(at 336.55 110.4899 0)
+			(at 336.55 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17876,7 +16669,7 @@
 			)
 		)
 		(property "Footprint" "OpenEVSE:Terminal_T44009_M4"
-			(at 332.74 109.22 0)
+			(at 332.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17887,7 +16680,7 @@
 			)
 		)
 		(property "Datasheet" "https://aliexpress.ru/item/1005009718247553.html?sku_id=12000049941105580"
-			(at 332.74 109.22 0)
+			(at 332.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17898,7 +16691,7 @@
 			)
 		)
 		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins at 5 mm pitch, 8x8 mm body, 12.5 mm height"
-			(at 332.74 109.22 0)
+			(at 332.74 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17915,91 +16708,6 @@
 			(project "evse"
 				(path "/11cad39f-0746-4064-b162-743100309dbd"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 181.61 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "06986016-fd2d-4173-a679-49363d2f1a0f")
-		(property "Reference" "J2"
-			(at 182.245 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 188.976 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
-			(at 181.61 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 181.61 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "aa1231ef-05ac-40c4-9bc5-73af6091c2c7")
-		)
-		(pin "1"
-			(uuid "99654cc4-3f85-4891-a3cf-e1730d55bb11")
-		)
-		(pin "3"
-			(uuid "2108aab9-d761-4a5d-bf6d-d4967ca5db86")
-		)
-		(pin "2"
-			(uuid "b7aa91e9-eb25-41e8-a20b-2d718f7584cd")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -20488,7 +19196,7 @@
 	)
 	(symbol
 		(lib_id "OpenEVSE:T44009")
-		(at 332.74 118.11 0)
+		(at 332.74 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20499,7 +19207,7 @@
 		(fields_autoplaced yes)
 		(uuid "40ecd7fa-957e-4501-9068-7d20b443a1e5")
 		(property "Reference" "J9"
-			(at 336.55 116.8399 0)
+			(at 336.55 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20510,7 +19218,7 @@
 			)
 		)
 		(property "Value" "T44009"
-			(at 336.55 119.3799 0)
+			(at 336.55 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20521,7 +19229,7 @@
 			)
 		)
 		(property "Footprint" "OpenEVSE:Terminal_T44009_M4"
-			(at 332.74 118.11 0)
+			(at 332.74 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20532,7 +19240,7 @@
 			)
 		)
 		(property "Datasheet" "https://aliexpress.ru/item/1005009718247553.html?sku_id=12000049941105580"
-			(at 332.74 118.11 0)
+			(at 332.74 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20543,7 +19251,7 @@
 			)
 		)
 		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins at 5 mm pitch, 8x8 mm body, 12.5 mm height"
-			(at 332.74 118.11 0)
+			(at 332.74 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22706,7 +21414,7 @@
 	)
 	(symbol
 		(lib_id "OpenEVSE:T44009")
-		(at 391.16 118.11 0)
+		(at 391.16 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22716,7 +21424,7 @@
 		(dnp no)
 		(uuid "64374c15-c2d5-4dc0-aa51-576e783bc195")
 		(property "Reference" "J8"
-			(at 396.748 116.078 0)
+			(at 396.748 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22726,7 +21434,7 @@
 			)
 		)
 		(property "Value" "T44009"
-			(at 398.78 118.364 0)
+			(at 398.78 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22736,7 +21444,7 @@
 			)
 		)
 		(property "Footprint" "OpenEVSE:Terminal_T44009_M4"
-			(at 391.16 118.11 0)
+			(at 391.16 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22747,7 +21455,7 @@
 			)
 		)
 		(property "Datasheet" "https://aliexpress.ru/item/1005009718247553.html?sku_id=12000049941105580"
-			(at 391.16 118.11 0)
+			(at 391.16 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22758,7 +21466,7 @@
 			)
 		)
 		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins at 5 mm pitch, 8x8 mm body, 12.5 mm height"
-			(at 391.16 118.11 0)
+			(at 391.16 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28234,6 +26942,104 @@
 		)
 	)
 	(symbol
+		(lib_id "OpenEVSE:KF128-2.54-4P")
+		(at 187.96 45.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b87d4ba5-870b-4621-a1cf-836f8994513a")
+		(property "Reference" "J2"
+			(at 187.96 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KF128-2.54-4P"
+			(at 187.96 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OpenEVSE:TerminalBlock_KF128-2.54-4P"
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Screw-Terminal-Blocks_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.html"
+			(at 187.96 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cixi Kefa KF128-2.54-4P screw terminal, 4 positions, 2.54 mm pitch, THT, 8 A, 130 V"
+			(at 187.96 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C474922"
+			(at 187.96 55.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a6cd714-ceb1-466c-a880-e97c5a960631")
+		)
+		(pin "2"
+			(uuid "7223e4b3-d0d6-42b6-84a2-2f012350d536")
+		)
+		(pin "3"
+			(uuid "f45cfe9d-1df4-4f39-8d16-955a4b8b2d0a")
+		)
+		(pin "4"
+			(uuid "902e8eaf-82e2-44cb-8a67-c826f7a04238")
+		)
+		(instances
+			(project "evse"
+				(path "/11cad39f-0746-4064-b162-743100309dbd"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
 		(at 27.94 209.55 90)
 		(unit 1)
@@ -28879,93 +27685,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DL_CT:DL-CT10C1.0")
-		(at 73.66 215.9 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bfdcfe94-599d-4dc7-ac0d-5dc018c28e05")
-		(property "Reference" "CT1"
-			(at 79.248 220.726 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DL-CT10C1.0"
-			(at 84.074 224.028 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DL_CT:DL-CT10C1.0"
-			(at 73.66 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ae01.alicdn.com/kf/S8ee21b9fff4b4583b455c04371da38dej.pdf"
-			(at 73.66 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Nanjing UP DL-CT10C1.0 current transformer with P1/P2 one-turn primary and S1/S2 secondary, 50 A / 50 mA, 1000:1"
-			(at 73.66 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S1"
-			(uuid "64778536-f254-45ee-8580-7d2e4ceb4fb4")
-		)
-		(pin "S2"
-			(uuid "c3bd0ecd-50ac-43fd-83f2-8e0fd0516143")
-		)
-		(pin "P1"
-			(uuid "597c6fcc-bd3d-4bd4-b56c-d00b6ec898ba")
-		)
-		(pin "P2"
-			(uuid "8c1e0fde-1a04-4e85-9209-b469cf16fa02")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd"
-					(reference "CT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 310.642 69.596 270)
 		(unit 1)
@@ -29123,104 +27842,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DL_CT:DL-CT08CL19-1000-1")
-		(at 50.8 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c42799b0-0170-4582-9699-43b991079c02")
-		(property "Reference" "GFCI_CT2"
-			(at 50.8 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DL-CT08CL19-1000/1"
-			(at 50.8 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DL_CT:DL-CT08CL19-1000-1"
-			(at 50.8 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ae01.alicdn.com/kf/S8ee21b9fff4b4583b455c04371da38dej.pdf"
-			(at 50.8 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Nanjing UP DL-CT08CL19-1000/1 zero-phase current transformer, 1000:1, 15 mm window, with external 5-turn GFCI test winding"
-			(at 50.8 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aeee23b8-b222-4075-85dc-bb1dac3ea4ad")
-		)
-		(pin "2"
-			(uuid "effa2106-7d47-471b-b887-1c90f11f7966")
-		)
-		(pin "3"
-			(uuid "9453aba4-e4d4-4ba8-861f-fd60a9814934")
-		)
-		(pin "4"
-			(uuid "40985d29-3020-4c12-8683-e02503879933")
-		)
-		(pin "6"
-			(uuid "13059e12-9273-459d-b4ec-8c2e9cec4df3")
-		)
-		(pin "5"
-			(uuid "d86b143c-9ee0-43bf-a94f-517548175aac")
-		)
-		(pin "8"
-			(uuid "7a5e3991-af09-483a-946c-26e21f295523")
-		)
-		(pin "7"
-			(uuid "2455c9e4-4b2e-4024-839c-5d0b6bdbb292")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd"
-					(reference "GFCI_CT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-Resistor:10k_0402")
 		(at 372.872 54.356 0)
 		(unit 1)
@@ -29305,6 +27926,99 @@
 			(project "evse"
 				(path "/11cad39f-0746-4064-b162-743100309dbd"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenEVSE:KF128-2.54-2P")
+		(at 71.12 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6901b77-7f5d-4c58-8ba9-213c3ace56b0")
+		(property "Reference" "J3"
+			(at 73.66 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KF128-2.54-2P"
+			(at 73.66 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OpenEVSE:TerminalBlock_KF128-2.54-2P"
+			(at 71.12 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Screw-terminal_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.html"
+			(at 71.12 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cixi Kefa KF128-2.54-2P screw terminal, 2 positions, 2.54 mm pitch, THT, 8 A, 130 V"
+			(at 71.12 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C474920"
+			(at 71.12 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c41627b-0a55-4359-87d9-aa5b89e80fca")
+		)
+		(pin "2"
+			(uuid "00cdb9c6-322f-443b-a1ba-1b95550299d7")
+		)
+		(instances
+			(project "evse"
+				(path "/11cad39f-0746-4064-b162-743100309dbd"
+					(reference "J3")
 					(unit 1)
 				)
 			)
