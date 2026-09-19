@@ -5402,7 +5402,7 @@
 					)
 				)
 			)
-			(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins at 5 mm pitch, 8x8 mm body, 12.5 mm height"
+			(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -16690,7 +16690,7 @@
 				)
 			)
 		)
-		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins at 5 mm pitch, 8x8 mm body, 12.5 mm height"
+		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
 			(at 332.74 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -16928,7 +16928,7 @@
 				)
 			)
 		)
-		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins at 5 mm pitch, 8x8 mm body, 12.5 mm height"
+		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
 			(at 391.16 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -16962,7 +16962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f79607d-b0b5-4ff8-95c7-07857b53ce33")
-		(property "Reference" "PILOT1"
+		(property "Reference" "Pilot1"
 			(at 188.214 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17038,7 +17038,7 @@
 		(instances
 			(project "evse"
 				(path "/11cad39f-0746-4064-b162-743100309dbd"
-					(reference "PILOT1")
+					(reference "Pilot1")
 					(unit 1)
 				)
 			)
@@ -19250,7 +19250,7 @@
 				)
 			)
 		)
-		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins at 5 mm pitch, 8x8 mm body, 12.5 mm height"
+		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
 			(at 332.74 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -21465,7 +21465,7 @@
 				)
 			)
 		)
-		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins at 5 mm pitch, 8x8 mm body, 12.5 mm height"
+		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
 			(at 391.16 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -25811,7 +25811,7 @@
 				)
 			)
 		)
-		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins at 5 mm pitch, 8x8 mm body, 12.5 mm height"
+		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
 			(at 332.74 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -26953,7 +26953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b87d4ba5-870b-4621-a1cf-836f8994513a")
-		(property "Reference" "J2"
+		(property "Reference" "Pilot2"
 			(at 187.96 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27033,7 +27033,7 @@
 		(instances
 			(project "evse"
 				(path "/11cad39f-0746-4064-b162-743100309dbd"
-					(reference "J2")
+					(reference "Pilot2")
 					(unit 1)
 				)
 			)
@@ -27943,7 +27943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6901b77-7f5d-4c58-8ba9-213c3ace56b0")
-		(property "Reference" "J3"
+		(property "Reference" "CurrentCoil1"
 			(at 73.66 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28018,7 +28018,7 @@
 		(instances
 			(project "evse"
 				(path "/11cad39f-0746-4064-b162-743100309dbd"
-					(reference "J3")
+					(reference "CurrentCoil1")
 					(unit 1)
 				)
 			)
@@ -28975,7 +28975,7 @@
 				)
 			)
 		)
-		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins at 5 mm pitch, 8x8 mm body, 12.5 mm height"
+		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
 			(at 391.16 100.33 0)
 			(hide yes)
 			(show_name no)

@@ -400,7 +400,7 @@
 		(property "Value" "T44009" (at 0 -3.81 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(property "Footprint" "OpenEVSE:Terminal_T44009_M4" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "Datasheet" "https://aliexpress.ru/item/1005009718247553.html?sku_id=12000049941105580" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
-		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins at 5 mm pitch, 8x8 mm body, 12.5 mm height" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "ki_keywords" "M4 power terminal stud 55A" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
 		(symbol "T44009_1_1"
 			(rectangle (start -2.54 2.54) (end 2.54 -2.54) (stroke (width 0.254) (type default)) (fill (type background)))
