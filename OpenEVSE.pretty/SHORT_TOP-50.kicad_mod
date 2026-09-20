@@ -4,7 +4,7 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "OpenEVSE soldered top-layer short, original Eagle SHORT_TOP-50")
-	(property "Reference" "REF**" (at 0 -2.032 0) (layer "F.SilkS") (effects (font (size 1.27 1.27) (thickness 0.15))))
+	(property "Reference" "REF**" (at 0 -2.032 0) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
 	(property "Value" "SHORT_TOP-50" (at 0 2.032 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
 	(fp_line (start -1.27 -0.635) (end 1.27 -0.635) (stroke (width 0.15) (type default)) (layer "F.SilkS"))
 	(fp_line (start -1.27 0.635) (end 1.27 0.635) (stroke (width 0.15) (type default)) (layer "F.SilkS"))

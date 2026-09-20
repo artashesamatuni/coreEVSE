@@ -36,7 +36,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SIL8-2"
+			(property "Footprint" "OpenEVSE:SIL8-2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -303,7 +303,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
+			(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -533,7 +533,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SMA"
+			(property "Footprint" "OpenEVSE:SMA_AC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2414,7 +2414,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2571,7 +2571,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE_PLUS_v6.5.1:EIA3216"
+			(property "Footprint" "OpenEVSE:C_1206_3216Metric_AC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2752,7 +2752,7 @@
 					)
 				)
 			)
-			(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SO08"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3099,7 +3099,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+			(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3318,7 +3318,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOT23"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3710,7 +3710,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOD123"
+			(property "Footprint" "OpenEVSE:SOD-123_AC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3853,35 +3853,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MOV_Original:OpenEVSE_MOV"
+		(symbol "Bourns:MOV-20D431K"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at -3.81 1.4986 0)
+			(property "Reference" "M"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
+			(property "Value" "MOV-20D431K"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE:MOV"
+			(property "Footprint" "Bourns:MOV-20D431K_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3892,7 +3896,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mov20d.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3903,7 +3907,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Bourns 20 mm metal oxide varistor; 275 VAC, 350 VDC, Vvar 430 V +/-10%, clamp 710 V at 100 A, 6.5 kA 8/20 us, 190 J"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3914,151 +3918,90 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
+			(property "Manufacturer" "Bourns"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "OpenEVSE_MOV_1_0"
+			(property "MPN" "MOV-20D431K"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MOV varistor surge protection VDR 275VAC 430V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MOV-20D431K*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MOV-20D431K_0_1"
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy 2.54 -2.54)
+						(xy -2.54 1.905) (xy -1.27 1.905) (xy 1.27 -1.905)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
+				(rectangle
+					(start -2.54 -1.016)
+					(end 2.54 1.016)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "MOV-20D431K_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P$1"
+					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4066,17 +4009,17 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
+					(name ""
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P$2"
+					(number "2"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4376,6 +4319,220 @@
 						)
 					)
 					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenEVSE:Crystal_16MHz_3.2x2.5mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "16MHz"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Clock:Crystal_SMD_3.2x2.5mm"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/products/productdata/8801057112094/SPEC-XRCGB16M000FXN01R0.pdf"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Crystal"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" "XTAL-14681"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_16MHz_3.2x2.5mm_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_16MHz_3.2x2.5mm_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 2.54 0)
+					(length 1.27)
+					(hide yes)
+					(name "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 2.54 180)
+					(length 1.27)
+					(hide yes)
+					(name "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6413,220 +6570,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SparkFun-Clock:Crystal_16MHz_2.0x1.6mm"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "16MHz"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Clock:Crystal_SMD_2.0x1.6mm"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdata/8801057112094/SPEC-XRCGB16M000FXN01R0.pdf"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Crystal"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "XTAL-14681"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Crystal_16MHz_2.0x1.6mm_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -0.762) (xy -1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 -1.524)
-					(end 0.762 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.762) (xy 1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_16MHz_2.0x1.6mm_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -2.54 2.54 0)
-					(length 1.27)
-					(hide yes)
-					(name "NC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "NC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 2.54 2.54 180)
-					(length 1.27)
-					(hide yes)
-					(name "NC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "NC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14774,7 +14717,7 @@
 			)
 		)
 	)
-	(global_label "AC_N_OUT_P1"
+	(global_label "AC_N_OUT"
 		(shape bidirectional)
 		(at 195.58 269.24 180)
 		(effects
@@ -16746,7 +16689,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 55.88 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -17235,7 +17178,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SIL8-2"
+		(property "Footprint" "OpenEVSE:SIL8-2"
 			(at 245.11 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -17828,7 +17771,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.38 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -18344,7 +18287,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SMA"
+		(property "Footprint" "OpenEVSE:SMA_AC"
 			(at 220.98 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -18425,7 +18368,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SMA"
+		(property "Footprint" "OpenEVSE:SMA_AC"
 			(at 220.98 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -19423,7 +19366,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 121.92 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -19786,7 +19729,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 213.36 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -20507,7 +20450,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 213.36 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -20707,7 +20650,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOD123"
+		(property "Footprint" "OpenEVSE:SOD-123_AC"
 			(at 359.41 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21272,7 +21215,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 88.9 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -21353,7 +21296,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 203.2 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -21637,7 +21580,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:EIA3216"
+		(property "Footprint" "OpenEVSE:C_1206_3216Metric_AC"
 			(at 116.84 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -21796,7 +21739,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 96.52 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -21961,7 +21904,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Clock:Crystal_16MHz_2.0x1.6mm")
+		(lib_id "OpenEVSE:Crystal_16MHz_3.2x2.5mm")
 		(at 80.01 67.31 90)
 		(unit 1)
 		(body_style 1)
@@ -22044,10 +21987,10 @@
 		(pin "2"
 			(uuid "7e7211d2-55c2-48fc-aee0-d74e2cc3a915")
 		)
-		(pin "NC2"
+		(pin "4"
 			(uuid "dd39460e-2565-4fe9-9f75-df4a30cc84a0")
 		)
-		(pin "NC1"
+		(pin "3"
 			(uuid "edbc1e87-f039-4a90-951f-9fb4ea4c68d6")
 		)
 		(instances
@@ -22182,7 +22125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SO08"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 134.62 254 0)
 			(hide yes)
 			(show_name no)
@@ -22397,7 +22340,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 72.39 254 0)
 			(hide yes)
 			(show_name no)
@@ -23586,7 +23529,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 203.2 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -23646,7 +23589,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MOV_Original:OpenEVSE_MOV")
+		(lib_id "Bourns:MOV-20D431K")
 		(at 353.06 204.47 90)
 		(unit 1)
 		(body_style 1)
@@ -23667,7 +23610,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MOV"
+		(property "Value" "MOV-20D431K"
 			(at 350.774 207.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23678,7 +23621,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "Bourns:MOV-20D431K_Horizontal"
 			(at 353.06 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -23689,7 +23632,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mov20d.pdf"
 			(at 353.06 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -23700,7 +23643,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns 20 mm MOV; 275 VAC, 350 VDC, Vvar 430 V +/-10%, clamp 710 V, 6.5 kA, 190 J"
 			(at 353.06 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -23711,10 +23654,33 @@
 				)
 			)
 		)
-		(pin "P$2"
+
+		(property "Manufacturer" "Bourns"
+			(at 353.06 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MOV-20D431K"
+			(at 353.06 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "785594c9-1e40-463a-9518-2316eb138fa6")
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "6183ac99-70c1-4973-b1df-887d0e953674")
 		)
 		(instances
@@ -23917,7 +23883,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 355.6 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -24156,7 +24122,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 66.04 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -24474,7 +24440,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOD123"
+		(property "Footprint" "OpenEVSE:SOD-123_AC"
 			(at 146.05 254 0)
 			(hide yes)
 			(show_name no)
@@ -25014,7 +24980,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SMA"
+		(property "Footprint" "OpenEVSE:SMA_AC"
 			(at 220.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -25095,7 +25061,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 213.36 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -26346,7 +26312,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SMA"
+		(property "Footprint" "OpenEVSE:SMA_AC"
 			(at 220.98 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -26505,7 +26471,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 121.92 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -26586,7 +26552,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 345.44 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -27618,7 +27584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SO08"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 91.44 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -28403,7 +28369,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 213.36 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -28495,7 +28461,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 157.48 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -28576,7 +28542,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOD123"
+		(property "Footprint" "OpenEVSE:SOD-123_AC"
 			(at 101.6 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -28773,7 +28739,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 203.2 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -28999,7 +28965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MOV_Original:OpenEVSE_MOV")
+		(lib_id "Bourns:MOV-20D431K")
 		(at 386.08 204.47 90)
 		(unit 1)
 		(body_style 1)
@@ -29020,7 +28986,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MOV"
+		(property "Value" "MOV-20D431K"
 			(at 383.794 207.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29031,7 +28997,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "Bourns:MOV-20D431K_Horizontal"
 			(at 386.08 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -29042,7 +29008,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mov20d.pdf"
 			(at 386.08 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -29053,7 +29019,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns 20 mm MOV; 275 VAC, 350 VDC, Vvar 430 V +/-10%, clamp 710 V, 6.5 kA, 190 J"
 			(at 386.08 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -29064,10 +29030,33 @@
 				)
 			)
 		)
-		(pin "P$2"
+
+		(property "Manufacturer" "Bourns"
+			(at 386.08 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MOV-20D431K"
+			(at 386.08 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "5b080d60-e1b4-4a46-980c-56743a875ed4")
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "721fb84c-95fa-439e-a143-6b9a1395c7b3")
 		)
 		(instances
@@ -29775,7 +29764,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 57.15 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -30015,7 +30004,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 132.08 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -30235,7 +30224,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MOV_Original:OpenEVSE_MOV")
+		(lib_id "Bourns:MOV-20D431K")
 		(at 369.57 204.47 90)
 		(unit 1)
 		(body_style 1)
@@ -30256,7 +30245,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MOV"
+		(property "Value" "MOV-20D431K"
 			(at 367.284 207.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30267,7 +30256,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "Bourns:MOV-20D431K_Horizontal"
 			(at 369.57 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -30278,7 +30267,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mov20d.pdf"
 			(at 369.57 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -30289,7 +30278,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns 20 mm MOV; 275 VAC, 350 VDC, Vvar 430 V +/-10%, clamp 710 V, 6.5 kA, 190 J"
 			(at 369.57 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -30300,10 +30289,33 @@
 				)
 			)
 		)
-		(pin "P$2"
+
+		(property "Manufacturer" "Bourns"
+			(at 369.57 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MOV-20D431K"
+			(at 369.57 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "cdd2d075-a8f6-4a6c-afee-4e4d48acff68")
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "dd538ef8-1eb4-4505-a6a5-c0984d59c42b")
 		)
 		(instances
@@ -30464,7 +30476,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 203.2 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -30548,61 +30560,6 @@
 			"b8cfda82-8547-49ce-b060-58c7469bce87" "bdec2cca-9e87-4204-ab98-6b3acd48349d"
 			"c42314c2-7a3f-4f98-8f17-872a68f04229" "d4823953-c6ec-48c9-8e4c-81fbf3f08e12"
 			"d68f636e-d54d-45cf-b218-6f72ffbb5f0b" "f662ed5b-5b1a-45e8-ad54-ed9b0cafad61"
-		)
-	)
-	(group ""
-		(uuid "fa93732e-85b7-469c-9ff0-268243e23070")
-		(members "057933e2-f74e-4a6b-a6fe-396f159318db" "0a27556a-cb38-4527-baff-f1c0feea974e"
-			"0c6c23bb-5471-4184-b857-0a70fd861e99" "0f8ed962-ce1b-4a60-9cc8-888583489da6"
-			"12f0b8a9-1433-4172-b0e0-79254f641de9" "1600df43-b8f3-4298-87c8-7a855c42c136"
-			"1a2d9ebb-54a0-415d-bcae-6907fd115a89" "1fd494c8-61f1-44a9-ad2f-d00dbfff3c14"
-			"20d74ae2-fe8b-43ca-b78b-e26a6632a677" "22d0beaf-386f-4255-883b-f07948d19c41"
-			"29653d24-549f-4264-b996-30acd87f4df2" "2befff6c-44c6-44ae-9172-8f498c83844d"
-			"2c6a696e-30cf-48ab-9f1f-37853a009a14" "332b2f61-0c55-41ca-8247-cdf203dc5c24"
-			"40e6c066-8cc0-4337-8be0-bda24af36d9b" "45d13113-8307-46f6-a1f9-41a6053109d8"
-			"485e0fd3-1ef1-4d5d-942e-66c00b88c384" "4adcdc2a-0c77-4e45-88af-6b61cac09c28"
-			"4adf839f-6ccd-46bf-8756-6ff66dc631ae" "4c98de53-8967-4c74-9968-0b9664973e90"
-			"4e5e5808-8c51-4e0b-8eb6-7d39b3f3d6ea" "52c874c9-bc1f-45d2-aab7-9efe84f2cec9"
-			"597671c7-485f-44d7-bc28-1d2ff149e0f6" "597d26cd-a5c7-4525-9d8e-2cf1facb0077"
-			"59c4b073-84a9-4863-af79-7492f109491a" "5a6a9dce-8177-4426-ad39-a16167e0ed01"
-			"5ba23679-62d0-420b-b0d0-374babf8d1d9" "5bd50103-e8bf-4b7c-be42-64f735a7c04e"
-			"6278346c-40ee-4fb0-b572-9c922b40fa81" "641307e5-de25-4660-bc52-3fc20f322f30"
-			"703030a3-686b-44c4-9e62-5c31d544d96b" "70431619-4307-47ce-a223-569000654eee"
-			"7102abfe-41a2-4fbc-b360-f1db10227626" "7244e1b2-c0c0-47a2-b36a-7d5e0b82f3eb"
-			"747f05d6-fe02-4d78-9d90-13e572b3ef00" "74a64a56-3319-43c9-b860-49d982fe058d"
-			"78e10292-3381-468c-97a6-d7c684667a2f" "7d44fafd-2cc0-4728-a20f-c01a895b35e1"
-			"83316fa0-0293-4e60-ad3d-1f733fbd1591" "84b449c0-fe8c-4001-ac81-37c52be25a6b"
-			"84e498af-9f2c-458e-a3bd-eac9fe0f179b" "8687639c-7fd2-4a7e-afd0-39d896220ce0"
-			"8769d2b6-5b40-4cf6-a3ea-83652f5f924c" "8b58ee50-1f0d-4df3-92e6-e5521e0f3f97"
-			"8b6e4c40-2e5c-48dd-80cc-4389f2ad5795" "8ed0c35a-d332-4f42-be14-52e4a4db2b69"
-			"900ece29-f788-4d9f-8510-0ee6c58433dc" "95eeab4e-873e-4771-ac39-500f76b2b2ca"
-			"98fce39e-c782-4a3d-be50-a1055a7f998a" "998ebd82-393a-4e12-97e5-667fbd88f6be"
-			"9a1a8821-bb1b-4042-8feb-4ba8646c16de" "9b3b69ce-959e-4920-895b-3144e054dd23"
-			"9beb9df4-71dc-4247-8333-a8cc10e4db02" "9cfe1ef5-2c7a-4ba5-bc02-a993d8c6dbc0"
-			"9f157e37-fa79-4fb1-b431-1918700a246c" "9f9c9ba1-e59a-4959-a5d0-e14f20d37fcb"
-			"a6ea1da0-7d09-406e-a66c-a792250e649d" "a7925f3d-92e2-4072-ba74-3e5886d8c2c2"
-			"a809e0f7-48bc-43c9-a48a-97e9a0f03534" "a8f9d0ae-19f9-41b2-93af-86db0cce2825"
-			"acc29ea6-71c5-4ad7-9a8c-33f50220fc50" "af3484cc-f0b4-45c1-a0f9-16929051a12c"
-			"b35f2076-8aef-4307-839d-0479ba92eb5d" "b5937bda-09b6-44f9-b88c-ac24daff1338"
-			"b681a18d-1d41-43ce-9b01-8c6f830e3a23" "b92bbe18-a16a-4919-b955-09350362e049"
-			"b9413476-9a3d-45cf-b3eb-d78b1ec4a59a" "b987af34-9e9f-4ce7-b8e3-921b3a653bb3"
-			"bcba7fcb-8e6c-444a-aa2e-43c3c3515c87" "c09db6c5-d461-4550-85bc-8e4498a907fc"
-			"c1740087-8d52-42ef-9874-7987cb64c19c" "c2397385-a9db-4072-9f3d-59eb0440e602"
-			"c5bc16ef-94a2-4ae5-a931-af7a356b312c" "c649b2bb-7b4b-4da0-a12e-1d2de753ce46"
-			"c6604f2e-b0ee-422f-9fb9-4ea0fdfd8626" "c7295e23-d769-4d2b-b8b5-e2b2301f4d9d"
-			"c8097725-a0ed-4b25-853c-df6da44489bc" "c993de4a-e5b0-4a1e-9c10-329bfc58811d"
-			"cab9b411-6b47-4a11-8d1a-e7d790070f78" "cac64574-2860-4be6-aace-d8e4d2808a14"
-			"cc199f9b-3e97-4fc1-af52-648f6239b2c8" "cd113906-19b7-4113-8a62-7117f96805bf"
-			"ce390711-3660-4ac5-8580-6667d4ade730" "cfd95edb-ca3c-4022-9170-7b5b092055b1"
-			"d1c30859-c5ad-41d2-ab06-45e8d4f4128f" "d3c1b7c8-e759-4975-8e88-0fc00e925bf0"
-			"d441c441-43ab-4b90-83cc-836ef1262ee3" "d69fcacf-1fd1-43bf-92e2-0f8fb6c5fbcd"
-			"d6be051b-5ea2-4010-9725-e645eaf8949c" "dc5be133-979d-42fa-a44b-249da5ff7d76"
-			"dce4624f-3acc-4bc0-9545-82a94a12033f" "df1747d5-d80f-44a3-a3c6-89944cb67b94"
-			"e35572bf-70d3-4e2c-bb9f-66190ccb8360" "e419f9f8-0a8f-48ba-88b1-9a7838bca9c7"
-			"e51ea57d-bbcb-4a42-ae95-e157e9151e2c" "e59fc63e-4582-4f5a-ad5f-a7051c2e187b"
-			"e7fee066-9245-4b88-8312-a0feb080727c" "ea54afad-0ed4-4031-8f56-caa23f3ffe0b"
-			"ea7a56a5-8d89-4329-8f80-3cdaaf38c580" "ec83912f-61f4-4058-be21-d4d422a21f1f"
-			"eef83f4d-da0a-4bd9-b05e-bd0b885cbd2f" "f87fdbdc-9523-4e3c-9d57-bda2cffe2739"
 		)
 	)
 	(sheet_instances

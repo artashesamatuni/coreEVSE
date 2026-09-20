@@ -10,8 +10,8 @@
 		(uuid "a505f3c5-24c6-40e2-b6c8-00dc57b5677f")
 		(effects
 			(font
-				(size 0.6985 0.6985)
-				(thickness 0.1143)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify right top)
 		)
@@ -186,6 +186,17 @@
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
 		(uuid "7a86ef68-3b69-40bb-8b03-39caaba5fb69")
+	)
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SSO-8_6.7x9.8mm_P2.54mm_Clearance8mm.step"
+		(offset
+			(xyz -0.19 -0.08 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
 	)
 	(embedded_fonts no)
 )

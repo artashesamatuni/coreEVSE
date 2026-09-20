@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:GFCI_4"
+		(property "Footprint" "OpenEVSE:GFCI_4"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -273,7 +273,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -430,7 +430,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:EIA3216"
+		(property "Footprint" "OpenEVSE:C_1206_3216Metric_AC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -611,7 +611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SO08"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -958,7 +958,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1177,7 +1177,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1569,7 +1569,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SOD123"
+		(property "Footprint" "OpenEVSE:SOD-123_AC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

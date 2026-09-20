@@ -6,9 +6,9 @@
 	(descr "T44009 M4 high-current PCB solder terminal, 55 A, 11.05x11.10 mm envelope, four pins on 5x9.9 mm grid; 1.9 mm finished holes")
 	(tags "M4 terminal stud power 55A T44009")
 	(property "Reference" "J**"
-		(at 0 -6.8 0)
+		(at 0 -8 0)
 		(layer "F.SilkS")
-		(uuid "c75e9dd8-0d37-4067-a516-a80f37cdfbd7")
+		(uuid "e2dc7703-6352-43ef-b33e-6ec450698719")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "T44009"
-		(at 0 6.8 0)
+		(at 0 8 0)
 		(layer "F.Fab")
-		(uuid "7a5f5234-6837-46c5-a0c3-1329c5fc0e06")
+		(uuid "f3241319-2f9a-4f68-967c-efb18ff280b5")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "61c60e9f-4ea2-47e5-a2a6-32d41f4b262e")
+		(uuid "03fb774b-14be-4738-99e7-ed37e2304679")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "429d3c18-43ed-4b52-a5fc-7f3bf99ae9d8")
+		(uuid "d7365a7d-fb73-4080-976d-95c1bf1e5af6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,15 +52,15 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -4.1 -5.05)
-		(end 4.1 5.05)
+		(start -4.5 -7)
+		(end 4.5 7)
 		(stroke
 			(width 0.25)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "565ac5d6-3b84-453c-ab84-0712f9d07ec4")
+		(uuid "0d617f57-0eda-4a2c-872d-8547baaa77a8")
 	)
 	(fp_circle
 		(center 0 0)
@@ -71,34 +71,34 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "064da41f-17aa-456b-b9e4-0d1da7952089")
+		(uuid "ad3640e8-f870-452e-9347-501e48dc5606")
 	)
 	(fp_rect
-		(start -4.6 -5.55)
-		(end 4.7 5.6)
+		(start -4.5 -7)
+		(end 4.5 7)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "1db3a969-214e-4bc9-bcbd-0497c1864cfa")
+		(uuid "2fd9cbf3-83bd-4d58-b1bb-e7ad90597c65")
 	)
 	(fp_rect
-		(start -4.6 -5.55)
-		(end 4.6 5.55)
+		(start -4.5 -7)
+		(end 4.5 7)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "99bc9dde-bceb-47c3-9b9e-7caf16b76cb2")
+		(uuid "581c6a14-239b-4688-86f7-bc752ae44a98")
 	)
 	(fp_text user "M4"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "040d12f7-9ce7-47f3-9d56-cccbdee4ef7f")
+		(uuid "24662ddf-bb7a-49e9-be56-4bd46690c4b7")
 		(effects
 			(font
 				(size 1 1)
@@ -113,7 +113,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.2)
-		(uuid "cf7cba57-25cf-40e7-b88b-1833a4b71035")
+		(uuid "98f580fc-89fb-4f5c-ad0a-74ba72643709")
 	)
 	(pad "1" thru_hole circle
 		(at -2.5 4.95)
@@ -121,7 +121,7 @@
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "088986e8-c2cc-42d9-9675-017fbeadea37")
+		(uuid "ad67b968-74ad-4fcf-8cba-bb2f8636db93")
 	)
 	(pad "1" thru_hole circle
 		(at 2.5 -4.95)
@@ -129,7 +129,7 @@
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "20e82f03-28f5-46db-b8a6-f5e63f0202c1")
+		(uuid "7c64b5db-f9a9-4a89-966b-11947e321033")
 	)
 	(pad "1" thru_hole circle
 		(at 2.5 4.95)
@@ -137,7 +137,7 @@
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3c05d36c-9c4c-4fbe-9faa-69c304140016")
+		(uuid "e99a01fe-097f-41f7-af72-43d31becb6d0")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/OpenEVSE.3dshapes/T44009.step"

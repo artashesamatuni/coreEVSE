@@ -10,4 +10,9 @@
 	(fp_circle (center 0 0) (end 1.259 0) (stroke (width 0.127) (type default)) (fill none) (layer "F.SilkS"))
 	(pad "1" smd rect (at -1.55 0) (size 1.5 3.6) (layers "F.Cu" "F.Paste" "F.Mask"))
 	(pad "2" smd rect (at 1.5 0) (size 1.5 3.6) (layers "F.Cu" "F.Paste" "F.Mask"))
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP5030T.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "OpenEVSE") (type "KiCad") (uri "${KIPRJMOD}/OpenEVSE.pretty") (options "") (descr "OpenEVSE project footprints"))
   (lib (name "DL_CT") (type "KiCad") (uri "${KIPRJMOD}/DL_CT.pretty") (options "") (descr "Nanjing UP current transformer footprints"))
+  (lib (name "Bourns") (type "KiCad") (uri "${KIPRJMOD}/Bourns.pretty") (options "") (descr "Bourns circuit-protection footprints"))
 )

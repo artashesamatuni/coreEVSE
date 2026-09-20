@@ -30,7 +30,7 @@
 						(justify left bottom)
 					)
 				)
-				(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SIL8-2"
+				(property "Footprint" "OpenEVSE:SIL8-2"
 					(at 0 0 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -297,7 +297,7 @@
 						(justify left bottom)
 					)
 				)
-				(property "Footprint" "OpenEVSE_PLUS_v6.5.1:1210"
+				(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 					(at 0 0 0)
 					(show_name no)
 					(do_not_autoplace no)
@@ -527,7 +527,7 @@
 						(justify left bottom)
 					)
 				)
-				(property "Footprint" "OpenEVSE_PLUS_v6.5.1:SMA"
+				(property "Footprint" "OpenEVSE:SMA_AC"
 					(at 0 0 0)
 					(show_name no)
 					(do_not_autoplace no)

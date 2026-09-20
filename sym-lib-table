@@ -5,4 +5,5 @@
   (lib (name "MOV_Original") (type "KiCad") (uri "${KIPRJMOD}/MOV_Original.kicad_sym") (options "") (descr "MOV symbol imported from the original OpenEVSE schematic"))
   (lib (name "ACTEST_Original") (type "KiCad") (uri "${KIPRJMOD}/ACTEST_Original.kicad_sym") (options "") (descr "Symbols imported from the original OpenEVSE ACTEST circuit"))
   (lib (name "DL_CT") (type "KiCad") (uri "${KIPRJMOD}/DL_CT.kicad_sym") (options "") (descr "Nanjing UP current transformer symbols"))
+  (lib (name "Bourns") (type "KiCad") (uri "${KIPRJMOD}/Bourns.kicad_sym") (options "") (descr "Bourns circuit-protection components"))
 )
