@@ -9,7 +9,7 @@ This project is configured for the following standard rigid-PCB order:
 - Surface finish: HASL with lead (`HAL SnPb` in the KiCad stackup)
 - Solder mask: green recommended
 - Silkscreen: white
-- Minimum routed track / clearance used by the design: 0.20 / 0.20 mm
+- Default routed track / clearance used by the design: 0.25 / 0.15 mm
 - Vias used by the design: 0.60 mm diameter / 0.30 mm drill
 - Copper-to-routed-edge design rule: 0.30 mm
 - Solder-mask expansion: 0 mm (1:1 opening)

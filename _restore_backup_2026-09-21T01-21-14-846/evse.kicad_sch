@@ -3853,35 +3853,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MOV_Original:OpenEVSE_MOV"
+		(symbol "Bourns:MOV-20D431K"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at -3.81 1.4986 0)
+			(property "Reference" "M"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
+			(property "Value" "MOV-20D431K"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE:MOV"
+			(property "Footprint" "Bourns:MOV-20D431K_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3892,7 +3896,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mov20d.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3903,7 +3907,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Bourns 20 mm metal oxide varistor; 275 VAC, 350 VDC, Vvar 430 V +/-10%, clamp 710 V at 100 A, 6.5 kA 8/20 us, 190 J"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3914,151 +3918,90 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
+			(property "Manufacturer" "Bourns"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "OpenEVSE_MOV_1_0"
+			(property "MPN" "MOV-20D431K"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MOV varistor surge protection VDR 275VAC 430V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MOV-20D431K*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MOV-20D431K_0_1"
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy 2.54 -2.54)
+						(xy -2.54 1.905) (xy -1.27 1.905) (xy 1.27 -1.905)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
+				(rectangle
+					(start -2.54 -1.016)
+					(end 2.54 1.016)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "MOV-20D431K_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P$1"
+					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4066,17 +4009,17 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
+					(name ""
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P$2"
+					(number "2"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -23646,7 +23589,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MOV_Original:OpenEVSE_MOV")
+		(lib_id "Bourns:MOV-20D431K")
 		(at 353.06 204.47 90)
 		(unit 1)
 		(body_style 1)
@@ -23667,7 +23610,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MOV"
+		(property "Value" "MOV-20D431K"
 			(at 350.774 207.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23678,7 +23621,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "Bourns:MOV-20D431K_Horizontal"
 			(at 353.06 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -23689,7 +23632,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mov20d.pdf"
 			(at 353.06 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -23700,7 +23643,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns 20 mm MOV; 275 VAC, 350 VDC, Vvar 430 V +/-10%, clamp 710 V, 6.5 kA, 190 J"
 			(at 353.06 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -23711,10 +23654,33 @@
 				)
 			)
 		)
-		(pin "P$2"
+
+		(property "Manufacturer" "Bourns"
+			(at 353.06 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MOV-20D431K"
+			(at 353.06 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "785594c9-1e40-463a-9518-2316eb138fa6")
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "6183ac99-70c1-4973-b1df-887d0e953674")
 		)
 		(instances
@@ -28999,7 +28965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MOV_Original:OpenEVSE_MOV")
+		(lib_id "Bourns:MOV-20D431K")
 		(at 386.08 204.47 90)
 		(unit 1)
 		(body_style 1)
@@ -29020,7 +28986,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MOV"
+		(property "Value" "MOV-20D431K"
 			(at 383.794 207.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29031,7 +28997,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "Bourns:MOV-20D431K_Horizontal"
 			(at 386.08 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -29042,7 +29008,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mov20d.pdf"
 			(at 386.08 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -29053,7 +29019,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns 20 mm MOV; 275 VAC, 350 VDC, Vvar 430 V +/-10%, clamp 710 V, 6.5 kA, 190 J"
 			(at 386.08 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -29064,10 +29030,33 @@
 				)
 			)
 		)
-		(pin "P$2"
+
+		(property "Manufacturer" "Bourns"
+			(at 386.08 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MOV-20D431K"
+			(at 386.08 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "5b080d60-e1b4-4a46-980c-56743a875ed4")
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "721fb84c-95fa-439e-a143-6b9a1395c7b3")
 		)
 		(instances
@@ -30235,7 +30224,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MOV_Original:OpenEVSE_MOV")
+		(lib_id "Bourns:MOV-20D431K")
 		(at 369.57 204.47 90)
 		(unit 1)
 		(body_style 1)
@@ -30256,7 +30245,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MOV"
+		(property "Value" "MOV-20D431K"
 			(at 367.284 207.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30267,7 +30256,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "Bourns:MOV-20D431K_Horizontal"
 			(at 369.57 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -30278,7 +30267,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mov20d.pdf"
 			(at 369.57 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -30289,7 +30278,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns 20 mm MOV; 275 VAC, 350 VDC, Vvar 430 V +/-10%, clamp 710 V, 6.5 kA, 190 J"
 			(at 369.57 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -30300,10 +30289,33 @@
 				)
 			)
 		)
-		(pin "P$2"
+
+		(property "Manufacturer" "Bourns"
+			(at 369.57 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MOV-20D431K"
+			(at 369.57 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "cdd2d075-a8f6-4a6c-afee-4e4d48acff68")
 		)
-		(pin "P$1"
+		(pin "1"
 			(uuid "dd538ef8-1eb4-4505-a6a5-c0984d59c42b")
 		)
 		(instances
