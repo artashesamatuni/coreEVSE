@@ -6,9 +6,9 @@
 	(descr "Hongfa HF186F PCB Push-In relay, 1 Form A, 55 A; bottom-view layout per HF186F datasheet")
 	(tags "relay SPST NO HF186F 12V 55A push-in")
 	(property "Reference" "K**"
-		(at 0 -11.5 0)
+		(at 0 -8.5 0)
 		(layer "F.SilkS")
-		(uuid "af92d5ba-f4cf-485a-9c2d-635efced147a")
+		(uuid "df7395c1-974f-4981-8f66-15e65b870283")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "HF186F"
-		(at 0 11.5 0)
+		(at 0 8 0)
 		(layer "F.Fab")
-		(uuid "4a3afdd0-9231-4898-8772-c43060d32fba")
+		(uuid "0653c264-08d8-4ef1-b0c2-d1e0a513b698")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ccf2c0ef-1f4e-439a-bc82-9a7eed0eaa70")
+		(uuid "9ae95458-daf7-4973-a968-e2f44f9597b0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dce77a41-35d9-4faf-9e03-6250d221e940")
+		(uuid "e9b383d0-3d24-4a1d-b50f-66f634b0498e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,18 +60,18 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "78921807-fa6c-4193-821d-a616bfe58c7f")
+		(uuid "0b4c83c5-9e86-4712-a78b-1ae2246fb79f")
 	)
 	(fp_circle
-		(center -13.3 -7.8)
-		(end -12.8 -7.8)
+		(center -14.3 -9.3)
+		(end -13.8 -9.3)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "6fc09d4d-d092-44b1-888a-4adf4b4bfc57")
+		(uuid "18255947-bf19-47a3-a808-32a5ac57ce03")
 	)
 	(fp_rect
 		(start -15.25 -10.25)
@@ -82,7 +82,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "739d61b8-8247-44bd-bc95-cb62b0582f5c")
+		(uuid "7edbb6b3-eabc-4e8a-b13f-795dadee432e")
 	)
 	(fp_rect
 		(start -15 -10)
@@ -93,12 +93,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "5c887ac3-1b22-462b-a31f-6ccb5932dd67")
+		(uuid "35c14e51-ee46-4886-884a-24426d1349b1")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "21d1657d-9842-48a9-aba7-695d656c5f98")
+		(uuid "f27a6531-1303-4328-bcc5-5de2cb008ab9")
 		(effects
 			(font
 				(size 1 1)
@@ -113,7 +113,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.2777777778)
-		(uuid "269fbba4-5ef6-4ff8-8cfd-92f569ffac65")
+		(uuid "569ec6e6-50a1-4e18-ad27-93c377365b50")
 	)
 	(pad "14" thru_hole roundrect
 		(at -12.35 5.08)
@@ -122,7 +122,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.2777777778)
-		(uuid "5c3c2bb3-aa6c-43a5-b74b-ca2cb36d07c2")
+		(uuid "367a405b-6a70-4803-8163-5c68d39b57d6")
 	)
 	(pad "A1" thru_hole roundrect
 		(at 12.25 -5.08)
@@ -131,7 +131,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1136363636)
-		(uuid "b73062f2-f591-420f-9307-a175be5e1c27")
+		(uuid "85b0f570-148e-4487-bbc1-b06e4bd83c84")
 	)
 	(pad "A2" thru_hole roundrect
 		(at 12.25 5.08)
@@ -140,7 +140,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1136363636)
-		(uuid "7a092246-e356-4301-9901-c06ee2c713a5")
+		(uuid "0a653e8b-2fb3-4bc6-b65c-6a7e86049e22")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/OpenEVSE.3dshapes/HF186F.step"
