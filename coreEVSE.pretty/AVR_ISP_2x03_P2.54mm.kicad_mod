@@ -331,7 +331,7 @@
 		(uuid "e1345b28-ecc4-41b4-a24d-74639748bb86")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/OpenEVSE.3dshapes/J1_AVR_ISP_2x03_P2.54mm.step"
+	(model "${KIPRJMOD}/coreEVSE.3dshapes/J1_AVR_ISP_2x03_P2.54mm.step"
 		(offset
 			(xyz -1.27 2.54 0)
 		)

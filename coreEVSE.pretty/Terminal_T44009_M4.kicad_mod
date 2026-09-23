@@ -140,7 +140,7 @@
 		(uuid "e99a01fe-097f-41f7-af72-43d31becb6d0")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/OpenEVSE.3dshapes/T44009.step"
+	(model "${KIPRJMOD}/coreEVSE.3dshapes/T44009.step"
 		(offset
 			(xyz 4.6 -5.55 -4)
 		)

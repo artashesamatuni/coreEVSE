@@ -143,7 +143,7 @@
 		(uuid "0a653e8b-2fb3-4bc6-b65c-6a7e86049e22")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/OpenEVSE.3dshapes/HF186F.step"
+	(model "${KIPRJMOD}/coreEVSE.3dshapes/HF186F.step"
 		(offset
 			(xyz -14.25 -9.25 0.4)
 		)

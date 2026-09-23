@@ -326,7 +326,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:SOD-123_AC"
+	(footprint "coreEVSE:SOD-123_AC"
 		(layer "F.Cu")
 		(uuid "02c215ea-f96e-45a3-90e0-259ddb75e819")
 		(at -41.319 42.9438)
@@ -615,7 +615,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:SOD-123_AC"
+	(footprint "coreEVSE:SOD-123_AC"
 		(layer "F.Cu")
 		(uuid "04233e3b-dd1e-453c-9fb8-42a02b7e15ab")
 		(at -41.319 36.2438)
@@ -2053,7 +2053,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:SMA_AC"
+	(footprint "coreEVSE:SMA_AC"
 		(layer "F.Cu")
 		(uuid "14c57492-8995-4631-a82f-8d5f9356a776")
 		(at 103.829 65.9864 -90)
@@ -3540,7 +3540,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:SHORT_TOP-50"
+	(footprint "coreEVSE:SHORT_TOP-50"
 		(layer "F.Cu")
 		(uuid "1f4a267e-3a7c-4cf2-842e-93ad06fa5c4f")
 		(at 62.3 41.8818 90)
@@ -6905,7 +6905,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:SIL8-2"
+	(footprint "coreEVSE:SIL8-2"
 		(layer "F.Cu")
 		(uuid "47db7110-78ab-4dc6-9fb9-411553b39036")
 		(at 95.3576 54.865)
@@ -9449,7 +9449,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:NR5040"
+	(footprint "coreEVSE:NR5040"
 		(layer "F.Cu")
 		(uuid "5c42fe57-3f08-4e63-bdd7-b9e4d3be290c")
 		(at -60.749 49.7204)
@@ -12627,7 +12627,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:SHORT_TOP-50"
+	(footprint "coreEVSE:SHORT_TOP-50"
 		(layer "F.Cu")
 		(uuid "7902bdbe-ae33-4690-a3c2-fc8f24cb7116")
 		(at 56.458 31.2392)
@@ -16323,7 +16323,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "OpenEVSE:SMB"
+	(footprint "coreEVSE:SMB"
 		(layer "F.Cu")
 		(uuid "adac6603-da35-4ce1-82e1-d04e4105f61b")
 		(at -59.324 44.3438)
@@ -16449,7 +16449,7 @@
 			(uuid "3793d3b1-b2e4-4210-9a4c-14bdb2a68de2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/P6SMB16CA.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/P6SMB16CA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16972,7 +16972,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:SMA_AC"
+	(footprint "coreEVSE:SMA_AC"
 		(layer "F.Cu")
 		(uuid "c0b75b27-91a0-4e44-8854-945c72f2b607")
 		(at 86.43 65.7578 -90)
@@ -17864,7 +17864,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "OpenEVSE:C_1206_3216Metric_AC"
+	(footprint "coreEVSE:C_1206_3216Metric_AC"
 		(layer "F.Cu")
 		(uuid "c369f4a2-6922-4262-aa16-8fa3eb7b0afd")
 		(at -41.414 46.2938)
@@ -19321,7 +19321,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:SMA_AC"
+	(footprint "coreEVSE:SMA_AC"
 		(layer "F.Cu")
 		(uuid "e534c505-adbd-4766-a2ed-9baf5a030445")
 		(at 98.9776 65.9864 -90)
@@ -19601,7 +19601,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:SMA_AC"
+	(footprint "coreEVSE:SMA_AC"
 		(layer "F.Cu")
 		(uuid "eb78b53a-9eee-4adb-9279-85a5c7997aae")
 		(at 91.3576 65.7324 -90)
@@ -20223,7 +20223,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:SOD-123_AC"
+	(footprint "coreEVSE:SOD-123_AC"
 		(layer "F.Cu")
 		(uuid "f4739040-1b00-424d-bbff-deb5b4356c86")
 		(at -41.319 32.8938)
@@ -21107,7 +21107,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:TerminalBlock_KF128-2.54-2P"
+	(footprint "coreEVSE:TerminalBlock_KF128-2.54-2P"
 		(layer "B.Cu")
 		(uuid "1f0f8b3a-6cf3-4838-9561-e13ef3a9a3c5")
 		(at 24 66 90)
@@ -21297,7 +21297,7 @@
 			(uuid "6d6e5d08-2fbf-4dc0-a775-b35dc175e782")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/KF128-2.54-2P.wrl"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/KF128-2.54-2P.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21309,7 +21309,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:TerminalBlock_KF128-2.54-4P"
+	(footprint "coreEVSE:TerminalBlock_KF128-2.54-4P"
 		(layer "B.Cu")
 		(uuid "20b55e44-0dc6-4af6-84ab-944f3bdc750f")
 		(at 24 47 90)
@@ -21522,7 +21522,7 @@
 			(uuid "385bfe95-f612-475e-8b34-dcd6d84e6955")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/KF128-2.54-4P.wrl"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/KF128-2.54-4P.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21534,7 +21534,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:Terminal_T44009_M4"
+	(footprint "coreEVSE:Terminal_T44009_M4"
 		(layer "B.Cu")
 		(uuid "40046d85-9b55-4921-b9a3-c5fceb712506")
 		(at 88 110 180)
@@ -21701,7 +21701,7 @@
 			(uuid "5449a515-0d24-4ed2-a33a-b9dd76d270e2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/T44009.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/T44009.step"
 			(offset
 				(xyz 4.6 -5.55 -4)
 			)
@@ -21713,7 +21713,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:BELFUSE1A"
+	(footprint "coreEVSE:BELFUSE1A"
 		(layer "B.Cu")
 		(uuid "5121ba46-922b-42fe-9929-2cf55db05959")
 		(at 66.17815 106.12015 90)
@@ -21828,7 +21828,7 @@
 			(uuid "e360a6af-34c2-4075-97fc-f33504be746e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/Bel_0HAAL1600-05.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/Bel_0HAAL1600-05.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21840,7 +21840,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:TerminalBlock_KF128-2.54-2P"
+	(footprint "coreEVSE:TerminalBlock_KF128-2.54-2P"
 		(layer "B.Cu")
 		(uuid "5a844226-6adb-4fc7-99e2-7ad94b105d93")
 		(at 24 35 90)
@@ -22031,7 +22031,7 @@
 			(uuid "66c3b027-4826-4b17-93e9-c2fdd8530de4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/KF128-2.54-2P.wrl"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/KF128-2.54-2P.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22043,7 +22043,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:Terminal_T44009_M4"
+	(footprint "coreEVSE:Terminal_T44009_M4"
 		(layer "B.Cu")
 		(uuid "673cfdea-9e2d-47ce-8fe0-ecd254f3b170")
 		(at 28 93 180)
@@ -22210,7 +22210,7 @@
 			(uuid "d904429d-6837-4dea-9cf2-2b4ec12f8c68")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/T44009.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/T44009.step"
 			(offset
 				(xyz 4.6 -5.55 -4)
 			)
@@ -22612,7 +22612,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:AVR_ISP_2x03_P2.54mm"
+	(footprint "coreEVSE:AVR_ISP_2x03_P2.54mm"
 		(layer "B.Cu")
 		(uuid "77c8dafc-9d40-4d64-8198-081fa925508b")
 		(at 115 34 180)
@@ -22966,7 +22966,7 @@
 			(uuid "23c53842-5b06-469a-a566-331d8be9f6d9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/J1_AVR_ISP_2x03_P2.54mm.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/J1_AVR_ISP_2x03_P2.54mm.step"
 			(offset
 				(xyz -1.27 2.54 0)
 			)
@@ -22978,7 +22978,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:Relay_Hongfa_HF186F_PushIn"
+	(footprint "coreEVSE:Relay_Hongfa_HF186F_PushIn"
 		(layer "B.Cu")
 		(uuid "7973a638-be51-4664-b59a-b5a63bdfc89b")
 		(at 105 85.5 90)
@@ -23145,7 +23145,7 @@
 			(uuid "f24dec0c-f211-4e1e-8ebf-6abfeaae2548")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/HF186F.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/HF186F.step"
 			(offset
 				(xyz -14.25 -9.25 -3.6)
 			)
@@ -23157,7 +23157,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:MOV"
+	(footprint "coreEVSE:MOV"
 		(layer "B.Cu")
 		(uuid "7b766a9e-8aa6-4513-9e62-4d758c12838d")
 		(at 41 91 -90)
@@ -23310,7 +23310,7 @@
 			(uuid "812e5a1a-46ac-4586-bd30-2c8d07edbb7d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/MOV_Disc_20mm_P10mm.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/MOV_Disc_20mm_P10mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23322,7 +23322,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:MOV"
+	(footprint "coreEVSE:MOV"
 		(layer "B.Cu")
 		(uuid "921b6aa2-d364-4341-b453-7f5ed6621880")
 		(at 42 78.5 90)
@@ -23475,7 +23475,7 @@
 			(uuid "e4088794-8028-4edd-907e-78802fda3fc5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/MOV_Disc_20mm_P10mm.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/MOV_Disc_20mm_P10mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23487,7 +23487,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:TerminalBlock_KF128-2.54-4P"
+	(footprint "coreEVSE:TerminalBlock_KF128-2.54-4P"
 		(layer "B.Cu")
 		(uuid "a8f39365-7a69-44ae-9890-a8a60dba081b")
 		(at 24 59 90)
@@ -23699,7 +23699,7 @@
 			(uuid "f422e3a1-5ab0-44b9-ab73-749252ba14a8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/KF128-2.54-4P.wrl"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/KF128-2.54-4P.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23711,7 +23711,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:Terminal_T44009_M4"
+	(footprint "coreEVSE:Terminal_T44009_M4"
 		(layer "B.Cu")
 		(uuid "b178c547-b5f4-4417-9f69-00295a3b9f07")
 		(at 28 76 180)
@@ -23878,7 +23878,7 @@
 			(uuid "3cb7575b-e959-4829-a9bc-d984b581440d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/T44009.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/T44009.step"
 			(offset
 				(xyz 4.6 -5.55 -4)
 			)
@@ -23890,7 +23890,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:Terminal_T44009_M4"
+	(footprint "coreEVSE:Terminal_T44009_M4"
 		(layer "B.Cu")
 		(uuid "b8d6a867-aa13-44d7-9c9f-6f2b06524121")
 		(at 110 110 180)
@@ -24057,7 +24057,7 @@
 			(uuid "7f6a5e64-8907-4b01-983c-d8b6e8633eef")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/T44009.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/T44009.step"
 			(offset
 				(xyz 4.6 -5.55 -4)
 			)
@@ -24069,7 +24069,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:Terminal_T44009_M4"
+	(footprint "coreEVSE:Terminal_T44009_M4"
 		(layer "B.Cu")
 		(uuid "bc803ec1-02ab-4492-9ce2-68405654b098")
 		(at 28 110 180)
@@ -24236,7 +24236,7 @@
 			(uuid "f2b151d6-adb9-4f1b-9366-f988bc0f3c7f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/T44009.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/T44009.step"
 			(offset
 				(xyz 4.6 -5.55 -4)
 			)
@@ -24248,7 +24248,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:Terminal_T44009_M4"
+	(footprint "coreEVSE:Terminal_T44009_M4"
 		(layer "B.Cu")
 		(uuid "ca2b6d3c-c7fa-4aca-8176-e483d9906c0e")
 		(at 50 110 180)
@@ -24415,7 +24415,7 @@
 			(uuid "729b09cb-71db-4181-a89e-8255060c68f0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/T44009.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/T44009.step"
 			(offset
 				(xyz 4.6 -5.55 -4)
 			)
@@ -24427,7 +24427,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:Relay_Hongfa_HF186F_PushIn"
+	(footprint "coreEVSE:Relay_Hongfa_HF186F_PushIn"
 		(layer "B.Cu")
 		(uuid "caebd91a-001e-4b5c-91dd-dc66d1cd50a2")
 		(at 83 85.5 90)
@@ -24595,7 +24595,7 @@
 			(uuid "021bd9a3-352d-4886-8d28-6c09e9d6ac0d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/HF186F.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/HF186F.step"
 			(offset
 				(xyz -14.25 -9.25 -3.6)
 			)
@@ -24607,7 +24607,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:FTDI_JST_PH_1x06_P2.00mm"
+	(footprint "coreEVSE:FTDI_JST_PH_1x06_P2.00mm"
 		(layer "B.Cu")
 		(uuid "de9b4cf0-a522-4f56-b511-c61e3c4c49ef")
 		(at 116 48 -90)
@@ -24831,7 +24831,7 @@
 			(uuid "880f341a-f45c-430d-b8ae-72a262885b6c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/FTDI_JST_PH_1x06_P2.00mm.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/FTDI_JST_PH_1x06_P2.00mm.step"
 			(offset
 				(xyz -5 -0.28 0)
 			)
@@ -24843,7 +24843,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:MOV"
+	(footprint "coreEVSE:MOV"
 		(layer "B.Cu")
 		(uuid "ec821587-ed46-4815-8501-276bc88742f8")
 		(at 37 89.2528 90)
@@ -24996,7 +24996,7 @@
 			(uuid "865052db-803f-4511-ac56-ea71277a421a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/MOV_Disc_20mm_P10mm.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/MOV_Disc_20mm_P10mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25008,7 +25008,7 @@
 			)
 		)
 	)
-	(footprint "OpenEVSE:Converter_ACDC_MeanWell_IRM-10-12_THT"
+	(footprint "coreEVSE:Converter_ACDC_MeanWell_IRM-10-12_THT"
 		(layer "B.Cu")
 		(uuid "f939df46-b7df-42a5-95d9-c6f6858f2cd2")
 		(at 60 97 90)
@@ -25286,7 +25286,7 @@
 			(uuid "1dc17170-60a6-4416-a4f3-f139b288a6ea")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/OpenEVSE.3dshapes/MeanWell_IRM-10-12.step"
+		(model "${KIPRJMOD}/coreEVSE.3dshapes/MeanWell_IRM-10-12.step"
 			(offset
 				(xyz 0 0 0)
 			)

@@ -135,7 +135,7 @@
 		(uuid "463d68ec-8575-429b-bfba-c09762eba948")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/OpenEVSE.3dshapes/MOV_Disc_20mm_P10mm.step"
+	(model "${KIPRJMOD}/coreEVSE.3dshapes/MOV_Disc_20mm_P10mm.step"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

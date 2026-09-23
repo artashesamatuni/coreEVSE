@@ -8,7 +8,7 @@
 		(title "EVSE")
 	)
 	(lib_symbols
-		(symbol "ACTEST_Original:OpenEVSE_HCPL-2731S"
+		(symbol "coreEVSE:OpenEVSE_HCPL-2731S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -36,7 +36,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE:SIL8-2"
+			(property "Footprint" "coreEVSE:SIL8-2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -275,7 +275,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ACTEST_Original:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)"
+		(symbol "coreEVSE:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -505,7 +505,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ACTEST_Original:diode_MBRA340T3"
+		(symbol "coreEVSE:diode_MBRA340T3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -533,7 +533,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE:SMA_AC"
+			(property "Footprint" "coreEVSE:SMA_AC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -664,7 +664,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ACTEST_Original:supply2_PE"
+		(symbol "coreEVSE:supply2_PE"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2386,7 +2386,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GFI_Original:SparkFun_CAP0805"
+		(symbol "coreEVSE:SparkFun_CAP0805"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2543,7 +2543,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GFI_Original:SparkFun_CAP_POL1206"
+		(symbol "coreEVSE:SparkFun_CAP_POL1206"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2571,7 +2571,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE:C_1206_3216Metric_AC"
+			(property "Footprint" "coreEVSE:C_1206_3216Metric_AC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2724,7 +2724,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GFI_Original:SparkFun_LMV358"
+		(symbol "coreEVSE:SparkFun_LMV358"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3071,7 +3071,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GFI_Original:SparkFun_RESISTOR0805-RES"
+		(symbol "coreEVSE:SparkFun_RESISTOR0805-RES"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3290,7 +3290,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GFI_Original:diode_BAS40-06"
+		(symbol "coreEVSE:diode_BAS40-06"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3682,7 +3682,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GFI_Original:diode_DIODE-SOD123"
+		(symbol "coreEVSE:diode_DIODE-SOD123"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3710,7 +3710,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE:SOD-123_AC"
+			(property "Footprint" "coreEVSE:SOD-123_AC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3957,7 +3957,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MOV_Original:OpenEVSE_MOV"
+		(symbol "coreEVSE:OpenEVSE_MOV"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3985,7 +3985,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE:MOV"
+			(property "Footprint" "coreEVSE:MOV"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4188,7 +4188,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OpenEVSE:CHS01-S-112LA2"
+		(symbol "coreEVSE:CHS01-S-112LA2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4214,7 +4214,7 @@
 					)
 				)
 			)
-			(property "Footprint" "OpenEVSE:Relay_CHS01-S-112LA2"
+			(property "Footprint" "coreEVSE:Relay_CHS01-S-112LA2"
 				(at 7.62 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4490,7 +4490,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OpenEVSE:Crystal_16MHz_3.2x2.5mm"
+		(symbol "coreEVSE:Crystal_16MHz_3.2x2.5mm"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4704,7 +4704,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OpenEVSE:HF186F"
+		(symbol "coreEVSE:HF186F"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4730,7 +4730,7 @@
 					)
 				)
 			)
-			(property "Footprint" "OpenEVSE:Relay_Hongfa_HF186F_PushIn"
+			(property "Footprint" "coreEVSE:Relay_Hongfa_HF186F_PushIn"
 				(at 7.62 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5006,7 +5006,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OpenEVSE:KF128-2.54-2P"
+		(symbol "coreEVSE:KF128-2.54-2P"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -5036,7 +5036,7 @@
 					)
 				)
 			)
-			(property "Footprint" "OpenEVSE:TerminalBlock_KF128-2.54-2P"
+			(property "Footprint" "coreEVSE:TerminalBlock_KF128-2.54-2P"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5199,7 +5199,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OpenEVSE:KF128-2.54-4P"
+		(symbol "coreEVSE:KF128-2.54-4P"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -5229,7 +5229,7 @@
 					)
 				)
 			)
-			(property "Footprint" "OpenEVSE:TerminalBlock_KF128-2.54-4P"
+			(property "Footprint" "coreEVSE:TerminalBlock_KF128-2.54-4P"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5426,7 +5426,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OpenEVSE:MCP9808"
+		(symbol "coreEVSE:MCP9808"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5668,7 +5668,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OpenEVSE:T44009"
+		(symbol "coreEVSE:T44009"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -5698,7 +5698,7 @@
 					)
 				)
 			)
-			(property "Footprint" "OpenEVSE:Terminal_T44009_M4"
+			(property "Footprint" "coreEVSE:Terminal_T44009_M4"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8136,7 +8136,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Footprint" "OpenEVSE:AVR_ISP_2x03_P2.54mm"
+			(property "Footprint" "coreEVSE:AVR_ISP_2x03_P2.54mm"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -17192,7 +17192,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:T44009")
+		(lib_id "coreEVSE:T44009")
 		(at 332.74 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -17225,7 +17225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OpenEVSE:Terminal_T44009_M4"
+		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
 			(at 332.74 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17271,7 +17271,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:diode_BAS40-06")
+		(lib_id "coreEVSE:diode_BAS40-06")
 		(at 55.88 262.89 90)
 		(unit 1)
 		(body_style 1)
@@ -17433,7 +17433,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:T44009")
+		(lib_id "coreEVSE:T44009")
 		(at 391.16 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -17463,7 +17463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:Terminal_T44009_M4"
+		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
 			(at 391.16 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17509,7 +17509,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:KF128-2.54-2P")
+		(lib_id "coreEVSE:KF128-2.54-2P")
 		(at 245.11 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -17542,7 +17542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OpenEVSE:TerminalBlock_KF128-2.54-2P"
+		(property "Footprint" "coreEVSE:TerminalBlock_KF128-2.54-2P"
 			(at 245.11 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17760,7 +17760,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:OpenEVSE_HCPL-2731S")
+		(lib_id "coreEVSE:OpenEVSE_HCPL-2731S")
 		(at 245.11 256.54 0)
 		(unit 1)
 		(body_style 1)
@@ -17792,7 +17792,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SIL8-2"
+		(property "Footprint" "coreEVSE:SIL8-2"
 			(at 245.11 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -18125,7 +18125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:BELFUSE1A"
+		(property "Footprint" "coreEVSE:BELFUSE1A"
 			(at 182.88 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -18584,7 +18584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 119.38 241.3 180)
 		(unit 1)
 		(body_style 1)
@@ -18665,7 +18665,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:KF128-2.54-4P")
+		(lib_id "coreEVSE:KF128-2.54-4P")
 		(at 38.1 252.73 0)
 		(mirror y)
 		(unit 1)
@@ -18697,7 +18697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:TerminalBlock_KF128-2.54-4P"
+		(property "Footprint" "coreEVSE:TerminalBlock_KF128-2.54-4P"
 			(at 38.1 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -18943,7 +18943,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:supply2_PE")
+		(lib_id "coreEVSE:supply2_PE")
 		(at 228.6 256.54 0)
 		(unit 1)
 		(body_style 1)
@@ -19100,7 +19100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:diode_MBRA340T3")
+		(lib_id "coreEVSE:diode_MBRA340T3")
 		(at 220.98 259.08 0)
 		(unit 1)
 		(body_style 1)
@@ -19132,7 +19132,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SMA_AC"
+		(property "Footprint" "coreEVSE:SMA_AC"
 			(at 220.98 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -19181,7 +19181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:diode_MBRA340T3")
+		(lib_id "coreEVSE:diode_MBRA340T3")
 		(at 220.98 248.92 0)
 		(unit 1)
 		(body_style 1)
@@ -19213,7 +19213,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SMA_AC"
+		(property "Footprint" "coreEVSE:SMA_AC"
 			(at 220.98 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -19577,7 +19577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 27.94 195.58 90)
 		(unit 1)
 		(body_style 1)
@@ -20062,7 +20062,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:T44009")
+		(lib_id "coreEVSE:T44009")
 		(at 332.74 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -20095,7 +20095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OpenEVSE:Terminal_T44009_M4"
+		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
 			(at 332.74 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20258,7 +20258,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_CAP0805")
+		(lib_id "coreEVSE:SparkFun_CAP0805")
 		(at 121.92 236.22 90)
 		(unit 1)
 		(body_style 1)
@@ -20456,7 +20456,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 256.54 191.77 270)
 		(unit 1)
 		(body_style 1)
@@ -20537,7 +20537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:diode_BAS40-06")
+		(lib_id "coreEVSE:diode_BAS40-06")
 		(at 53.34 195.58 90)
 		(unit 1)
 		(body_style 1)
@@ -20621,7 +20621,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
+		(lib_id "coreEVSE:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
 		(at 213.36 269.24 180)
 		(unit 1)
 		(body_style 1)
@@ -21343,7 +21343,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
+		(lib_id "coreEVSE:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
 		(at 213.36 241.3 180)
 		(unit 1)
 		(body_style 1)
@@ -21543,7 +21543,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:diode_DIODE-SOD123")
+		(lib_id "coreEVSE:diode_DIODE-SOD123")
 		(at 359.41 240.03 180)
 		(unit 1)
 		(body_style 1)
@@ -21575,7 +21575,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SOD-123_AC"
+		(property "Footprint" "coreEVSE:SOD-123_AC"
 			(at 359.41 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21794,7 +21794,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_CAP0805")
+		(lib_id "coreEVSE:SparkFun_CAP0805")
 		(at 22.86 210.82 0)
 		(unit 1)
 		(body_style 1)
@@ -22108,7 +22108,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 88.9 241.3 180)
 		(unit 1)
 		(body_style 1)
@@ -22189,7 +22189,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
+		(lib_id "coreEVSE:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
 		(at 203.2 241.3 180)
 		(unit 1)
 		(body_style 1)
@@ -22281,7 +22281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:T44009")
+		(lib_id "coreEVSE:T44009")
 		(at 391.16 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -22311,7 +22311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:Terminal_T44009_M4"
+		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
 			(at 391.16 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -22473,7 +22473,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_CAP_POL1206")
+		(lib_id "coreEVSE:SparkFun_CAP_POL1206")
 		(at 116.84 264.16 0)
 		(unit 1)
 		(body_style 1)
@@ -22505,7 +22505,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:C_1206_3216Metric_AC"
+		(property "Footprint" "coreEVSE:C_1206_3216Metric_AC"
 			(at 116.84 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -22632,7 +22632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_CAP0805")
+		(lib_id "coreEVSE:SparkFun_CAP0805")
 		(at 96.52 236.22 90)
 		(unit 1)
 		(body_style 1)
@@ -22829,7 +22829,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:Crystal_16MHz_3.2x2.5mm")
+		(lib_id "coreEVSE:Crystal_16MHz_3.2x2.5mm")
 		(at 205.74 52.07 270)
 		(mirror x)
 		(unit 1)
@@ -23019,7 +23019,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_LMV358")
+		(lib_id "coreEVSE:SparkFun_LMV358")
 		(at 134.62 254 0)
 		(unit 2)
 		(body_style 1)
@@ -23234,7 +23234,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 72.39 254 180)
 		(unit 1)
 		(body_style 1)
@@ -23540,7 +23540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:NR5040"
+		(property "Footprint" "coreEVSE:NR5040"
 			(at 146.05 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -23642,7 +23642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SHORT_TOP-50"
+		(property "Footprint" "coreEVSE:SHORT_TOP-50"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -24090,7 +24090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:AVR_ISP_2x03_P2.54mm"
+		(property "Footprint" "coreEVSE:AVR_ISP_2x03_P2.54mm"
 			(at 259.08 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -24151,7 +24151,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:HF186F")
+		(lib_id "coreEVSE:HF186F")
 		(at 359.41 143.51 270)
 		(unit 1)
 		(body_style 1)
@@ -24181,7 +24181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:Relay_Hongfa_HF186F_PushIn"
+		(property "Footprint" "coreEVSE:Relay_Hongfa_HF186F_PushIn"
 			(at 360.68 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -24237,7 +24237,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:HF186F")
+		(lib_id "coreEVSE:HF186F")
 		(at 359.41 167.64 270)
 		(unit 1)
 		(body_style 1)
@@ -24267,7 +24267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:Relay_Hongfa_HF186F_PushIn"
+		(property "Footprint" "coreEVSE:Relay_Hongfa_HF186F_PushIn"
 			(at 360.68 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -24402,7 +24402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:MCP9808")
+		(lib_id "coreEVSE:MCP9808")
 		(at 274.32 207.01 0)
 		(unit 1)
 		(body_style 1)
@@ -24499,7 +24499,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
+		(lib_id "coreEVSE:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
 		(at 203.2 259.08 180)
 		(unit 1)
 		(body_style 1)
@@ -24591,7 +24591,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MOV_Original:OpenEVSE_MOV")
+		(lib_id "coreEVSE:OpenEVSE_MOV")
 		(at 353.06 204.47 90)
 		(unit 1)
 		(body_style 1)
@@ -24623,7 +24623,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "coreEVSE:MOV"
 			(at 353.06 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -24830,7 +24830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 355.6 229.87 180)
 		(unit 1)
 		(body_style 1)
@@ -25069,7 +25069,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 66.04 264.16 90)
 		(unit 1)
 		(body_style 1)
@@ -25387,7 +25387,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:diode_DIODE-SOD123")
+		(lib_id "coreEVSE:diode_DIODE-SOD123")
 		(at 146.05 254 0)
 		(unit 1)
 		(body_style 1)
@@ -25419,7 +25419,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SOD-123_AC"
+		(property "Footprint" "coreEVSE:SOD-123_AC"
 			(at 146.05 254 0)
 			(hide yes)
 			(show_name no)
@@ -25792,7 +25792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SHORT_TOP-50"
+		(property "Footprint" "coreEVSE:SHORT_TOP-50"
 			(at 153.67 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -25872,7 +25872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:Converter_ACDC_MeanWell_IRM-10-12_THT"
+		(property "Footprint" "coreEVSE:Converter_ACDC_MeanWell_IRM-10-12_THT"
 			(at 196.85 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -25927,7 +25927,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:diode_MBRA340T3")
+		(lib_id "coreEVSE:diode_MBRA340T3")
 		(at 220.98 241.3 0)
 		(unit 1)
 		(body_style 1)
@@ -25959,7 +25959,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SMA_AC"
+		(property "Footprint" "coreEVSE:SMA_AC"
 			(at 220.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -26008,7 +26008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
+		(lib_id "coreEVSE:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
 		(at 213.36 259.08 180)
 		(unit 1)
 		(body_style 1)
@@ -26256,7 +26256,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:supply2_PE")
+		(lib_id "coreEVSE:supply2_PE")
 		(at 57.15 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -27227,7 +27227,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:T44009")
+		(lib_id "coreEVSE:T44009")
 		(at 332.74 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -27260,7 +27260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OpenEVSE:Terminal_T44009_M4"
+		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
 			(at 332.74 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -27500,7 +27500,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:supply2_PE")
+		(lib_id "coreEVSE:supply2_PE")
 		(at 334.01 204.47 0)
 		(unit 1)
 		(body_style 1)
@@ -27864,7 +27864,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:diode_MBRA340T3")
+		(lib_id "coreEVSE:diode_MBRA340T3")
 		(at 220.98 269.24 0)
 		(unit 1)
 		(body_style 1)
@@ -27896,7 +27896,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SMA_AC"
+		(property "Footprint" "coreEVSE:SMA_AC"
 			(at 220.98 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -28023,7 +28023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 121.92 256.54 180)
 		(unit 1)
 		(body_style 1)
@@ -28104,7 +28104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 345.44 234.95 270)
 		(unit 1)
 		(body_style 1)
@@ -28492,7 +28492,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:KF128-2.54-4P")
+		(lib_id "coreEVSE:KF128-2.54-4P")
 		(at 254 62.23 0)
 		(mirror y)
 		(unit 1)
@@ -28524,7 +28524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:TerminalBlock_KF128-2.54-4P"
+		(property "Footprint" "coreEVSE:TerminalBlock_KF128-2.54-4P"
 			(at 254 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -28590,7 +28590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 27.94 209.55 90)
 		(unit 1)
 		(body_style 1)
@@ -29136,7 +29136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_LMV358")
+		(lib_id "coreEVSE:SparkFun_LMV358")
 		(at 91.44 256.54 0)
 		(unit 1)
 		(body_style 1)
@@ -29482,7 +29482,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:KF128-2.54-2P")
+		(lib_id "coreEVSE:KF128-2.54-2P")
 		(at 71.12 190.5 0)
 		(unit 1)
 		(body_style 1)
@@ -29515,7 +29515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OpenEVSE:TerminalBlock_KF128-2.54-2P"
+		(property "Footprint" "coreEVSE:TerminalBlock_KF128-2.54-2P"
 			(at 71.12 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -29774,7 +29774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SMB"
+		(property "Footprint" "coreEVSE:SMB"
 			(at 380.492 75.946 0)
 			(hide yes)
 			(show_name no)
@@ -29921,7 +29921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
+		(lib_id "coreEVSE:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
 		(at 213.36 248.92 180)
 		(unit 1)
 		(body_style 1)
@@ -30013,7 +30013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 157.48 265.43 270)
 		(unit 1)
 		(body_style 1)
@@ -30094,7 +30094,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:diode_DIODE-SOD123")
+		(lib_id "coreEVSE:diode_DIODE-SOD123")
 		(at 101.6 256.54 0)
 		(unit 1)
 		(body_style 1)
@@ -30126,7 +30126,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:SOD-123_AC"
+		(property "Footprint" "coreEVSE:SOD-123_AC"
 			(at 101.6 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -30291,7 +30291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
+		(lib_id "coreEVSE:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
 		(at 203.2 248.92 180)
 		(unit 1)
 		(body_style 1)
@@ -30548,7 +30548,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE:T44009")
+		(lib_id "coreEVSE:T44009")
 		(at 391.16 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -30578,7 +30578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:Terminal_T44009_M4"
+		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
 			(at 391.16 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -30624,7 +30624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MOV_Original:OpenEVSE_MOV")
+		(lib_id "coreEVSE:OpenEVSE_MOV")
 		(at 386.08 204.47 90)
 		(unit 1)
 		(body_style 1)
@@ -30656,7 +30656,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "coreEVSE:MOV"
 			(at 386.08 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -30977,7 +30977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_CAP0805")
+		(lib_id "coreEVSE:SparkFun_CAP0805")
 		(at 285.75 190.5 0)
 		(unit 1)
 		(body_style 1)
@@ -31171,7 +31171,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 260.35 191.77 90)
 		(unit 1)
 		(body_style 1)
@@ -31368,7 +31368,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 57.15 246.38 180)
 		(unit 1)
 		(body_style 1)
@@ -31602,7 +31602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 31.75 196.85 90)
 		(unit 1)
 		(body_style 1)
@@ -31683,7 +31683,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GFI_Original:SparkFun_RESISTOR0805-RES")
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
 		(at 132.08 241.3 180)
 		(unit 1)
 		(body_style 1)
@@ -31874,7 +31874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenEVSE:FTDI_JST_PH_1x06_P2.00mm"
+		(property "Footprint" "coreEVSE:FTDI_JST_PH_1x06_P2.00mm"
 			(at 168.91 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -31935,7 +31935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MOV_Original:OpenEVSE_MOV")
+		(lib_id "coreEVSE:OpenEVSE_MOV")
 		(at 369.57 204.47 90)
 		(unit 1)
 		(body_style 1)
@@ -31967,7 +31967,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OpenEVSE:MOV"
+		(property "Footprint" "coreEVSE:MOV"
 			(at 369.57 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -32132,7 +32132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ACTEST_Original:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
+		(lib_id "coreEVSE:SparkFun-Resistors_0.1OHM-1/2W-1%(1210)")
 		(at 203.2 269.24 180)
 		(unit 1)
 		(body_style 1)

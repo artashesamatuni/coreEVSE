@@ -108,7 +108,7 @@
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 	)
-	(model "${KIPRJMOD}/OpenEVSE.3dshapes/CHS01-S-112LA2.step"
+	(model "${KIPRJMOD}/coreEVSE.3dshapes/CHS01-S-112LA2.step"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

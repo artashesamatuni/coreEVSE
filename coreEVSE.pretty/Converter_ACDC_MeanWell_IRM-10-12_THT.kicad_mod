@@ -249,7 +249,7 @@
 		(uuid "10eadf79-dfcf-40ab-8abd-d9f24e3a0d1e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/OpenEVSE.3dshapes/MeanWell_IRM-10-12.step"
+	(model "${KIPRJMOD}/coreEVSE.3dshapes/MeanWell_IRM-10-12.step"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

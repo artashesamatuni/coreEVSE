@@ -5,6 +5,7 @@
 _autosave-*
 *-backups/
 .history/
+_restore_backup_*/
 *.kicad_prl
 *.lck
 

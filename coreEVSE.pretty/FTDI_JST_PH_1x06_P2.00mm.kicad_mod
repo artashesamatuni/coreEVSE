@@ -200,7 +200,7 @@
 		(uuid "d6659e5d-95fe-4aa6-8ff1-1f6bc60b30cd")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/OpenEVSE.3dshapes/FTDI_JST_PH_1x06_P2.00mm.step"
+	(model "${KIPRJMOD}/coreEVSE.3dshapes/FTDI_JST_PH_1x06_P2.00mm.step"
 		(offset
 			(xyz -5 -0.28 0)
 		)

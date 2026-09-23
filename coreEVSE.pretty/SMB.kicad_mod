@@ -46,7 +46,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/OpenEVSE.3dshapes/P6SMB16CA.step"
+	(model "${KIPRJMOD}/coreEVSE.3dshapes/P6SMB16CA.step"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
