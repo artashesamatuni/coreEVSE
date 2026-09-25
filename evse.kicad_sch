@@ -11297,6 +11297,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 72.39) (xy 270.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d57ba52-4dd7-465f-bd46-8e7f15ecf8ee")
+	)
+	(wire
+		(pts
 			(xy 259.08 63.5) (xy 267.97 63.5)
 		)
 		(stroke
@@ -16407,6 +16417,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "PE"
+		(shape bidirectional)
+		(at 275.59 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb9f8887-4395-42a4-8c21-6473273c0562")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.1055 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -23704,7 +23738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "coreEVSE:SHORT_TOP-50"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -25854,7 +25888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "coreEVSE:SHORT_TOP-50"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 153.67 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -30361,6 +30395,86 @@
 			(project "evse"
 				(path "/11cad39f-0746-4064-b162-743100309dbd"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 273.05 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3b58cb4-b36a-4dbc-b66c-7de2da2485bf")
+		(property "Reference" "SH3"
+			(at 273.05 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 273.05 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 273.05 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-point PE to electronics GND reference bond for Control Pilot"
+			(at 273.05 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c071e3c9-899f-4971-91c9-b0cd1ea72b1c")
+		)
+		(pin "2"
+			(uuid "a5241075-fd7c-4e8e-b2ca-6cf70130ddb7")
+		)
+		(instances
+			(project "evse"
+				(path "/11cad39f-0746-4064-b162-743100309dbd"
+					(reference "SH3")
 					(unit 1)
 				)
 			)

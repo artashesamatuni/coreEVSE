@@ -3794,14 +3794,16 @@
 			)
 		)
 	)
-	(footprint "coreEVSE:SHORT_TOP-50"
+	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
 		(layer "F.Cu")
 		(uuid "1f4a267e-3a7c-4cf2-842e-93ad06fa5c4f")
 		(at 67.1006 41.5516 180)
-		(descr "OpenEVSE soldered top-layer short, original Eagle SHORT_TOP-50")
+		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+		(tags "net tie")
 		(property "Reference" "SH2"
-			(at -0.3302 -3.2004 0)
+			(at 0 -1.2 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0b5ac296-053d-4741-bb71-61a504bbc270")
 			(effects
 				(font
@@ -3811,7 +3813,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 0 2.032 0)
+			(at 0 1.2 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dae531bc-f2fe-4136-9763-466ecc22059b")
@@ -3823,24 +3825,28 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "36c33299-2983-4b29-9925-b0027e38c441")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 0 0 0)
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "915abc26-b207-4675-b050-08e0026fcf87")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3854,40 +3860,33 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_bom allow_missing_courtyard)
+		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.27 0.635)
-			(end 1.27 0.635)
-			(stroke
-				(width 0.15)
-				(type default)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.25) (xy 0.5 -0.25) (xy 0.5 0.25) (xy -0.5 0.25)
 			)
-			(layer "F.SilkS")
-			(uuid "a91e9e04-2377-4aee-92e2-606782fc0989")
-		)
-		(fp_line
-			(start -1.27 -0.635)
-			(end 1.27 -0.635)
 			(stroke
-				(width 0.15)
-				(type default)
+				(width 0)
+				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "ea7b1e2d-d1d0-412b-a085-edcc88f32b73")
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "091ad795-fba9-4a15-89fc-c94bcc57f58d")
 		)
-		(pad "1" smd rect
-			(at 0.635 0 180)
-			(size 1.27 1.27)
+		(pad "1" smd circle
+			(at -0.5 0 180)
+			(size 0.5 0.5)
 			(layers "F.Cu")
 			(net "UGND")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "730d3d34-f121-4d2f-8c16-4cb4f6d57cb3")
 		)
-		(pad "2" smd rect
-			(at -0.635 0 180)
-			(size 1.27 1.27)
+		(pad "2" smd circle
+			(at 0.5 0 180)
+			(size 0.5 0.5)
 			(layers "F.Cu")
 			(net "XGND")
 			(pinfunction "2_2")
@@ -12978,14 +12977,16 @@
 			)
 		)
 	)
-	(footprint "coreEVSE:SHORT_TOP-50"
+	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
 		(layer "F.Cu")
 		(uuid "7902bdbe-ae33-4690-a3c2-fc8f24cb7116")
 		(at 87.319 28.369)
-		(descr "OpenEVSE soldered top-layer short, original Eagle SHORT_TOP-50")
+		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+		(tags "net tie")
 		(property "Reference" "SH1"
-			(at 3.035 -2.05 0)
+			(at 0 -1.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ee9e2c50-f5b0-4615-b43a-dcfbff7aede4")
 			(effects
 				(font
@@ -12995,7 +12996,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 0 2.032 0)
+			(at 0 1.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1056ae3-37e6-4fcd-a3ac-fb90ea1c3484")
@@ -13008,23 +13009,27 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d79a3796-ff6d-4a21-976d-72c795991f39")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e4444e8-6553-4f2c-95c0-768ac3f43bef")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13038,40 +13043,33 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_bom allow_missing_courtyard)
+		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.27 -0.635)
-			(end 1.27 -0.635)
-			(stroke
-				(width 0.15)
-				(type default)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.25) (xy 0.5 -0.25) (xy 0.5 0.25) (xy -0.5 0.25)
 			)
-			(layer "F.SilkS")
-			(uuid "1a9b48fa-c253-4666-835c-c1e34b51e4ef")
-		)
-		(fp_line
-			(start -1.27 0.635)
-			(end 1.27 0.635)
 			(stroke
-				(width 0.15)
-				(type default)
+				(width 0)
+				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "ddc98db3-054d-4030-b600-aa5b0fc945cf")
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "b757fdda-9221-4ead-8f57-9f5f0b1a5efd")
 		)
-		(pad "1" smd rect
-			(at 0.635 0)
-			(size 1.27 1.27)
+		(pad "1" smd circle
+			(at -0.5 0)
+			(size 0.5 0.5)
 			(layers "F.Cu")
 			(net "GND")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "018e58c4-d99a-47ac-ab46-26f427231da2")
 		)
-		(pad "2" smd rect
-			(at -0.635 0)
-			(size 1.27 1.27)
+		(pad "2" smd circle
+			(at 0.5 0)
+			(size 0.5 0.5)
 			(layers "F.Cu")
 			(net "UGND")
 			(pinfunction "2_2")
@@ -18968,6 +18966,107 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(layer "F.Cu")
+		(uuid "d904ef44-d93b-4951-92c2-b25bed4bf16f")
+		(at 21.9528 41.9286)
+		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+		(tags "net tie")
+		(property "Reference" "SH3"
+			(at 0 -1.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bab822f1-1809-4b44-bc77-c132b5f8675c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 0 1.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86656281-73fb-47ae-9ee6-0a77dc3f77b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "555dd994-ca08-4efe-a788-13a3cb77ff89")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Single-point PE to electronics GND reference bond for Control Pilot"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2198972-50da-4a49-bcac-ee0c9cffb75a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Net*Tie*")
+		(path "/d3b58cb4-b36a-4dbc-b66c-7de2da2485bf")
+		(sheetname "/")
+		(sheetfile "evse.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr exclude_from_bom allow_missing_courtyard)
+		(net_tie_pad_groups "1, 2")
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.25) (xy 0.5 -0.25) (xy 0.5 0.25) (xy -0.5 0.25)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "d12c3e99-9eda-4f6a-b35c-27252e6e02f7")
+		)
+		(pad "1" smd circle
+			(at -0.5 0)
+			(size 0.5 0.5)
+			(layers "F.Cu")
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "455f4358-8b28-4f82-8878-4928c347bf9d")
+		)
+		(pad "2" smd circle
+			(at 0.5 0)
+			(size 0.5 0.5)
+			(layers "F.Cu")
+			(net "PE")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "7504f952-9dc3-45c9-868f-cd84089cbf34")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
