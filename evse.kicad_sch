@@ -1600,110 +1600,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HOLE_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U$9"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "HOLE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "coreEVSE:HOLE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HOLE_1_1_0"
-				(circle
-					(center -30.48 2.54)
-					(radius 5.08)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -40.64 2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "P$1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OpenEVSE_PLUS_v6.5.1-eagle-import:FIDUCIAL1X2.5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1809,110 +1705,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OpenEVSE_PLUS_v6.5.1-eagle-import:HOLE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "OpenEVSE_PLUS_v6.5.1:HOLE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HOLE_1_0"
-				(circle
-					(center -30.48 2.54)
-					(radius 5.08)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -40.64 2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "P$1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
 					)
 				)
 			)
@@ -10686,6 +10478,12 @@
 		(uuid "56a2bf08-c933-4907-b7a0-c42cc6c9fbb8")
 	)
 	(junction
+		(at 265.43 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "572d679d-d788-481d-a6db-038198c1ad85")
+	)
+	(junction
 		(at 27.94 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10702,6 +10500,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ee823e2-edaf-4123-a1c2-7f48f4484493")
+	)
+	(junction
+		(at 260.35 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fb838b5-bf82-4e54-8b3f-2e52acf9524b")
 	)
 	(junction
 		(at 205.74 48.26)
@@ -10726,6 +10530,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73cd0986-aff9-42af-8c46-bbe1445db6f2")
+	)
+	(junction
+		(at 248.92 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74ebb2a0-66d5-4f7e-9a33-856519d3f8a8")
 	)
 	(junction
 		(at 205.74 55.88)
@@ -10810,6 +10620,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ba87dd5-feaf-4a43-8e73-b56911c6081c")
+	)
+	(junction
+		(at 281.94 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90080f76-3aef-4aa5-9022-81b9e54e8d90")
 	)
 	(junction
 		(at 120.65 149.86)
@@ -10986,6 +10802,12 @@
 		(uuid "e51ea57d-bbcb-4a42-ae95-e157e9151e2c")
 	)
 	(junction
+		(at 260.35 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e887b083-e6f5-4a1f-aada-55122d6670ac")
+	)
+	(junction
 		(at 116.84 256.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11068,24 +10890,12 @@
 		(uuid "a2a35c7d-a4e8-4bec-a675-fe8cda60f9c5")
 	)
 	(no_connect
-		(at 264.16 209.55)
-		(uuid "a5736786-2e78-4d72-834d-95c8f0453dc1")
-	)
-	(no_connect
 		(at 175.26 64.77)
 		(uuid "a5cd0539-f457-4abd-8582-45b0bcad6101")
 	)
 	(no_connect
-		(at 264.16 212.09)
-		(uuid "b88938c4-4f53-4dc3-a456-c096ce8e5faf")
-	)
-	(no_connect
 		(at 53.34 262.89)
 		(uuid "c36e1a41-4b67-45c6-9c33-c3f5215ebfcd")
-	)
-	(no_connect
-		(at 264.16 214.63)
-		(uuid "dce7e27f-015a-4c30-9b43-195469e2d9bd")
 	)
 	(no_connect
 		(at 284.48 207.01)
@@ -11137,16 +10947,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 152.4) (xy 74.93 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02536fe2-0b0d-405c-8e52-787f61a0fc4e")
-	)
-	(wire
-		(pts
 			(xy 175.26 41.91) (xy 184.15 41.91)
 		)
 		(stroke
@@ -11174,6 +10974,16 @@
 			(type default)
 		)
 		(uuid "04df273a-419e-4c27-91d9-8e692523c2e8")
+	)
+	(wire
+		(pts
+			(xy 260.35 212.09) (xy 260.35 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050810f0-1bd7-471f-baf9-3460abe24f27")
 	)
 	(wire
 		(pts
@@ -11577,6 +11387,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 132.08) (xy 248.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2091f327-258a-4957-afe7-24b165e8c9e0")
+	)
+	(wire
+		(pts
 			(xy 53.34 185.42) (xy 67.31 185.42)
 		)
 		(stroke
@@ -11694,16 +11514,6 @@
 			(type default)
 		)
 		(uuid "27607bfd-7144-4c5f-9fed-5171baeb71ee")
-	)
-	(wire
-		(pts
-			(xy 328.93 199.39) (xy 334.01 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28c302f6-7563-4ba8-83f7-1b91c8e02a62")
 	)
 	(wire
 		(pts
@@ -11827,7 +11637,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 130.81) (xy 281.94 133.35)
+			(xy 281.94 132.08) (xy 281.94 133.35)
 		)
 		(stroke
 			(width 0)
@@ -11847,7 +11657,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 44.45) (xy 240.03 44.45)
+			(xy 245.11 39.37) (xy 248.92 39.37)
 		)
 		(stroke
 			(width 0)
@@ -12067,6 +11877,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 209.55) (xy 260.35 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41abf31f-bb07-4f1b-af10-cd809d5615d6")
+	)
+	(wire
+		(pts
 			(xy 369.57 198.12) (xy 369.57 199.39)
 		)
 		(stroke
@@ -12074,6 +11894,16 @@
 			(type default)
 		)
 		(uuid "4238a502-c836-43ce-abf4-174f1556c5c1")
+	)
+	(wire
+		(pts
+			(xy 265.43 152.4) (xy 267.97 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4254a370-d8cd-4de7-8a1b-3cdfa6585e83")
 	)
 	(wire
 		(pts
@@ -12357,6 +12187,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 214.63) (xy 260.35 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c5cf8d-f0a9-4770-8c70-586644fe163d")
+	)
+	(wire
+		(pts
 			(xy 173.99 121.92) (xy 177.8 121.92)
 		)
 		(stroke
@@ -12494,16 +12334,6 @@
 			(type default)
 		)
 		(uuid "617c6cd3-c042-45b5-98f2-05f193812823")
-	)
-	(wire
-		(pts
-			(xy 31.75 137.16) (xy 31.75 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a5650a-cfba-49f6-8a95-be0ae790305f")
 	)
 	(wire
 		(pts
@@ -12707,16 +12537,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 199.39) (xy 334.01 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "721572f2-bdc1-42f7-8382-8700c4002154")
-	)
-	(wire
-		(pts
 			(xy 353.822 78.486) (xy 358.902 78.486)
 		)
 		(stroke
@@ -12807,6 +12627,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 132.08) (xy 252.73 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763d8cdf-c1d1-40e6-8106-61bbf11b2374")
+	)
+	(wire
+		(pts
 			(xy 96.52 24.13) (xy 96.52 26.67)
 		)
 		(stroke
@@ -12827,7 +12657,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 46.99) (xy 240.03 46.99)
+			(xy 245.11 41.91) (xy 248.92 41.91)
 		)
 		(stroke
 			(width 0)
@@ -13047,6 +12877,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 132.08) (xy 281.94 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a0e0b3-8a05-43b2-8b9c-f83d783abc52")
+	)
+	(wire
+		(pts
 			(xy 128.27 149.86) (xy 128.27 152.4)
 		)
 		(stroke
@@ -13184,6 +13024,16 @@
 			(type default)
 		)
 		(uuid "8f20d208-6624-4261-909b-883ae2d56277")
+	)
+	(wire
+		(pts
+			(xy 264.16 212.09) (xy 260.35 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa89f55-9a9d-45ab-bdfa-97a8382b57c2")
 	)
 	(wire
 		(pts
@@ -13897,6 +13747,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 132.08) (xy 252.73 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7fb6c9d-f718-494e-aaba-b03b8e5b63ad")
+	)
+	(wire
+		(pts
 			(xy 175.26 34.29) (xy 184.15 34.29)
 		)
 		(stroke
@@ -14004,6 +13864,16 @@
 			(type default)
 		)
 		(uuid "bdec2cca-9e87-4204-ab98-6b3acd48349d")
+	)
+	(wire
+		(pts
+			(xy 260.35 209.55) (xy 260.35 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc81baf-eaba-415f-bb04-8baf096baea5")
 	)
 	(wire
 		(pts
@@ -14207,6 +14077,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 132.08) (xy 281.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0e949a-1b85-4140-b7f8-3b91a83f6c97")
+	)
+	(wire
+		(pts
 			(xy 339.852 41.656) (xy 339.852 31.496)
 		)
 		(stroke
@@ -14224,6 +14104,16 @@
 			(type default)
 		)
 		(uuid "cc6242d1-523a-489e-879d-1df943eb1ceb")
+	)
+	(wire
+		(pts
+			(xy 264.16 214.63) (xy 260.35 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0caa57-dd04-48b9-9baa-61c1f25d012c")
 	)
 	(wire
 		(pts
@@ -14257,6 +14147,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 152.4) (xy 265.43 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7b6932-67c8-4409-9b40-1b77563421b0")
+	)
+	(wire
+		(pts
 			(xy 254 201.93) (xy 256.54 201.93)
 		)
 		(stroke
@@ -14287,6 +14187,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 220.98) (xy 274.32 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4431322-a157-463d-ad7d-70c683bf6c49")
+	)
+	(wire
+		(pts
 			(xy 275.59 123.19) (xy 276.86 123.19)
 		)
 		(stroke
@@ -14294,6 +14204,16 @@
 			(type default)
 		)
 		(uuid "d4ce5979-a13d-47bb-8190-0b57f7e5648b")
+	)
+	(wire
+		(pts
+			(xy 278.13 152.4) (xy 278.13 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d551a383-7932-4087-aec3-ea2c330f6ec5")
 	)
 	(wire
 		(pts
@@ -14477,7 +14397,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 130.81) (xy 248.92 133.35)
+			(xy 248.92 132.08) (xy 248.92 133.35)
 		)
 		(stroke
 			(width 0)
@@ -14767,6 +14687,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 152.4) (xy 265.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bdcb43-8f3e-49fa-a7b7-7957b9f28401")
+	)
+	(wire
+		(pts
 			(xy 99.06 236.22) (xy 104.14 236.22)
 		)
 		(stroke
@@ -14814,16 +14744,6 @@
 			(type default)
 		)
 		(uuid "f9b108ff-a769-49ad-bbde-40d2b05d2980")
-	)
-	(wire
-		(pts
-			(xy 36.83 137.16) (xy 31.75 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa32fd2b-c1c0-4b1e-9a42-89f2de03bbd1")
 	)
 	(wire
 		(pts
@@ -15255,7 +15175,7 @@
 	)
 	(global_label "PP"
 		(shape bidirectional)
-		(at 236.22 46.99 180)
+		(at 245.11 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15265,7 +15185,7 @@
 		)
 		(uuid "403963bd-31a2-4a45-a6c0-a023fc85519a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.5835 46.99 0)
+			(at 238.4735 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15588,7 +15508,7 @@
 	)
 	(global_label "PILOT"
 		(shape bidirectional)
-		(at 236.22 44.45 180)
+		(at 245.11 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15598,7 +15518,7 @@
 		)
 		(uuid "5e64df53-9675-4536-bf52-d7b13bd56b54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.9225 44.45 0)
+			(at 235.8125 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15843,30 +15763,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "PE"
-		(shape bidirectional)
-		(at 67.31 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7aa5e8c5-5669-4ba8-adca-2aaf1333ba49")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7945 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -16147,30 +16043,6 @@
 		(uuid "99e01ee2-e808-49b9-baab-b54825dea52e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.7154 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PE"
-		(shape bidirectional)
-		(at 328.93 199.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b54013d-0994-4dc1-b300-bb38bc785294")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 322.4145 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17607,7 +17479,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:KF128-2.54-2P")
-		(at 245.11 45.72 0)
+		(at 254 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17617,7 +17489,7 @@
 		(dnp no)
 		(uuid "0f79607d-b0b5-4ff8-95c7-07857b53ce33")
 		(property "Reference" "Pilot1"
-			(at 244.094 51.562 0)
+			(at 252.984 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17628,7 +17500,7 @@
 			)
 		)
 		(property "Value" "KF128-2.54-2P"
-			(at 243.84 49.53 0)
+			(at 252.73 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17640,7 +17512,7 @@
 			)
 		)
 		(property "Footprint" "coreEVSE:TerminalBlock_KF128-2.54-2P"
-			(at 245.11 54.61 0)
+			(at 254 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17651,7 +17523,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Screw-terminal_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.html"
-			(at 245.11 57.15 0)
+			(at 254 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17662,7 +17534,7 @@
 			)
 		)
 		(property "Description" "Cixi Kefa KF128-2.54-2P screw terminal, 2 positions, 2.54 mm pitch, THT, 8 A, 130 V"
-			(at 245.11 59.69 0)
+			(at 254 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17673,7 +17545,7 @@
 			)
 		)
 		(property "LCSC" "C474920"
-			(at 245.11 52.07 0)
+			(at 254 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18372,162 +18244,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 31.75 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c529ca1-3307-4c23-8d94-472cf0942f9c")
-		(property "Reference" "#PWR039"
-			(at 31.75 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9406e90f-1375-47e3-98a4-d2b4ac90783f")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OpenEVSE_PLUS_v6.5.1-eagle-import:HOLE")
-		(at 115.57 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d661ad9-31b3-43a8-88cb-2d36b92ab90c")
-		(property "Reference" "U$3"
-			(at 115.57 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HOLE"
-			(at 115.57 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "coreEVSE:HOLE"
-			(at 115.57 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "P$1"
-			(uuid "aedaab43-afd2-4aee-9f1b-4d2b706b6d41")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd"
-					(reference "U$3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OpenEVSE_PLUS_v6.5.1-eagle-import:FIDUCIAL1X2.5")
 		(at 39.37 120.65 0)
 		(unit 1)
@@ -19218,7 +18934,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1N4004"
+		(property "Value" "S1M"
 			(at 218.4146 263.5758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19240,7 +18956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/S1M.pdf"
 			(at 220.98 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -19251,7 +18967,18 @@
 				)
 			)
 		)
-		(property "Description" "Surface Mount Schottky Power Rectifier\n\nSource: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF"
+		(property "Description" "1A surface-mount glass-passivated standard rectifier, VRRM 1000V, SMA (DO-214AC); Diodes Incorporated"
+			(at 220.98 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "S1M-13-F"
 			(at 220.98 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -19299,7 +19026,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1N4004"
+		(property "Value" "S1M"
 			(at 218.4146 253.4158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19321,7 +19048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/S1M.pdf"
 			(at 220.98 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -19332,7 +19059,18 @@
 				)
 			)
 		)
-		(property "Description" "Surface Mount Schottky Power Rectifier\n\nSource: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF"
+		(property "Description" "1A surface-mount glass-passivated standard rectifier, VRRM 1000V, SMA (DO-214AC); Diodes Incorporated"
+			(at 220.98 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "S1M-13-F"
 			(at 220.98 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -20075,7 +19813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 330.962 61.976 0)
 			(hide yes)
 			(show_name no)
@@ -20086,7 +19824,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7R1H106K250AC"
 			(at 332.232 56.896 0)
 			(hide yes)
 			(show_name no)
@@ -20097,7 +19835,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF 10V X7R ceramic capacitor"
+		(property "Description" "10uF 50V X7R ceramic capacitor; approx. 7-8uF at 12V DC bias (TDK typical graph)"
 			(at 330.962 59.436 0)
 			(hide yes)
 			(show_name no)
@@ -20108,7 +19846,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "TBD-10uF-10V-X7R-0603"
+		(property "PROD_ID" "C3225X7R1H106K250AC"
 			(at 330.962 54.356 0)
 			(hide yes)
 			(show_name no)
@@ -20119,7 +19857,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "50V"
 			(at 333.502 42.4941 0)
 			(hide yes)
 			(show_name no)
@@ -20131,7 +19869,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "10%"
 			(at 333.502 45.0341 0)
 			(hide yes)
 			(show_name no)
@@ -20750,7 +20488,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 213.36 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -20761,7 +20499,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/HV73.pdf"
 			(at 213.36 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -20772,7 +20510,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KOA HV73 180 kOhm 1% 1 W high-voltage resistor; rated 424 V at 180k; max working 3000 VDC; 5 s overload 1061 VDC; top-side terminal gap >=4.5 mm; single-pulse curve in datasheet"
 			(at 213.36 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -20783,7 +20521,84 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-12374"
+		(property "Manufacturer" "KOA Speer"
+			(at 213.36 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HV733ATTE1803F"
+			(at 213.36 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 213.36 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1 W @ 70C"
+			(at 213.36 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Max working voltage" "3000 VDC absolute; 424 VDC rated at 180k"
+			(at 213.36 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload" "1061 VDC for 5 s at 180k; 4000 VDC absolute maximum"
+			(at 213.36 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pulse" "One-pulse limiting-power curve in KOA HV73 datasheet; max applicable voltage 4000 VDC; verify actual surge"
+			(at 213.36 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creepage" ">=4.5 mm along top of 2512 body between terminations; PCB creepage requires layout check"
 			(at 213.36 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -21472,7 +21287,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 213.36 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -21483,7 +21298,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/HV73.pdf"
 			(at 213.36 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -21494,7 +21309,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KOA HV73 180 kOhm 1% 1 W high-voltage resistor; rated 424 V at 180k; max working 3000 VDC; 5 s overload 1061 VDC; top-side terminal gap >=4.5 mm; single-pulse curve in datasheet"
 			(at 213.36 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -21505,7 +21320,84 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-12374"
+		(property "Manufacturer" "KOA Speer"
+			(at 213.36 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HV733ATTE1803F"
+			(at 213.36 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 213.36 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1 W @ 70C"
+			(at 213.36 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Max working voltage" "3000 VDC absolute; 424 VDC rated at 180k"
+			(at 213.36 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload" "1061 VDC for 5 s at 180k; 4000 VDC absolute maximum"
+			(at 213.36 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pulse" "One-pulse limiting-power curve in KOA HV73 datasheet; max applicable voltage 4000 VDC; verify actual surge"
+			(at 213.36 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creepage" ">=4.5 mm along top of 2512 body between terminations; PCB creepage requires layout check"
 			(at 213.36 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -22004,7 +21896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 327.152 41.656 0)
 			(hide yes)
 			(show_name no)
@@ -22015,7 +21907,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7R1H106K250AC"
 			(at 332.232 42.926 0)
 			(hide yes)
 			(show_name no)
@@ -22026,7 +21918,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF 10V X7R ceramic capacitor"
+		(property "Description" "10uF 50V X7R ceramic capacitor; approx. 7-8uF at 12V DC bias (TDK typical graph)"
 			(at 329.692 41.656 0)
 			(hide yes)
 			(show_name no)
@@ -22037,7 +21929,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "TBD-10uF-10V-X7R-0603"
+		(property "PROD_ID" "C3225X7R1H106K250AC"
 			(at 334.772 41.656 0)
 			(hide yes)
 			(show_name no)
@@ -22048,7 +21940,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "50V"
 			(at 346.6339 44.196 0)
 			(hide yes)
 			(show_name no)
@@ -22060,7 +21952,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "10%"
 			(at 344.0939 44.196 0)
 			(hide yes)
 			(show_name no)
@@ -22318,7 +22210,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 203.2 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -22329,7 +22221,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/HV73.pdf"
 			(at 203.2 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -22340,7 +22232,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KOA HV73 180 kOhm 1% 1 W high-voltage resistor; rated 424 V at 180k; max working 3000 VDC; 5 s overload 1061 VDC; top-side terminal gap >=4.5 mm; single-pulse curve in datasheet"
 			(at 203.2 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -22351,7 +22243,84 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-12374"
+		(property "Manufacturer" "KOA Speer"
+			(at 203.2 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HV733ATTE1803F"
+			(at 203.2 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 203.2 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1 W @ 70C"
+			(at 203.2 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Max working voltage" "3000 VDC absolute; 424 VDC rated at 180k"
+			(at 203.2 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload" "1061 VDC for 5 s at 180k; 4000 VDC absolute maximum"
+			(at 203.2 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pulse" "One-pulse limiting-power curve in KOA HV73 datasheet; max applicable voltage 4000 VDC; verify actual surge"
+			(at 203.2 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creepage" ">=4.5 mm along top of 2512 body between terminations; PCB creepage requires layout check"
 			(at 203.2 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -23443,7 +23412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 327.152 31.496 0)
 			(hide yes)
 			(show_name no)
@@ -23454,7 +23423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7R1H106K250AC"
 			(at 332.232 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -23465,7 +23434,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF 10V X7R ceramic capacitor"
+		(property "Description" "10uF 50V X7R ceramic capacitor; approx. 7-8uF at 12V DC bias (TDK typical graph)"
 			(at 329.692 31.496 0)
 			(hide yes)
 			(show_name no)
@@ -23476,7 +23445,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "TBD-10uF-10V-X7R-0603"
+		(property "PROD_ID" "C3225X7R1H106K250AC"
 			(at 334.772 31.496 0)
 			(hide yes)
 			(show_name no)
@@ -23487,7 +23456,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "50V"
 			(at 346.6339 34.036 0)
 			(hide yes)
 			(show_name no)
@@ -23499,7 +23468,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "10%"
 			(at 344.0939 34.036 0)
 			(hide yes)
 			(show_name no)
@@ -23700,6 +23669,84 @@
 			(project "evse"
 				(path "/11cad39f-0746-4064-b162-743100309dbd"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70df756d-ee1d-4ff9-bfd6-1f22cb8a8338")
+		(property "Reference" "#PWR045"
+			(at 265.43 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "299c97fe-e534-4edf-9281-bc5ea302b151")
+		)
+		(instances
+			(project "evse"
+				(path "/11cad39f-0746-4064-b162-743100309dbd"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -24627,7 +24674,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 203.2 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -24638,7 +24685,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/HV73.pdf"
 			(at 203.2 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -24649,7 +24696,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KOA HV73 180 kOhm 1% 1 W high-voltage resistor; rated 424 V at 180k; max working 3000 VDC; 5 s overload 1061 VDC; top-side terminal gap >=4.5 mm; single-pulse curve in datasheet"
 			(at 203.2 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -24660,7 +24707,84 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-12374"
+		(property "Manufacturer" "KOA Speer"
+			(at 203.2 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HV733ATTE1803F"
+			(at 203.2 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 203.2 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1 W @ 70C"
+			(at 203.2 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Max working voltage" "3000 VDC absolute; 424 VDC rated at 180k"
+			(at 203.2 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload" "1061 VDC for 5 s at 180k; 4000 VDC absolute maximum"
+			(at 203.2 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pulse" "One-pulse limiting-power curve in KOA HV73 datasheet; max applicable voltage 4000 VDC; verify actual surge"
+			(at 203.2 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creepage" ">=4.5 mm along top of 2512 body between terminations; PCB creepage requires layout check"
 			(at 203.2 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -26044,8 +26168,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1N4004"
-			(at 218.4146 243.2558 0)
+		(property "Value" "S1M"
+			(at 225.044 245.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26066,7 +26190,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/S1M.pdf"
 			(at 220.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -26077,7 +26201,18 @@
 				)
 			)
 		)
-		(property "Description" "Surface Mount Schottky Power Rectifier\n\nSource: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF"
+		(property "Description" "1A surface-mount glass-passivated standard rectifier, VRRM 1000V, SMA (DO-214AC); Diodes Incorporated"
+			(at 220.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "S1M-13-F"
 			(at 220.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -26136,7 +26271,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 213.36 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -26147,7 +26282,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/HV73.pdf"
 			(at 213.36 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -26158,7 +26293,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KOA HV73 180 kOhm 1% 1 W high-voltage resistor; rated 424 V at 180k; max working 3000 VDC; 5 s overload 1061 VDC; top-side terminal gap >=4.5 mm; single-pulse curve in datasheet"
 			(at 213.36 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -26169,7 +26304,84 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-12374"
+		(property "Manufacturer" "KOA Speer"
+			(at 213.36 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HV733ATTE1803F"
+			(at 213.36 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 213.36 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1 W @ 70C"
+			(at 213.36 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Max working voltage" "3000 VDC absolute; 424 VDC rated at 180k"
+			(at 213.36 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload" "1061 VDC for 5 s at 180k; 4000 VDC absolute maximum"
+			(at 213.36 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pulse" "One-pulse limiting-power curve in KOA HV73 datasheet; max applicable voltage 4000 VDC; verify actual surge"
+			(at 213.36 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creepage" ">=4.5 mm along top of 2512 body between terminations; PCB creepage requires layout check"
 			(at 213.36 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -27518,84 +27730,6 @@
 		)
 	)
 	(symbol
-		(lib_id "coreEVSE:supply2_PE")
-		(at 334.01 204.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a75db43d-7f0b-4e22-8f8d-59e65e971da6")
-		(property "Reference" "#SUPPLY03"
-			(at 334.01 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PE"
-			(at 332.105 209.169 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.01 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SUPPLY SYMBOL"
-			(at 334.01 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b04fab3-63ba-4ef5-940f-747373b81700")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd"
-					(reference "#SUPPLY03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-Resistor:10k_0402")
 		(at 380.492 60.706 270)
 		(unit 1)
@@ -27680,85 +27814,6 @@
 			(project "evse"
 				(path "/11cad39f-0746-4064-b162-743100309dbd"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "HOLE_1")
-		(lib_id "OpenEVSE_PLUS_v6.5.1-eagle-import:HOLE")
-		(at 77.47 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a85db4d6-df7e-4d06-b61f-8ee34d1edf89")
-		(property "Reference" "U$9"
-			(at 77.47 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HOLE"
-			(at 77.47 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "coreEVSE:HOLE"
-			(at 77.47 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "P$1"
-			(uuid "2c02f341-68ea-46c7-a1a7-ba2b502ff877")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd"
-					(reference "U$9")
 					(unit 1)
 				)
 			)
@@ -27903,7 +27958,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1N4004"
+		(property "Value" "S1M"
 			(at 218.4146 273.7358 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27925,7 +27980,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/S1M.pdf"
 			(at 220.98 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -27936,7 +27991,18 @@
 				)
 			)
 		)
-		(property "Description" "Surface Mount Schottky Power Rectifier\n\nSource: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF"
+		(property "Description" "1A surface-mount glass-passivated standard rectifier, VRRM 1000V, SMA (DO-214AC); Diodes Incorporated"
+			(at 220.98 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "S1M-13-F"
 			(at 220.98 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -29253,6 +29319,85 @@
 		)
 	)
 	(symbol
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
+		(at 257.81 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf78af39-91d9-42b9-be9a-dab83f8fec26")
+		(property "Reference" "R42"
+			(at 257.81 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 257.81 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 257.81 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Base-emitter pulldown for relay off during MCU reset"
+			(at 257.81 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "151c8b7e-9d6f-484b-8db1-1d95dedd47b3")
+		)
+		(pin "2"
+			(uuid "7a9570cc-325f-4f22-b9e5-d05867598559")
+		)
+		(instances
+			(project "evse"
+				(path "/11cad39f-0746-4064-b162-743100309dbd"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 310.642 69.596 270)
 		(unit 1)
@@ -29971,7 +30116,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 213.36 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -29982,7 +30127,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/HV73.pdf"
 			(at 213.36 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -29993,7 +30138,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KOA HV73 180 kOhm 1% 1 W high-voltage resistor; rated 424 V at 180k; max working 3000 VDC; 5 s overload 1061 VDC; top-side terminal gap >=4.5 mm; single-pulse curve in datasheet"
 			(at 213.36 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -30004,7 +30149,84 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-12374"
+		(property "Manufacturer" "KOA Speer"
+			(at 213.36 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HV733ATTE1803F"
+			(at 213.36 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 213.36 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1 W @ 70C"
+			(at 213.36 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Max working voltage" "3000 VDC absolute; 424 VDC rated at 180k"
+			(at 213.36 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload" "1061 VDC for 5 s at 180k; 4000 VDC absolute maximum"
+			(at 213.36 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pulse" "One-pulse limiting-power curve in KOA HV73 datasheet; max applicable voltage 4000 VDC; verify actual surge"
+			(at 213.36 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creepage" ">=4.5 mm along top of 2512 body between terminations; PCB creepage requires layout check"
 			(at 213.36 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -30193,6 +30415,85 @@
 		)
 	)
 	(symbol
+		(lib_id "coreEVSE:SparkFun_RESISTOR0805-RES")
+		(at 273.05 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1298dff-b9f9-405d-a0fe-87fb530c87bc")
+		(property "Reference" "R43"
+			(at 273.05 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 273.05 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 273.05 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Base-emitter pulldown for relay off during MCU reset"
+			(at 273.05 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8648447d-ac17-4b4b-8d40-b4ff946d3389")
+		)
+		(pin "2"
+			(uuid "9d06e138-c148-4852-bea4-236692781fd3")
+		)
+		(instances
+			(project "evse"
+				(path "/11cad39f-0746-4064-b162-743100309dbd"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Capacitor:1.0uF_0805_25V_10%")
 		(at 355.092 31.496 270)
 		(unit 1)
@@ -30225,7 +30526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 334.772 31.496 0)
 			(hide yes)
 			(show_name no)
@@ -30236,7 +30537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7R1H106K250AC"
 			(at 339.852 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -30247,7 +30548,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF 10V X7R ceramic capacitor"
+		(property "Description" "10uF 50V X7R ceramic capacitor; approx. 7-8uF at 12V DC bias (TDK typical graph)"
 			(at 337.312 31.496 0)
 			(hide yes)
 			(show_name no)
@@ -30258,7 +30559,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "TBD-10uF-10V-X7R-0603"
+		(property "PROD_ID" "C3225X7R1H106K250AC"
 			(at 342.392 31.496 0)
 			(hide yes)
 			(show_name no)
@@ -30269,7 +30570,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "50V"
 			(at 354.2539 34.036 0)
 			(hide yes)
 			(show_name no)
@@ -30281,7 +30582,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "10%"
 			(at 351.7139 34.036 0)
 			(hide yes)
 			(show_name no)
@@ -30341,7 +30642,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 203.2 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -30352,7 +30653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/HV73.pdf"
 			(at 203.2 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -30363,7 +30664,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KOA HV73 180 kOhm 1% 1 W high-voltage resistor; rated 424 V at 180k; max working 3000 VDC; 5 s overload 1061 VDC; top-side terminal gap >=4.5 mm; single-pulse curve in datasheet"
 			(at 203.2 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -30374,7 +30675,84 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-12374"
+		(property "Manufacturer" "KOA Speer"
+			(at 203.2 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HV733ATTE1803F"
+			(at 203.2 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 203.2 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1 W @ 70C"
+			(at 203.2 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Max working voltage" "3000 VDC absolute; 424 VDC rated at 180k"
+			(at 203.2 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload" "1061 VDC for 5 s at 180k; 4000 VDC absolute maximum"
+			(at 203.2 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pulse" "One-pulse limiting-power curve in KOA HV73 datasheet; max applicable voltage 4000 VDC; verify actual surge"
+			(at 203.2 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creepage" ">=4.5 mm along top of 2512 body between terminations; PCB creepage requires layout check"
 			(at 203.2 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -30991,7 +31369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 334.772 41.656 0)
 			(hide yes)
 			(show_name no)
@@ -31002,7 +31380,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7R1H106K250AC"
 			(at 339.852 42.926 0)
 			(hide yes)
 			(show_name no)
@@ -31013,7 +31391,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF 10V X7R ceramic capacitor"
+		(property "Description" "10uF 50V X7R ceramic capacitor; approx. 7-8uF at 12V DC bias (TDK typical graph)"
 			(at 337.312 41.656 0)
 			(hide yes)
 			(show_name no)
@@ -31024,7 +31402,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "TBD-10uF-10V-X7R-0603"
+		(property "PROD_ID" "C3225X7R1H106K250AC"
 			(at 342.392 41.656 0)
 			(hide yes)
 			(show_name no)
@@ -31035,7 +31413,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "50V"
 			(at 354.2539 44.196 0)
 			(hide yes)
 			(show_name no)
@@ -31047,7 +31425,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "10%"
 			(at 351.7139 44.196 0)
 			(hide yes)
 			(show_name no)
@@ -32262,7 +32640,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 203.2 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -32273,7 +32651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/HV73.pdf"
 			(at 203.2 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -32284,7 +32662,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "KOA HV73 180 kOhm 1% 1 W high-voltage resistor; rated 424 V at 180k; max working 3000 VDC; 5 s overload 1061 VDC; top-side terminal gap >=4.5 mm; single-pulse curve in datasheet"
 			(at 203.2 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -32295,7 +32673,84 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-12374"
+		(property "Manufacturer" "KOA Speer"
+			(at 203.2 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HV733ATTE1803F"
+			(at 203.2 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 203.2 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1 W @ 70C"
+			(at 203.2 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Max working voltage" "3000 VDC absolute; 424 VDC rated at 180k"
+			(at 203.2 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload" "1061 VDC for 5 s at 180k; 4000 VDC absolute maximum"
+			(at 203.2 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pulse" "One-pulse limiting-power curve in KOA HV73 datasheet; max applicable voltage 4000 VDC; verify actual surge"
+			(at 203.2 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creepage" ">=4.5 mm along top of 2512 body between terminations; PCB creepage requires layout check"
 			(at 203.2 275.59 0)
 			(hide yes)
 			(show_name no)
