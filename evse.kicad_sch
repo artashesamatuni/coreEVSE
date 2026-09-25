@@ -5949,7 +5949,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "coreEVSE:Crystal_16MHz_3.2x2.5mm"
+		(symbol "coreEVSE:Crystal_GND24"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5972,7 +5972,7 @@
 					)
 				)
 			)
-			(property "Value" "16MHz"
+			(property "Value" "FA-238A 16MHz CL=8pF"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5982,7 +5982,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_SparkFun-Clock:Crystal_SMD_3.2x2.5mm"
+			(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5993,7 +5993,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/products/productdata/8801057112094/SPEC-XRCGB16M000FXN01R0.pdf"
+			(property "Datasheet" "https://www.epsondevice.com/crystal/en/products/crystal-unit/fa238a.html"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6004,7 +6004,7 @@
 					)
 				)
 			)
-			(property "Description" "Crystal"
+			(property "Description" "16 MHz fundamental crystal, CL 8 pF, 4-pad 3225, AEC-Q200"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6015,7 +6015,7 @@
 					)
 				)
 			)
-			(property "PROD_ID" "XTAL-14681"
+			(property "PROD_ID" "FA-238A 16.000MHz CL=8pF"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6026,7 +6026,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SparkFun quartz ceramic resonator oscillator"
+			(property "ki_keywords" "quartz crystal oscillator 16MHz grounded case AEC-Q200"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6048,22 +6048,11 @@
 					)
 				)
 			)
-			(symbol "Crystal_16MHz_3.2x2.5mm_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -0.762) (xy -1.27 0.762)
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 -1.524)
-					(end 0.762 1.524)
 					(stroke
 						(width 0)
 						(type default)
@@ -6074,10 +6063,81 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -0.762) (xy 1.27 0.762)
+						(xy -2.54 0) (xy -2.032 0)
 					)
 					(stroke
-						(width 0.381)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -6085,9 +6145,9 @@
 					)
 				)
 			)
-			(symbol "Crystal_16MHz_3.2x2.5mm_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
-					(at -2.54 0 0)
+					(at -3.81 0 0)
 					(length 1.27)
 					(name "1"
 						(effects
@@ -6105,9 +6165,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
+					(at 0 -5.08 90)
 					(length 1.27)
-					(name "2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6122,11 +6182,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -2.54 2.54 0)
+				(pin passive line
+					(at 3.81 0 180)
 					(length 1.27)
-					(hide yes)
-					(name "NC1"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6141,11 +6200,11 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 2.54 2.54 180)
+				(pin passive line
+					(at 0 -5.08 90)
 					(length 1.27)
 					(hide yes)
-					(name "NC2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10549,12 +10608,6 @@
 		(uuid "3215564e-c1aa-49df-839d-80bf959a17a0")
 	)
 	(junction
-		(at 205.74 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3470c609-2f95-4345-8949-dc88a20b588b")
-	)
-	(junction
 		(at 129.54 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10649,6 +10702,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ee823e2-edaf-4123-a1c2-7f48f4484493")
+	)
+	(junction
+		(at 205.74 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68f58786-b3f0-43af-b4e9-3ec8c9fe03c1")
 	)
 	(junction
 		(at 153.67 106.68)
@@ -12088,16 +12147,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 48.26) (xy 205.74 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e251ba-6d7f-406a-9bba-f8858434a8ec")
-	)
-	(wire
-		(pts
 			(xy 175.26 80.01) (xy 184.15 80.01)
 		)
 		(stroke
@@ -12268,6 +12317,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 55.88) (xy 205.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55574d13-5c9e-40a5-af2c-219de64d5682")
+	)
+	(wire
+		(pts
 			(xy 365.76 198.12) (xy 369.57 198.12)
 		)
 		(stroke
@@ -12328,16 +12387,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 52.07) (xy 203.2 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58466bb2-f8bf-49ab-8b77-b81b0a6fb3e9")
-	)
-	(wire
-		(pts
 			(xy 116.84 271.78) (xy 157.48 271.78)
 		)
 		(stroke
@@ -12375,16 +12424,6 @@
 			(type default)
 		)
 		(uuid "5acbd221-eb8f-4e18-a8ae-2fd633d87718")
-	)
-	(wire
-		(pts
-			(xy 205.74 48.26) (xy 205.74 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b1ce127-9d7d-40df-a842-acc21b622488")
 	)
 	(wire
 		(pts
@@ -12455,16 +12494,6 @@
 			(type default)
 		)
 		(uuid "61a5650a-cfba-49f6-8a95-be0ae790305f")
-	)
-	(wire
-		(pts
-			(xy 205.74 54.61) (xy 205.74 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6204dad8-a695-4e96-aeaa-e95555f0dd2f")
 	)
 	(wire
 		(pts
@@ -12655,6 +12684,16 @@
 			(type default)
 		)
 		(uuid "7102abfe-41a2-4fbc-b360-f1db10227626")
+	)
+	(wire
+		(pts
+			(xy 199.39 48.26) (xy 205.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714aa992-e246-4710-94f0-81521af5b182")
 	)
 	(wire
 		(pts
@@ -13008,6 +13047,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 48.26) (xy 209.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85be108a-98b9-4918-9a1d-5c3e900cc74a")
+	)
+	(wire
+		(pts
 			(xy 264.16 123.19) (xy 265.43 123.19)
 		)
 		(stroke
@@ -13208,6 +13257,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 49.53) (xy 199.39 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94dd2348-511d-4546-9c7b-23421dc38bfb")
+	)
+	(wire
+		(pts
 			(xy 358.902 27.686) (xy 362.712 27.686)
 		)
 		(stroke
@@ -13345,6 +13404,16 @@
 			(type default)
 		)
 		(uuid "9beb9df4-71dc-4247-8333-a8cc10e4db02")
+	)
+	(wire
+		(pts
+			(xy 199.39 49.53) (xy 199.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7ade01-40e7-4d55-8329-a3f90e0664d7")
 	)
 	(wire
 		(pts
@@ -13615,16 +13684,6 @@
 			(type default)
 		)
 		(uuid "acc29ea6-71c5-4ad7-9a8c-33f50220fc50")
-	)
-	(wire
-		(pts
-			(xy 204.47 49.53) (xy 204.47 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acd4853b-0184-400b-b1fe-d64575cf6e32")
 	)
 	(wire
 		(pts
@@ -14288,16 +14347,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 49.53) (xy 204.47 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d97492aa-b626-427a-9a0d-f6261ef8ea06")
-	)
-	(wire
-		(pts
 			(xy 352.552 31.496) (xy 351.282 31.496)
 		)
 		(stroke
@@ -14368,6 +14417,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 52.07) (xy 199.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7cb940-3f20-4617-b3a0-cbea8b522290")
+	)
+	(wire
+		(pts
 			(xy 321.31 100.33) (xy 327.66 100.33)
 		)
 		(stroke
@@ -14405,16 +14464,6 @@
 			(type default)
 		)
 		(uuid "e059218c-14eb-4047-8b40-ea834bec6051")
-	)
-	(wire
-		(pts
-			(xy 175.26 52.07) (xy 203.2 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e160ebae-ea7e-4e0e-90a0-30d5694767fc")
 	)
 	(wire
 		(pts
@@ -14458,16 +14507,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 48.26) (xy 209.55 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2d4e623-5a53-4869-8df0-5aee109eb9ec")
-	)
-	(wire
-		(pts
 			(xy 339.852 70.866) (xy 339.852 78.486)
 		)
 		(stroke
@@ -14505,16 +14544,6 @@
 			(type default)
 		)
 		(uuid "e59fc63e-4582-4f5a-ad5f-a7051c2e187b")
-	)
-	(wire
-		(pts
-			(xy 203.2 55.88) (xy 205.74 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5cb8f43-1bec-4fbb-9223-33942bc84fc0")
 	)
 	(wire
 		(pts
@@ -14678,6 +14707,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 52.07) (xy 199.39 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5372397-d704-438e-97fb-0f42b5be234f")
+	)
+	(wire
+		(pts
 			(xy 379.73 100.33) (xy 386.08 100.33)
 		)
 		(stroke
@@ -14685,6 +14724,16 @@
 			(type default)
 		)
 		(uuid "f546470e-82ff-4c7a-80bf-361d2c1071d9")
+	)
+	(wire
+		(pts
+			(xy 210.82 52.07) (xy 217.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c1b01e-b220-46d0-9fa8-9ec071c1d0b4")
 	)
 	(wire
 		(pts
@@ -20748,7 +20797,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "12pF"
 			(at 213.868 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20758,7 +20807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0805"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.66 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -20769,7 +20818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GRM1555C1H120GA01%23.html"
 			(at 195.58 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -20780,7 +20829,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "12 pF C0G/NP0 ceramic capacitor, 50 V, 2%, 0402"
 			(at 193.04 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -20791,7 +20840,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-25012"
+		(property "PROD_ID" "GRM1555C1H120GA01D"
 			(at 198.12 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -20813,7 +20862,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "2%"
 			(at 212.0837 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -22843,9 +22892,8 @@
 		)
 	)
 	(symbol
-		(lib_id "coreEVSE:Crystal_16MHz_3.2x2.5mm")
-		(at 205.74 52.07 270)
-		(mirror x)
+		(lib_id "coreEVSE:Crystal_GND24")
+		(at 205.74 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22865,7 +22913,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "16MHz"
+		(property "Value" "FA-238A 16MHz CL=8pF"
 			(at 214.376 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -22877,7 +22925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Clock:Crystal_SMD_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm"
 			(at 198.12 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -22888,7 +22936,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdata/8801057112094/SPEC-XRCGB16M000FXN01R0.pdf"
+		(property "Datasheet" "https://www.epsondevice.com/crystal/en/products/crystal-unit/fa238a.html"
 			(at 200.66 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -22899,7 +22947,7 @@
 				)
 			)
 		)
-		(property "Description" "Crystal"
+		(property "Description" "16 MHz fundamental crystal, CL 8 pF, 4-pad 3225, AEC-Q200"
 			(at 193.04 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -22910,7 +22958,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "XTAL-14681"
+		(property "PROD_ID" "FA-238A 16.000MHz CL=8pF"
 			(at 195.58 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -31015,7 +31063,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "12pF"
 			(at 215.646 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31025,7 +31073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0805"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.66 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -31036,7 +31084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GRM1555C1H120GA01%23.html"
 			(at 195.58 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -31047,7 +31095,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "12 pF C0G/NP0 ceramic capacitor, 50 V, 2%, 0402"
 			(at 193.04 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -31058,7 +31106,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-25012"
+		(property "PROD_ID" "GRM1555C1H120GA01D"
 			(at 198.12 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -31080,7 +31128,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "2%"
 			(at 212.0837 44.45 90)
 			(hide yes)
 			(show_name no)
