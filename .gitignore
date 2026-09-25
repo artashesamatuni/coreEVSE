@@ -9,6 +9,9 @@ _restore_backup_*/
 *.kicad_prl
 *.lck
 
+# Markdown documents
+*.md
+
 # Optional: Exclude manufacturing outputs if you want to regenerate them later
 # Gerbers/
 # *.pdf
