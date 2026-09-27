@@ -4506,248 +4506,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_SwitchedCapacitor:LTC1044"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LTC1044"
-				(at 3.81 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/lt1044.pdf"
-				(at 2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switched Capacitor Voltage Converter, 1.5V to 9V supply operation, 200uA Max No Load Supply Current at 5V, DIP-8/TO-99"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "monolithic CMOS switched capacitor voltage converter invert double divide multiply boost"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm* TO?99*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LTC1044_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LTC1044_1_1"
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "BOOST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "CAP+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "CAP-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "LV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "OSC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Switching:AP63205WU"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6726,6 +6484,248 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "coreEVSE:LTC1144"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTC1144"
+				(at 3.81 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1144fa.pdf"
+				(at 2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LTC1144 wide-input switched-capacitor voltage inverter, 2V to 18V input, shutdown, SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "monolithic CMOS switched capacitor voltage converter invert double divide multiply boost"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*8*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LTC1144_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LTC1144_1_1"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "BOOST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "CAP+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "CAP-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "SHDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "OSC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10195,6 +10195,16 @@
 		)
 		(uuid "05566ec5-d18a-4cb0-91f0-c7007a9c3655")
 	)
+	(text "230 V AC RMS between ACLIN (L) and ACNIN (N)"
+		(exclude_from_sim no)
+		(at 332.74 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0acaae08-c8e9-4c78-bb8c-d6eaa169461a")
+	)
 	(text "PP Read"
 		(exclude_from_sim no)
 		(at 337.312 248.158 0)
@@ -10830,6 +10840,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2ff44f4-8e14-4751-92b3-4f81f861ebfe")
+	)
+	(junction
+		(at 186.69 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f37e608e-c904-467a-b7e0-5abb5c3ae3f3")
 	)
 	(junction
 		(at 232.41 246.38)
@@ -11597,6 +11613,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 203.2) (xy 186.69 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4b71db-64f4-4b5e-9092-6be6b8d8a8b0")
+	)
+	(wire
+		(pts
 			(xy 223.52 248.92) (xy 232.41 248.92)
 		)
 		(stroke
@@ -11664,16 +11690,6 @@
 			(type default)
 		)
 		(uuid "32135291-45bf-4fd6-825c-0f1adc6d2ed5")
-	)
-	(wire
-		(pts
-			(xy 179.07 198.12) (xy 186.69 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d97464-d4fd-4532-9de8-1b8eee4c670d")
 	)
 	(wire
 		(pts
@@ -12527,6 +12543,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 100.33) (xy 327.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71362361-26b9-4dfe-bb70-b30d7fc2d951")
+	)
+	(wire
+		(pts
 			(xy 199.39 48.26) (xy 205.74 48.26)
 		)
 		(stroke
@@ -12544,16 +12570,6 @@
 			(type default)
 		)
 		(uuid "7244e1b2-c0c0-47a2-b36a-7d5e0b82f3eb")
-	)
-	(wire
-		(pts
-			(xy 185.42 203.2) (xy 186.69 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738dfa33-f166-4294-bf86-249bdf79933e")
 	)
 	(wire
 		(pts
@@ -12664,16 +12680,6 @@
 			(type default)
 		)
 		(uuid "76991b42-257a-4ed1-8296-e9276350208f")
-	)
-	(wire
-		(pts
-			(xy 179.07 203.2) (xy 180.34 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7742608c-dace-41ec-880e-76016f395234")
 	)
 	(wire
 		(pts
@@ -12854,6 +12860,16 @@
 			(type default)
 		)
 		(uuid "823490dd-f2ff-4c8f-80e1-66f9469edb4b")
+	)
+	(wire
+		(pts
+			(xy 323.85 107.95) (xy 327.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831f8bd0-b529-4f8f-a44e-cbfde6bf521e")
 	)
 	(wire
 		(pts
@@ -13227,7 +13243,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 107.95) (xy 327.66 107.95)
+			(xy 321.31 107.95) (xy 323.85 107.95)
 		)
 		(stroke
 			(width 0)
@@ -13434,6 +13450,16 @@
 			(type default)
 		)
 		(uuid "a6ea1da0-7d09-406e-a66c-a792250e649d")
+	)
+	(wire
+		(pts
+			(xy 185.42 198.12) (xy 186.69 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7840bf2-82e5-4241-8ee5-b9589deae197")
 	)
 	(wire
 		(pts
@@ -14357,7 +14383,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 100.33) (xy 327.66 100.33)
+			(xy 321.31 100.33) (xy 323.85 100.33)
 		)
 		(stroke
 			(width 0)
@@ -14734,6 +14760,16 @@
 			(type solid)
 		)
 		(uuid "f959379f-f0d4-4b79-af4d-bde7550922f0")
+	)
+	(wire
+		(pts
+			(xy 179.07 198.12) (xy 180.34 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a915fa-6a1f-4fe6-8baa-e9544b3a3178")
 	)
 	(wire
 		(pts
@@ -17240,6 +17276,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 323.85 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a87d2b9-f916-406c-8319-deaf56b36c69")
+		(property "Reference" "#FLG04"
+			(at 323.85 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 323.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 323.85 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb09a1ba-48ac-4d2d-becd-63200e6d59b7")
+		)
+		(instances
+			(project "evse"
+				(path "/11cad39f-0746-4064-b162-743100309dbd"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "coreEVSE:diode_BAS40-06")
 		(at 55.88 262.89 90)
 		(unit 1)
@@ -18064,7 +18179,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Fuse:Fuse")
-		(at 182.88 203.2 0)
+		(at 182.88 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18074,7 +18189,7 @@
 		(dnp no)
 		(uuid "1aaf2f4b-86e5-4ebe-8c41-f89bf67ac429")
 		(property "Reference" "F1"
-			(at 182.88 205.232 0)
+			(at 182.88 200.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18084,7 +18199,7 @@
 			)
 		)
 		(property "Value" "1.6A 250VAC slow-blow"
-			(at 182.88 200.66 0)
+			(at 182.88 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18095,7 +18210,7 @@
 			)
 		)
 		(property "Footprint" "coreEVSE:BELFUSE1A"
-			(at 182.88 203.2 0)
+			(at 182.88 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18106,7 +18221,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.belfuse.com/products/circuit-protection/fuses/0haal1600-05"
-			(at 182.88 207.01 0)
+			(at 182.88 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18117,7 +18232,7 @@
 			)
 		)
 		(property "Description" "Radial mains fuse, 1.6A, 250VAC, time-lag, 5.08mm pitch"
-			(at 182.88 209.55 0)
+			(at 182.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18128,7 +18243,7 @@
 			)
 		)
 		(property "PROD_ID" "0HAAL1600-05"
-			(at 183.134 208.28 0)
+			(at 183.134 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24086,6 +24201,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 323.85 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "766d4536-0d65-4492-900b-940ff5f78643")
+		(property "Reference" "#FLG03"
+			(at 323.85 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 323.85 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 323.85 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "119ff520-837b-4536-9982-3a2a18967c4f")
+		)
+		(instances
+			(project "evse"
+				(path "/11cad39f-0746-4064-b162-743100309dbd"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Capacitor:0.1uF_0402_16V_10%")
 		(at 110.49 76.2 0)
 		(unit 1)
@@ -26558,6 +26752,85 @@
 			(project "evse"
 				(path "/11cad39f-0746-4064-b162-743100309dbd"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 186.69 203.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0b354e4-d4db-4307-b7c0-94b2de931ecd")
+		(property "Reference" "#FLG05"
+			(at 186.69 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 175.514 204.724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 186.69 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ad577f8-a76b-411b-a4c3-ce3d95ebc84e")
+		)
+		(instances
+			(project "evse"
+				(path "/11cad39f-0746-4064-b162-743100309dbd"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -29986,7 +30259,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_SwitchedCapacitor:LTC1044")
+		(lib_id "coreEVSE:LTC1144")
 		(at 316.992 39.116 0)
 		(unit 1)
 		(body_style 1)
@@ -30007,7 +30280,7 @@
 				)
 			)
 		)
-		(property "Value" "TC1044S"
+		(property "Value" "LTC1144IS8#TRPBF"
 			(at 316.992 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30028,7 +30301,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/lt1044.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1144fa.pdf"
 			(at 319.532 41.656 0)
 			(hide yes)
 			(show_name no)
@@ -30039,7 +30312,7 @@
 				)
 			)
 		)
-		(property "Description" "Switched Capacitor Voltage Converter, 1.5V to 9V supply operation, 200uA Max No Load Supply Current at 5V, DIP-8/TO-99"
+		(property "Description" "Wide-input 2V to 18V switched-capacitor voltage inverter, SOIC-8; BOOST high, SHDN open for normal operation"
 			(at 316.992 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -31760,7 +32033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
+		(property "Footprint" "PCM_JLCPCB:C_0805"
 			(at 39.37 45.72 0)
 			(hide yes)
 			(show_name no)
