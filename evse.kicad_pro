@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.05,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.25,
           "thermal_relief_spoke_width": 0.25
         }
@@ -919,6 +919,14 @@
     [
       "11cad39f-0746-4064-b162-743100309dbd",
       "Root"
+    ],
+    [
+      "2be84d3f-135f-4302-84a7-a777d9d2c8ba",
+      "Relay Control"
+    ],
+    [
+      "23bb0d6c-bab2-406a-9867-b6914afeee18",
+      "Power Supplies"
     ]
   ],
   "text_variables": {},
