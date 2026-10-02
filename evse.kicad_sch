@@ -8026,6 +8026,12 @@
 		(uuid "b80f8fe2-117f-4407-9f72-c53cbbb6e8d8")
 	)
 	(junction
+		(at 323.85 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baf72b2a-71c7-49b2-a08e-265127f12937")
+	)
+	(junction
 		(at 95.25 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8066,6 +8072,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb77c0b4-4c82-4111-8c6d-8ef7d401166e")
+	)
+	(junction
+		(at 323.85 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe3c0b39-e948-423a-b498-2968251eeb81")
 	)
 	(no_connect
 		(at 186.69 69.85)
@@ -8121,7 +8133,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 115.57) (xy 327.66 115.57)
+			(xy 321.31 177.8) (xy 327.66 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8231,7 +8243,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 115.57) (xy 386.08 115.57)
+			(xy 374.65 177.8) (xy 386.08 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8361,7 +8373,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 88.9) (xy 281.94 88.9)
+			(xy 269.24 109.22) (xy 271.78 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8371,7 +8383,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 91.44) (xy 302.26 96.52)
+			(xy 292.1 111.76) (xy 292.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8711,7 +8723,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 100.33) (xy 327.66 100.33)
+			(xy 323.85 162.56) (xy 327.66 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8821,7 +8833,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 107.95) (xy 327.66 107.95)
+			(xy 323.85 170.18) (xy 327.66 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8921,7 +8933,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 86.36) (xy 303.53 86.36)
+			(xy 292.1 106.68) (xy 293.37 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8951,7 +8963,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 107.95) (xy 323.85 107.95)
+			(xy 321.31 170.18) (xy 323.85 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9021,7 +9033,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 91.44) (xy 281.94 91.44)
+			(xy 269.24 111.76) (xy 271.78 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9181,7 +9193,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 86.36) (xy 281.94 86.36)
+			(xy 269.24 106.68) (xy 271.78 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9191,7 +9203,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 88.9) (xy 303.53 88.9)
+			(xy 292.1 109.22) (xy 293.37 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9271,7 +9283,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 107.95) (xy 386.08 107.95)
+			(xy 379.73 170.18) (xy 386.08 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9311,7 +9323,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 100.33) (xy 323.85 100.33)
+			(xy 321.31 162.56) (xy 323.85 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9451,7 +9463,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 100.33) (xy 386.08 100.33)
+			(xy 379.73 162.56) (xy 386.08 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9675,7 +9687,7 @@
 	)
 	(global_label "AVR_SCK"
 		(shape bidirectional)
-		(at 279.4 88.9 180)
+		(at 269.24 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9685,7 +9697,7 @@
 		)
 		(uuid "11f4363e-ffef-4c81-812e-8b2307f8d85b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.1392 88.9 0)
+			(at 256.9792 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9987,7 +9999,7 @@
 	)
 	(global_label "ACNIN"
 		(shape bidirectional)
-		(at 321.31 107.95 180)
+		(at 321.31 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9997,7 +10009,7 @@
 		)
 		(uuid "4f69b865-992c-4340-b745-a87b7947ebb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.5891 107.95 0)
+			(at 311.5891 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10107,7 +10119,7 @@
 	)
 	(global_label "PE"
 		(shape bidirectional)
-		(at 321.31 115.57 180)
+		(at 321.31 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10117,7 +10129,7 @@
 		)
 		(uuid "74220b45-92e6-4147-9b8c-b0f1c975517d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.7945 115.57 0)
+			(at 314.7945 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10323,7 +10335,7 @@
 	)
 	(global_label "MOSI"
 		(shape bidirectional)
-		(at 303.53 88.9 0)
+		(at 293.37 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10333,7 +10345,7 @@
 		)
 		(uuid "93167be2-c2b3-47cd-84c8-3b94285f4fa4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.2227 88.9 0)
+			(at 302.0627 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10467,7 +10479,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 303.53 86.36 0)
+		(at 293.37 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10477,7 +10489,7 @@
 		)
 		(uuid "9fdc496a-bab5-4957-bf3e-465c27ee0705")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.3857 86.36 0)
+			(at 300.2257 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10539,7 +10551,7 @@
 	)
 	(global_label "ACLOUT"
 		(shape bidirectional)
-		(at 379.73 100.33 180)
+		(at 379.73 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10548,7 +10560,7 @@
 		)
 		(uuid "add1012d-fc08-499c-923e-9014f3fb86f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 392.2309 100.33 0)
+			(at 392.2309 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10610,7 +10622,7 @@
 	)
 	(global_label "ACNOUT"
 		(shape bidirectional)
-		(at 379.73 107.95 180)
+		(at 379.73 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10619,7 +10631,7 @@
 		)
 		(uuid "b9d701ac-cb76-49fc-b11e-d0735b47a8ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 392.2309 107.95 0)
+			(at 392.2309 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10705,7 +10717,7 @@
 	)
 	(global_label "RESET"
 		(shape bidirectional)
-		(at 279.4 91.44 180)
+		(at 269.24 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10715,7 +10727,7 @@
 		)
 		(uuid "d3edc35e-1d32-44a2-968c-690b135c4806")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.5584 91.44 0)
+			(at 259.3984 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10801,7 +10813,7 @@
 	)
 	(global_label "PE"
 		(shape bidirectional)
-		(at 374.65 115.57 180)
+		(at 374.65 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10811,7 +10823,7 @@
 		)
 		(uuid "e4ae9a74-6716-4ace-9ced-9c2d5b80683f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.1345 115.57 0)
+			(at 368.1345 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10825,7 +10837,7 @@
 	)
 	(global_label "ACLIN"
 		(shape bidirectional)
-		(at 321.31 100.33 180)
+		(at 321.31 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10835,7 +10847,7 @@
 		)
 		(uuid "e51fb2ac-541b-4db5-a228-ca2a50e2cc4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.8915 100.33 0)
+			(at 311.8915 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10897,7 +10909,7 @@
 	)
 	(global_label "MISO"
 		(shape bidirectional)
-		(at 279.4 86.36 180)
+		(at 269.24 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10907,7 +10919,7 @@
 		)
 		(uuid "e78f989d-1f34-4d29-927d-c79a7bd29816")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.7073 86.36 0)
+			(at 260.5473 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11109,7 +11121,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:T44009")
-		(at 332.74 107.95 0)
+		(at 332.74 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11120,7 +11132,7 @@
 		(fields_autoplaced yes)
 		(uuid "05cbfb27-2b55-4909-84bf-0c518f5b88e3")
 		(property "Reference" "J7"
-			(at 336.55 106.6799 0)
+			(at 336.55 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11131,7 +11143,7 @@
 			)
 		)
 		(property "Value" "T44009"
-			(at 336.55 109.2199 0)
+			(at 336.55 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11142,7 +11154,7 @@
 			)
 		)
 		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
-			(at 332.74 107.95 0)
+			(at 332.74 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11153,7 +11165,7 @@
 			)
 		)
 		(property "Datasheet" "https://aliexpress.ru/item/1005009718247553.html?sku_id=12000049941105580"
-			(at 332.74 107.95 0)
+			(at 332.74 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11164,7 +11176,7 @@
 			)
 		)
 		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
-			(at 332.74 107.95 0)
+			(at 332.74 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11188,7 +11200,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 323.85 107.95 0)
+		(at 323.85 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11199,7 +11211,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a87d2b9-f916-406c-8319-deaf56b36c69")
 		(property "Reference" "#FLG04"
-			(at 323.85 111.76 0)
+			(at 323.85 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11210,7 +11222,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 323.85 102.87 0)
+			(at 323.85 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11221,7 +11233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 107.95 0)
+			(at 323.85 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11232,7 +11244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 107.95 0)
+			(at 323.85 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11243,7 +11255,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 323.85 107.95 0)
+			(at 323.85 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11345,7 +11357,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:T44009")
-		(at 391.16 107.95 0)
+		(at 391.16 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11355,7 +11367,7 @@
 		(dnp no)
 		(uuid "0df9a442-0fa3-46c0-aca5-5497b4aee9af")
 		(property "Reference" "J6"
-			(at 395.986 104.902 0)
+			(at 395.986 167.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11365,7 +11377,7 @@
 			)
 		)
 		(property "Value" "T44009"
-			(at 398.526 107.95 0)
+			(at 398.526 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11375,7 +11387,7 @@
 			)
 		)
 		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
-			(at 391.16 107.95 0)
+			(at 391.16 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11386,7 +11398,7 @@
 			)
 		)
 		(property "Datasheet" "https://aliexpress.ru/item/1005009718247553.html?sku_id=12000049941105580"
-			(at 391.16 107.95 0)
+			(at 391.16 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11397,7 +11409,7 @@
 			)
 		)
 		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
-			(at 391.16 107.95 0)
+			(at 391.16 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11960,7 +11972,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:T44009")
-		(at 332.74 115.57 0)
+		(at 332.74 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11971,7 +11983,7 @@
 		(fields_autoplaced yes)
 		(uuid "40ecd7fa-957e-4501-9068-7d20b443a1e5")
 		(property "Reference" "J9"
-			(at 336.55 114.2999 0)
+			(at 336.55 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11982,7 +11994,7 @@
 			)
 		)
 		(property "Value" "T44009"
-			(at 336.55 116.8399 0)
+			(at 336.55 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11993,7 +12005,7 @@
 			)
 		)
 		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
-			(at 332.74 115.57 0)
+			(at 332.74 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,7 +12016,7 @@
 			)
 		)
 		(property "Datasheet" "https://aliexpress.ru/item/1005009718247553.html?sku_id=12000049941105580"
-			(at 332.74 115.57 0)
+			(at 332.74 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12015,7 +12027,7 @@
 			)
 		)
 		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
-			(at 332.74 115.57 0)
+			(at 332.74 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12774,7 +12786,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:T44009")
-		(at 391.16 115.57 0)
+		(at 391.16 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12784,7 +12796,7 @@
 		(dnp no)
 		(uuid "64374c15-c2d5-4dc0-aa51-576e783bc195")
 		(property "Reference" "J8"
-			(at 396.748 113.538 0)
+			(at 396.748 175.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12794,7 +12806,7 @@
 			)
 		)
 		(property "Value" "T44009"
-			(at 398.78 115.824 0)
+			(at 398.78 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12804,7 +12816,7 @@
 			)
 		)
 		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
-			(at 391.16 115.57 0)
+			(at 391.16 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12815,7 +12827,7 @@
 			)
 		)
 		(property "Datasheet" "https://aliexpress.ru/item/1005009718247553.html?sku_id=12000049941105580"
-			(at 391.16 115.57 0)
+			(at 391.16 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12826,7 +12838,7 @@
 			)
 		)
 		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
-			(at 391.16 115.57 0)
+			(at 391.16 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13449,7 +13461,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 323.85 100.33 0)
+		(at 323.85 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13460,7 +13472,7 @@
 		(fields_autoplaced yes)
 		(uuid "766d4536-0d65-4492-900b-940ff5f78643")
 		(property "Reference" "#FLG03"
-			(at 323.85 104.14 0)
+			(at 323.85 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13471,7 +13483,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 323.85 95.25 0)
+			(at 323.85 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13482,7 +13494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 100.33 0)
+			(at 323.85 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13493,7 +13505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 100.33 0)
+			(at 323.85 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13504,7 +13516,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 323.85 100.33 0)
+			(at 323.85 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13655,7 +13667,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Connector:AVR_ISP_PTH")
-		(at 292.1 88.9 0)
+		(at 281.94 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13666,7 +13678,7 @@
 		(fields_autoplaced yes)
 		(uuid "79490f4b-7a29-4319-b8b0-4a79b2f2197f")
 		(property "Reference" "J1"
-			(at 292.1 78.74 0)
+			(at 281.94 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13676,7 +13688,7 @@
 			)
 		)
 		(property "Value" "ISP"
-			(at 292.1 81.28 0)
+			(at 281.94 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13686,7 +13698,7 @@
 			)
 		)
 		(property "Footprint" "coreEVSE:AVR_ISP_2x03_P2.54mm"
-			(at 292.1 97.79 0)
+			(at 281.94 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13697,7 +13709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 100.33 0)
+			(at 281.94 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13708,7 +13720,7 @@
 			)
 		)
 		(property "Description" "6 pin In-circuit Serial Programming"
-			(at 292.1 102.87 0)
+			(at 281.94 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14114,7 +14126,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 302.26 96.52 0)
+		(at 292.1 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14125,7 +14137,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bb946a3-281d-44a3-851d-465892e481d7")
 		(property "Reference" "#PWR02"
-			(at 302.26 102.87 0)
+			(at 292.1 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14136,7 +14148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 302.26 101.6 0)
+			(at 292.1 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14146,7 +14158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 96.52 0)
+			(at 292.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14157,7 +14169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 96.52 0)
+			(at 292.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14168,7 +14180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 302.26 96.52 0)
+			(at 292.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14768,7 +14780,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:T44009")
-		(at 332.74 100.33 0)
+		(at 332.74 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14779,7 +14791,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5f6d01f-9d72-452c-a282-0a9c509e200a")
 		(property "Reference" "J5"
-			(at 336.55 99.0599 0)
+			(at 336.55 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14790,7 +14802,7 @@
 			)
 		)
 		(property "Value" "T44009"
-			(at 336.55 101.5999 0)
+			(at 336.55 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14801,7 +14813,7 @@
 			)
 		)
 		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
-			(at 332.74 100.33 0)
+			(at 332.74 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14812,7 +14824,7 @@
 			)
 		)
 		(property "Datasheet" "https://aliexpress.ru/item/1005009718247553.html?sku_id=12000049941105580"
-			(at 332.74 100.33 0)
+			(at 332.74 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14823,7 +14835,7 @@
 			)
 		)
 		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
-			(at 332.74 100.33 0)
+			(at 332.74 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15100,7 +15112,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:T44009")
-		(at 391.16 100.33 0)
+		(at 391.16 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15110,7 +15122,7 @@
 		(dnp no)
 		(uuid "d5307cb8-fe23-4726-a1ef-3a8389375a9d")
 		(property "Reference" "J4"
-			(at 397.51 98.552 0)
+			(at 397.51 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15120,7 +15132,7 @@
 			)
 		)
 		(property "Value" "T44009"
-			(at 399.542 101.346 0)
+			(at 399.542 163.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15130,7 +15142,7 @@
 			)
 		)
 		(property "Footprint" "coreEVSE:Terminal_T44009_M4"
-			(at 391.16 100.33 0)
+			(at 391.16 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15141,7 +15153,7 @@
 			)
 		)
 		(property "Datasheet" "https://aliexpress.ru/item/1005009718247553.html?sku_id=12000049941105580"
-			(at 391.16 100.33 0)
+			(at 391.16 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15152,7 +15164,7 @@
 			)
 		)
 		(property "Description" "T44009 M4 PCB power terminal, 55 A, four solder pins on 5x9.9 mm grid, 11.05x11.10 mm envelope, 12.5 mm nominal height"
-			(at 391.16 100.33 0)
+			(at 391.16 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

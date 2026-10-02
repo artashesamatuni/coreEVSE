@@ -1043,13 +1043,7 @@
 		(uuid "10f95001-5a28-4983-9f01-e6795da6977d")
 	)
 	(junction
-		(at 59.69 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14576f39-2174-49d3-bc33-0d0e34f7df6f")
-	)
-	(junction
-		(at 33.02 62.23)
+		(at 45.72 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "333c0787-bc86-4906-8255-6bf07e5109c7")
@@ -1067,7 +1061,7 @@
 		(uuid "463ea87c-ae25-4983-98e4-c56aeb950490")
 	)
 	(junction
-		(at 33.02 54.61)
+		(at 45.72 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59b76137-c6be-47dd-8ac4-d4152a249087")
@@ -1079,13 +1073,7 @@
 		(uuid "5d8bd758-1ef5-42a0-a12a-6c3d6b0ec423")
 	)
 	(junction
-		(at 59.69 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75eb2adb-f590-4002-b1da-d3243aa1a66f")
-	)
-	(junction
-		(at 19.05 54.61)
+		(at 31.75 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f67e4bb-acaf-49cd-8bda-6ca57e6e2afd")
@@ -1097,7 +1085,7 @@
 		(uuid "8653990d-44f1-4616-843f-1d4504983ed3")
 	)
 	(junction
-		(at 59.69 52.07)
+		(at 72.39 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c89299c-640b-4752-b419-86731a6021ee")
@@ -1109,10 +1097,16 @@
 		(uuid "ac8edc63-a154-42b1-9774-f9328882f350")
 	)
 	(junction
-		(at 19.05 62.23)
+		(at 31.75 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5ecde59-77ff-42fd-aa76-a64a2bbcaa67")
+	)
+	(junction
+		(at 72.39 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8ff443f-9e30-40a6-9317-b543f1cb928f")
 	)
 	(junction
 		(at 262.89 58.42)
@@ -1146,13 +1140,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 54.61) (xy 34.29 54.61)
+			(xy 45.72 53.34) (xy 46.99 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0877007b-c44f-4b12-bfa8-6614eb2ae909")
+	)
+	(wire
+		(pts
+			(xy 72.39 36.83) (xy 81.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a75bbe8-970a-40f2-b8c8-bbd8f004beb4")
 	)
 	(wire
 		(pts
@@ -1163,16 +1167,6 @@
 			(type default)
 		)
 		(uuid "0da2724a-be39-44b9-8358-86ef6f1a55c8")
-	)
-	(wire
-		(pts
-			(xy 59.69 38.1) (xy 63.5 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "112d46b9-e3da-47e1-97bf-b527eeb19b49")
 	)
 	(wire
 		(pts
@@ -1196,7 +1190,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 52.07) (xy 69.85 52.07)
+			(xy 72.39 50.8) (xy 82.55 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +1240,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 62.23) (xy 38.1 62.23)
+			(xy 45.72 68.58) (xy 50.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 62.23) (xy 33.02 62.23)
+			(xy 41.91 68.58) (xy 45.72 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 62.23) (xy 24.13 62.23)
+			(xy 31.75 68.58) (xy 36.83 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1276,33 +1270,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 38.1) (xy 59.69 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30b4c8be-945b-4abc-bb6d-f6d0108699c5")
-	)
-	(wire
-		(pts
-			(xy 68.58 38.1) (xy 71.12 38.1)
+			(xy 72.39 26.67) (xy 72.39 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3213cbeb-781b-4782-97ba-05a67100100f")
-	)
-	(wire
-		(pts
-			(xy 59.69 31.75) (xy 59.69 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "372a5fd0-7870-4b32-9c45-aefd4c249450")
 	)
 	(wire
 		(pts
@@ -1346,16 +1320,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 38.1) (xy 59.69 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b3fb2ee-e362-4d0a-bc63-90dbea2ba9a4")
-	)
-	(wire
-		(pts
 			(xy 227.33 73.66) (xy 231.14 73.66)
 		)
 		(stroke
@@ -1376,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 46.99) (xy 59.69 52.07)
+			(xy 72.39 45.72) (xy 72.39 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1446,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 54.61) (xy 19.05 62.23)
+			(xy 31.75 53.34) (xy 31.75 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1456,7 +1420,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 52.07) (xy 52.07 52.07)
+			(xy 27.94 68.58) (xy 31.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c97ad3-120b-4ad1-9ef2-6c4dd79f7246")
+	)
+	(wire
+		(pts
+			(xy 62.23 50.8) (xy 64.77 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1476,13 +1450,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 62.23) (xy 19.05 71.12)
+			(xy 72.39 31.75) (xy 72.39 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "761fc54c-8759-410e-b403-e667b62cc31b")
+		(uuid "7530a5cc-4852-46c4-a373-e1fc410d78c1")
 	)
 	(wire
 		(pts
@@ -1496,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 54.61) (xy 19.05 54.61)
+			(xy 36.83 53.34) (xy 31.75 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 54.61) (xy 33.02 54.61)
+			(xy 41.91 53.34) (xy 45.72 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1526,6 +1500,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 36.83) (xy 72.39 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91545f54-c71f-4e25-96f9-f819a8d38b6b")
+	)
+	(wire
+		(pts
 			(xy 245.11 68.58) (xy 240.03 68.58)
 		)
 		(stroke
@@ -1536,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 74.93) (xy 59.69 71.12)
+			(xy 72.39 62.23) (xy 72.39 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1566,23 +1550,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 62.23) (xy 33.02 54.61)
+			(xy 72.39 36.83) (xy 72.39 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a2ccd3-6990-407a-9a4f-59cf4ef89eef")
+	)
+	(wire
+		(pts
+			(xy 45.72 68.58) (xy 45.72 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa15695c-b981-407c-84cd-96c37badedf9")
-	)
-	(wire
-		(pts
-			(xy 59.69 71.12) (xy 59.69 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf8ef54-eb91-4ed0-8391-d99c6cb4db16")
 	)
 	(wire
 		(pts
@@ -1606,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 38.1) (xy 19.05 54.61)
+			(xy 31.75 36.83) (xy 31.75 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1616,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 38.1) (xy 49.53 38.1)
+			(xy 31.75 36.83) (xy 59.69 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1676,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 49.53) (xy 34.29 49.53)
+			(xy 41.91 48.26) (xy 46.99 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1706,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 62.23) (xy 49.53 62.23)
+			(xy 55.88 68.58) (xy 59.69 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1716,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 52.07) (xy 59.69 52.07)
+			(xy 69.85 50.8) (xy 72.39 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1746,17 +1730,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 71.12) (xy 59.69 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb2c6a0a-af6c-4aa6-98ac-383bab535846")
-	)
-	(wire
-		(pts
-			(xy 59.69 52.07) (xy 59.69 55.88)
+			(xy 72.39 50.8) (xy 72.39 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1790,7 +1764,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 59.69 74.93 270)
+		(at 72.39 66.04 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1800,7 +1774,7 @@
 		)
 		(uuid "2a315233-b471-4df5-afe8-b83f85fd6ba0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 82.897 90)
+			(at 72.39 74.007 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1814,7 +1788,7 @@
 	)
 	(global_label "PILOT_READ"
 		(shape bidirectional)
-		(at 59.69 31.75 90)
+		(at 81.28 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1824,7 +1798,7 @@
 		)
 		(uuid "312af693-7cf5-4251-b6c3-01dde1cd110e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 16.7073 90)
+			(at 96.3227 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1838,7 +1812,7 @@
 	)
 	(global_label "+5V"
 		(shape bidirectional)
-		(at 71.12 38.1 0)
+		(at 72.39 24.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1848,7 +1822,7 @@
 		)
 		(uuid "3454f029-19a3-447c-8aba-a29d13f4eb04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.087 38.1 0)
+			(at 72.39 16.163 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1857,6 +1831,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 27.94 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3539be6d-cb31-457c-bae3-dc49ff1f44f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.973 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -1910,7 +1908,7 @@
 	)
 	(global_label "+5V"
 		(shape bidirectional)
-		(at 49.53 62.23 0)
+		(at 59.69 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1920,7 +1918,7 @@
 		)
 		(uuid "c86cbc99-4bd0-436f-b65c-71b1ca2c2585")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.497 62.23 0)
+			(at 67.657 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1934,7 +1932,7 @@
 	)
 	(global_label "PWM"
 		(shape bidirectional)
-		(at 29.21 49.53 180)
+		(at 41.91 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1944,7 +1942,7 @@
 		)
 		(uuid "cbeda31c-0b8e-47cd-866c-f89946efdeea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.9407 49.53 0)
+			(at 33.6407 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1958,7 +1956,7 @@
 	)
 	(global_label "PILOT"
 		(shape bidirectional)
-		(at 69.85 52.07 0)
+		(at 82.55 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1968,7 +1966,7 @@
 		)
 		(uuid "e133d9ea-f107-4e97-8a7c-e2cfde959d75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.1475 52.07 0)
+			(at 91.8475 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2432,7 +2430,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:JLCPCB_R_a")
-		(at 54.61 52.07 0)
+		(at 67.31 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2442,7 +2440,7 @@
 		(dnp no)
 		(uuid "46c12488-84c1-4bcd-a763-c1a8812c43e7")
 		(property "Reference" "R1"
-			(at 54.61 54.356 0)
+			(at 67.31 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2452,7 +2450,7 @@
 			)
 		)
 		(property "Value" "620"
-			(at 54.61 56.388 0)
+			(at 67.31 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2462,7 +2460,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 54.61 55.88 0)
+			(at 67.31 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2473,7 +2471,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/FOJAN-FRC0805F6200TS/C2907279"
-			(at 54.61 60.96 0)
+			(at 67.31 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2484,7 +2482,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 63.5 0)
+			(at 67.31 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2495,7 +2493,7 @@
 			)
 		)
 		(property "LCSC" "C2907279"
-			(at 54.61 52.07 0)
+			(at 67.31 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2506,7 +2504,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-25567"
-			(at 54.61 58.42 0)
+			(at 67.31 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2533,7 +2531,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 59.69 59.69 90)
+		(at 72.39 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2543,7 +2541,7 @@
 		(dnp no)
 		(uuid "5bb71ae9-5408-4677-a33e-f3f1315b3a20")
 		(property "Reference" "TVS1"
-			(at 64.008 60.96 0)
+			(at 76.708 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2553,7 +2551,7 @@
 			)
 		)
 		(property "Value" "P6SMB16CA"
-			(at 66.294 58.674 0)
+			(at 78.994 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2563,7 +2561,7 @@
 			)
 		)
 		(property "Footprint" "coreEVSE:SMB"
-			(at 59.69 59.69 0)
+			(at 72.39 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2574,7 +2572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 59.69 0)
+			(at 72.39 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2585,7 +2583,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 59.69 59.69 0)
+			(at 72.39 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2612,7 +2610,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:JLCPCB_R_a")
-		(at 66.04 38.1 180)
+		(at 72.39 29.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2622,7 +2620,7 @@
 		(dnp no)
 		(uuid "63e064e4-79b1-4218-8cde-ab99fc9eb018")
 		(property "Reference" "R5"
-			(at 66.04 35.814 0)
+			(at 70.104 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2632,7 +2630,7 @@
 			)
 		)
 		(property "Value" "56k"
-			(at 66.04 33.782 0)
+			(at 68.072 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2642,7 +2640,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 66.04 34.29 0)
+			(at 68.58 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2653,7 +2651,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW080556K0FKTC/C4163131"
-			(at 66.04 29.21 0)
+			(at 63.5 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2664,7 +2662,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 26.67 0)
+			(at 60.96 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2675,7 +2673,7 @@
 			)
 		)
 		(property "LCSC" "C4163131"
-			(at 66.04 38.1 180)
+			(at 72.39 29.21 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2686,7 +2684,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-25567"
-			(at 66.04 31.75 0)
+			(at 66.04 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2840,7 +2838,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:JLCPCB_R_a")
-		(at 40.64 62.23 0)
+		(at 53.34 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2850,7 +2848,7 @@
 		(dnp no)
 		(uuid "834d2acc-cf96-4a6b-84b3-f1e05702ef8e")
 		(property "Reference" "R9"
-			(at 40.64 64.516 0)
+			(at 53.34 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2860,7 +2858,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 40.64 66.548 0)
+			(at 53.594 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2870,7 +2868,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 40.64 66.04 0)
+			(at 53.34 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2881,7 +2879,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/VikingTech-CR_05FA7_100K/C465471"
-			(at 40.64 71.12 0)
+			(at 53.34 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2892,7 +2890,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 40.64 73.66 0)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2903,7 +2901,7 @@
 			)
 		)
 		(property "LCSC" "C465471"
-			(at 40.64 62.23 0)
+			(at 53.34 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2914,7 +2912,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-25567"
-			(at 40.64 68.58 0)
+			(at 53.34 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2941,7 +2939,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:JLCPCB_R_a")
-		(at 59.69 44.45 270)
+		(at 72.39 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2951,7 +2949,7 @@
 		(dnp no)
 		(uuid "862f5158-870a-402a-800e-f22d7aeeb948")
 		(property "Reference" "R7"
-			(at 57.404 44.45 0)
+			(at 70.104 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2961,7 +2959,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at 55.372 44.45 0)
+			(at 68.072 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2971,7 +2969,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 55.88 44.45 0)
+			(at 68.58 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2982,7 +2980,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-AC0805FR07200KL/C228624"
-			(at 50.8 44.45 0)
+			(at 63.5 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2993,7 +2991,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 44.45 0)
+			(at 60.96 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3004,7 +3002,7 @@
 			)
 		)
 		(property "LCSC" "C228624"
-			(at 59.69 44.45 270)
+			(at 72.39 43.18 270)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3015,7 +3013,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-25567"
-			(at 53.34 44.45 0)
+			(at 66.04 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3169,7 +3167,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:JLCPCB_R_a")
-		(at 26.67 54.61 0)
+		(at 39.37 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3179,7 +3177,7 @@
 		(dnp no)
 		(uuid "ab439ac9-67f2-4c9e-b2c4-7d25c409da72")
 		(property "Reference" "R8"
-			(at 26.67 56.896 0)
+			(at 39.37 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3189,7 +3187,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 26.67 58.928 0)
+			(at 39.37 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3199,7 +3197,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 26.67 58.42 0)
+			(at 39.37 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3210,7 +3208,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/VikingTech-CR_05FA7_100K/C465471"
-			(at 26.67 63.5 0)
+			(at 39.37 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3221,7 +3219,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 26.67 66.04 0)
+			(at 39.37 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3232,7 +3230,7 @@
 			)
 		)
 		(property "LCSC" "C465471"
-			(at 26.67 54.61 0)
+			(at 39.37 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3243,7 +3241,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-25567"
-			(at 26.67 60.96 0)
+			(at 39.37 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3495,7 +3493,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LMV358")
-		(at 41.91 52.07 0)
+		(at 54.61 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3506,7 +3504,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3e95917-aa82-40c1-a4dd-9d0c90ad2fd5")
 		(property "Reference" "IC1"
-			(at 41.91 41.91 0)
+			(at 54.61 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3516,7 +3514,7 @@
 			)
 		)
 		(property "Value" "LF353"
-			(at 41.91 44.45 0)
+			(at 54.61 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3526,7 +3524,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 41.91 52.07 0)
+			(at 54.61 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3537,7 +3535,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-			(at 41.91 52.07 0)
+			(at 54.61 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3548,7 +3546,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
-			(at 41.91 52.07 0)
+			(at 54.61 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3593,7 +3591,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:JLCPCB_R_a")
-		(at 52.07 38.1 0)
+		(at 62.23 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3603,7 +3601,7 @@
 		(dnp no)
 		(uuid "e1413318-f5c2-4841-a7ca-11817e13b738")
 		(property "Reference" "R6"
-			(at 52.07 40.386 0)
+			(at 62.23 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3613,7 +3611,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 52.07 42.418 0)
+			(at 62.23 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3623,7 +3621,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 52.07 41.91 0)
+			(at 62.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3634,7 +3632,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/VikingTech-CR_05FA7_100K/C465471"
-			(at 52.07 46.99 0)
+			(at 62.23 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3645,7 +3643,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 52.07 49.53 0)
+			(at 62.23 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3656,7 +3654,7 @@
 			)
 		)
 		(property "LCSC" "C465471"
-			(at 52.07 38.1 0)
+			(at 62.23 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3667,7 +3665,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-25567"
-			(at 52.07 44.45 0)
+			(at 62.23 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3694,7 +3692,7 @@
 	)
 	(symbol
 		(lib_id "coreEVSE:JLCPCB_C_1u")
-		(at 26.67 62.23 270)
+		(at 39.37 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3704,7 +3702,7 @@
 		(dnp no)
 		(uuid "fe721137-f747-48d7-94d0-ba74895ea198")
 		(property "Reference" "C15"
-			(at 26.924 64.77 0)
+			(at 37.592 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3715,7 +3713,7 @@
 			)
 		)
 		(property "Value" "1.0uF"
-			(at 23.114 64.262 0)
+			(at 39.624 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3726,7 +3724,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 15.24 62.23 0)
+			(at 27.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,7 +3735,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/KEMET-C0805X105K3RAC3316/C3848979"
-			(at 12.7 62.23 0)
+			(at 25.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3748,7 +3746,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 7.62 62.23 0)
+			(at 20.32 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3759,7 +3757,7 @@
 			)
 		)
 		(property "LCSC" "C3848979"
-			(at 26.67 62.23 270)
+			(at 39.37 68.58 270)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,7 +3768,7 @@
 			)
 		)
 		(property "PROD_ID" "CAP-08064"
-			(at 10.16 60.96 0)
+			(at 22.86 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3781,7 +3779,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 25.3938 64.77 0)
+			(at 38.0938 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3793,7 +3791,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 22.8538 64.77 0)
+			(at 35.5538 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
