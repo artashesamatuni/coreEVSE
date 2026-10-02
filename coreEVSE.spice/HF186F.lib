@@ -1,0 +1,13 @@
+* Simplified Hongfa HF186F/12-HCTF, 12 V, 1 Form A relay.
+* Pin order: A1 A2 13 14 (coil, normally-open contact).
+* Published values: 57.6 ohm coil, <=10 milliohm contact resistance.
+* Worst-case pick-up voltage is 8.4 V at 23 C; the 0.6 V release
+* specification is a lower bound, not a typical switching threshold.
+* The switch thresholds below approximate a voltage-controlled relay;
+* coil inductance, operate/release delay, bounce and arc are not modeled.
+.SUBCKT HF186F_12_HCTF A1 A2 P13 P14
+RCOIL A1 A2 57.6
+BCTRL CTRL 0 V=abs(V(A1,A2))
+SNO P13 P14 CTRL 0 HF186F_CONTACT
+.MODEL HF186F_CONTACT SW(RON=0.01 ROFF=1G VT=4.5 VH=3.9)
+.ENDS HF186F_12_HCTF

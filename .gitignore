@@ -11,6 +11,7 @@ _restore_backup_*/
 
 # Markdown documents
 *.md
+!codechange.md
 
 # Optional: Exclude manufacturing outputs if you want to regenerate them later
 # Gerbers/

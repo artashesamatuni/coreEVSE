@@ -1436,43 +1436,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
+		(symbol "coreEVSE:JLCPCB_C_100n"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
+			(property "Value" "0.1uF"
+				(at 0.635 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1483,6 +1482,59 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" ""
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "16V"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "JLCPCB cap capacitor 100nF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1493,7 +1545,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1504,24 +1556,13 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
+			(symbol "JLCPCB_C_100n_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1530,22 +1571,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -1553,10 +1582,10 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
+			(symbol "JLCPCB_C_100n_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
 					(name ""
 						(effects
 							(font
@@ -1572,16 +1601,405 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
+		(symbol "coreEVSE:JLCPCB_C_1u"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1.0uF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" ""
+				(at -1.27 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "25V"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "JLCPCB cap capacitor 1uF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JLCPCB_C_1u_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JLCPCB_C_1u_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "coreEVSE:JLCPCB_C_22u"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22uF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" ""
+				(at -1.27 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "16V"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "20%"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "JLCPCB cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JLCPCB_C_22u_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JLCPCB_C_22u_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "coreEVSE:JLCPCB_L_generic"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1589,7 +2007,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
+			(property "Reference" "L"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.3uH"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1600,7 +2038,40 @@
 					)
 				)
 			)
-			(property "Value" "GND"
+			(property "Datasheet" ""
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" ""
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Current" "450mA"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1610,7 +2081,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "ki_keywords" "JLCPCB 3.3uH Inductor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1621,7 +2092,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1632,33 +2103,47 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "JLCPCB_L_generic_0_1"
+				(arc
+					(start -2.032 0)
+					(mid -1.524 0.5058)
+					(end -1.016 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+				(arc
+					(start -1.016 0)
+					(mid -0.508 0.5058)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+				(arc
+					(start 0 0)
+					(mid 0.508 0.5058)
+					(end 1.016 0)
+					(stroke
+						(width 0)
+						(type default)
 					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 0)
+					(mid 1.524 0.5058)
+					(end 2.032 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -1668,10 +2153,10 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
+			(symbol "JLCPCB_L_generic_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.508)
 					(name ""
 						(effects
 							(font
@@ -1687,92 +2172,9 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.508)
 					(name ""
 						(effects
 							(font
@@ -1780,26 +2182,12 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -1840,8 +2228,8 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 40.64 50.8 0)
-		(size 59.69 39.37)
+		(at 36.83 50.8 0)
+		(size 66.04 39.37)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1947,12 +2335,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e28349c8-9ad8-4dc2-b6d7-30c388ad8f8d")
-	)
-	(junction
-		(at 189.23 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f37e608e-c904-467a-b7e0-5abb5c3ae3f3")
 	)
 	(wire
 		(pts
@@ -2106,13 +2488,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 63.5) (xy 229.87 67.31)
+			(xy 48.26 63.5) (xy 52.07 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92eb88cb-35b1-40b8-a8dc-9a148efb5d7b")
+		(uuid "9335ee5d-e790-4c26-b41e-8b960c44c228")
 	)
 	(wire
 		(pts
@@ -2123,16 +2505,6 @@
 			(type default)
 		)
 		(uuid "9d2a8565-0091-4944-af55-32d489a79f08")
-	)
-	(wire
-		(pts
-			(xy 50.8 63.5) (xy 52.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a57c5759-3002-4c3f-aba6-d553c456b46d")
 	)
 	(wire
 		(pts
@@ -2156,6 +2528,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 78.74) (xy 52.07 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa17103a-bbd2-4708-9d6a-64ec36cec7a9")
+	)
+	(wire
+		(pts
 			(xy 77.47 63.5) (xy 77.47 60.96)
 		)
 		(stroke
@@ -2176,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 60.96) (xy 91.44 60.96)
+			(xy 88.9 60.96) (xy 92.71 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2193,16 +2575,6 @@
 			(type default)
 		)
 		(uuid "b8ddc74c-dbd3-4858-b34a-34e7a9989a48")
-	)
-	(wire
-		(pts
-			(xy 229.87 54.61) (xy 229.87 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1408dc1-9a45-4992-8c8a-9e2b8b904287")
 	)
 	(wire
 		(pts
@@ -2236,16 +2608,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 66.04) (xy 189.23 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca690510-68eb-45d6-9768-fddfd2ac60a3")
-	)
-	(wire
-		(pts
 			(xy 52.07 68.58) (xy 52.07 71.12)
 		)
 		(stroke
@@ -2276,16 +2638,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 78.74) (xy 52.07 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7d626f0-ece5-45e3-abe5-89e3a05616c2")
-	)
-	(wire
-		(pts
 			(xy 181.61 58.42) (xy 182.88 58.42)
 		)
 		(stroke
@@ -2304,9 +2656,9 @@
 		)
 		(uuid "fc7709e6-4fb8-443b-a599-f2d6b2396957")
 	)
-	(global_label "+12V"
-		(shape bidirectional)
-		(at 246.38 58.42 0)
+	(global_label "+5V"
+		(shape output)
+		(at 92.71 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2314,9 +2666,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5bcc6d71-d600-494a-9d80-8a7168f93421")
+		(uuid "3ef57437-46dd-44a2-b546-0d491cb17131")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.5565 58.42 0)
+			(at 99.5657 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2328,8 +2680,56 @@
 			)
 		)
 	)
-	(global_label "ACNIN"
+	(global_label "+12V"
+		(shape output)
+		(at 246.38 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bcc6d71-d600-494a-9d80-8a7168f93421")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.4452 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
 		(shape bidirectional)
+		(at 46.99 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "644f3abc-dd49-45fd-a608-d2dcdcf8296f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.023 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ACNIN"
+		(shape input)
 		(at 181.61 63.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2340,7 +2740,31 @@
 		)
 		(uuid "b8a112f1-f9fb-4dc3-a6ec-7a4a7e08216e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.8891 63.5 0)
+			(at 173.0004 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "+12V"
+		(shape input)
+		(at 48.26 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dee01dc4-0e40-47fc-8349-bf568fdf5651")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.1948 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2353,7 +2777,7 @@
 		)
 	)
 	(global_label "ACLIN"
-		(shape bidirectional)
+		(shape input)
 		(at 181.61 58.42 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2364,7 +2788,7 @@
 		)
 		(uuid "f2987e17-19e9-4e60-993c-8a29f5d0825c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.1915 58.42 0)
+			(at 173.3028 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,163 +2821,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 229.87 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1593dab6-140a-4dc9-a3cf-4d47aed84a4a")
-		(property "Reference" "#PWR021"
-			(at 229.87 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.87 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3ea4f6c-bf5e-4cf9-9bc8-97d134935915")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd/23bb0d6c-bab2-406a-9867-b6914afeee18"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 229.87 54.61 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "173d0316-87a7-4218-b8a3-33d42e263fc3")
-		(property "Reference" "#PWR020"
-			(at 229.87 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 229.8701 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 229.87 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e97d0bce-8c49-4119-a351-c22377c921a5")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd/23bb0d6c-bab2-406a-9867-b6914afeee18"
-					(reference "#PWR020")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2634,10 +2901,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2f838b9-fb03-4990-a068-34a39dd10d9a")
+			(uuid "f6cf11be-dcb1-48d0-b9f8-d0378527898c")
 		)
 		(pin "2"
-			(uuid "f3b3113e-fedc-4ff9-9ef9-b78028359c9d")
+			(uuid "a8c5b4ad-0b0b-4b1e-b6b7-07d712dfceb0")
 		)
 		(instances
 			(project "evse"
@@ -2649,86 +2916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 50.8 63.5 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "295385a1-1431-43ba-8425-e98a5b17e1e7")
-		(property "Reference" "#PWR017"
-			(at 54.61 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 46.99 63.4999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23f29db8-10dd-46cf-aac2-23e4792fe2c2")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd/23bb0d6c-bab2-406a-9867-b6914afeee18"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Capacitor:22uF_0805_16V_20%")
+		(lib_id "coreEVSE:JLCPCB_C_22u")
 		(at 80.01 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -2761,7 +2949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.01 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2772,7 +2960,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL21A226MOCLRNC_Spec.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/CCTC-TCC0805X5R226M160FT/C380339"
 			(at 80.01 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2785,6 +2973,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C380339"
+			(at 80.01 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2830,10 +3029,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5a8fe29-b558-453a-bf73-879654f528be")
+			(uuid "584c3904-2925-48f8-bb43-16f26ec9b7e3")
 		)
 		(pin "2"
-			(uuid "f70479de-02d1-4c69-86d2-8fe41710e8ed")
+			(uuid "f73ff1ac-e744-485e-89a4-8ea472c40592")
 		)
 		(instances
 			(project "evse"
@@ -2845,7 +3044,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Capacitor:22uF_0805_16V_20%")
+		(lib_id "coreEVSE:JLCPCB_C_22u")
 		(at 88.9 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -2878,7 +3077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 88.9 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2889,7 +3088,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/43/CL21A226MOCLRNC_Spec.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/CCTC-TCC0805X5R226M160FT/C380339"
 			(at 88.9 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2902,6 +3101,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 88.9 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C380339"
+			(at 88.9 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2947,10 +3157,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9adb9f1b-0c7e-4f56-986d-39c71ba46fda")
+			(uuid "8de66556-ebcf-401a-a461-cfd59c219710")
 		)
 		(pin "2"
-			(uuid "5d6b4a91-7a6d-4d6d-a9ec-d7d50b495018")
+			(uuid "c9196abe-1902-4405-ada0-3768149a9793")
 		)
 		(instances
 			(project "evse"
@@ -2962,7 +3172,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Capacitor:0.1uF_0402_16V_10%")
+		(lib_id "coreEVSE:JLCPCB_C_100n")
 		(at 80.01 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -3005,7 +3215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/KEMET-C0805C104K5RACAUTO/C129641"
 			(at 80.01 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3018,6 +3228,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 80.01 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C129641"
+			(at 80.01 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3063,10 +3284,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "35ab6b82-8023-4ddd-abda-88260ae3203a")
+			(uuid "2e647271-3f63-4cdf-a781-4c4a65a92175")
 		)
 		(pin "2"
-			(uuid "39dd81b3-e1c7-4cdf-aff5-6c6e2bad4d33")
+			(uuid "bdba2f8f-5a00-488c-aabb-dc0631ceea70")
 		)
 		(instances
 			(project "evse"
@@ -3078,85 +3299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 91.44 60.96 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7030f1c3-4287-41a7-bd77-1b5f54c6a877")
-		(property "Reference" "#PWR019"
-			(at 87.63 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 95.25 60.9599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 91.44 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71ae4e05-7808-482d-aa6d-e4cca5d02d1d")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd/23bb0d6c-bab2-406a-9867-b6914afeee18"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Coil:3.3uH_0805_0.45A")
+		(lib_id "coreEVSE:JLCPCB_L_generic")
 		(at 83.82 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -3198,7 +3341,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP5030T.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BOURNS-SRP5030T4R7M/C2045677"
 			(at 83.82 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3211,6 +3354,17 @@
 		)
 		(property "Description" "Shielded power inductor, Bourns SRP5030T-4R7M, DCR 53mOhm max"
 			(at 83.82 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2045677"
+			(at 83.82 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3242,10 +3396,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "da6358ad-ae90-439c-a19f-8dbb25b3b4a6")
+			(uuid "95f0a843-2942-44a0-b19c-10622de737b9")
 		)
 		(pin "2"
-			(uuid "d57801af-908a-4510-ac67-ebf9b949634c")
+			(uuid "5b0f5b02-194a-4145-9931-f19bf3053c38")
 		)
 		(instances
 			(project "evse"
@@ -3322,99 +3476,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "e6ea2a25-a75d-44c6-bc33-1cdcdec1162d")
+			(uuid "10da55d5-d2a0-4d5c-acb8-abd88b0d3808")
 		)
 		(pin "4"
-			(uuid "dc310ff6-bc27-42e3-a9da-fa2fb639a9b0")
+			(uuid "1a1c01c7-ba6a-4c70-bcb7-82d08a762145")
 		)
 		(pin "2"
-			(uuid "f316509d-8df3-4075-8960-915c7cdd6640")
+			(uuid "59bd446c-099e-476c-8f74-c48ca44266a3")
 		)
 		(pin "1"
-			(uuid "97a98993-bc28-4cff-ac87-e2b1983d0e9f")
+			(uuid "4f5ec5f6-5bf1-4b7e-944e-7fd894457ed9")
 		)
 		(instances
 			(project "evse"
 				(path "/11cad39f-0746-4064-b162-743100309dbd/23bb0d6c-bab2-406a-9867-b6914afeee18"
 					(reference "PS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 189.23 66.04 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0b354e4-d4db-4307-b7c0-94b2de931ecd")
-		(property "Reference" "#FLG05"
-			(at 189.23 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 178.054 67.564 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 189.23 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ad577f8-a76b-411b-a4c3-ce3d95ebc84e")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd/23bb0d6c-bab2-406a-9867-b6914afeee18"
-					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -3486,22 +3562,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "8ef53da4-8f65-4111-a6fd-1ddd7befb34a")
+			(uuid "c14f00fb-f138-4490-aa68-aa13c301a826")
 		)
 		(pin "1"
-			(uuid "5c20a1fa-a4fa-4e3e-a706-62d8a361fd41")
+			(uuid "bda5e2f3-8da9-4758-8f70-453e84e666fe")
 		)
 		(pin "6"
-			(uuid "db1d699c-1d21-4d9b-ab5a-d557eb70043f")
+			(uuid "505bd517-4378-4489-91b8-5b6b4397c304")
 		)
 		(pin "2"
-			(uuid "57c70511-4217-42be-92d8-085d291c5585")
+			(uuid "724b1084-ce12-49f5-9697-1f620acf1bb3")
 		)
 		(pin "3"
-			(uuid "06ec64cd-45db-4204-9598-a2a00eb35e7e")
+			(uuid "bd2f27df-53c9-442c-bbad-71b267019fea")
 		)
 		(pin "4"
-			(uuid "67da6113-0f86-4e9d-a5ad-65e5e93314be")
+			(uuid "152868e7-683f-43cd-b110-f504310a149b")
 		)
 		(instances
 			(project "evse"
@@ -3513,7 +3589,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Capacitor:1.0uF_0805_25V_10%")
+		(lib_id "coreEVSE:JLCPCB_C_1u")
 		(at 213.36 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -3556,7 +3632,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B106KAHNNN.do"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/CCTC-TCC1206X7R106K250HT/C380364"
 			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3569,6 +3645,17 @@
 		)
 		(property "Description" "10uF 25V X7R ceramic input capacitor"
 			(at 213.36 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C380364"
+			(at 213.36 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,10 +3701,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b143b3e6-baa3-45dd-a859-70a834f1ed1c")
+			(uuid "cf691fa3-945f-4dd3-bc14-f61d0ce2476e")
 		)
 		(pin "1"
-			(uuid "8c212a9d-194c-47bc-8fe7-e839df3172b8")
+			(uuid "b754cbc1-f20a-440e-b7a1-9205975a59a0")
 		)
 		(instances
 			(project "evse"
@@ -3629,7 +3716,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Capacitor:1.0uF_0805_25V_10%")
+		(lib_id "coreEVSE:JLCPCB_C_1u")
 		(at 52.07 73.66 0)
 		(mirror x)
 		(unit 1)
@@ -3662,7 +3749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 52.07 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3673,7 +3760,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A106KAYNNN.do"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/CCTC-TCC0805X5R106K250FT/C5448891"
 			(at 52.07 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3686,6 +3773,17 @@
 		)
 		(property "Description" "Samsung CL21A106KAYNNNE, 10uF 25V X5R 0805 ceramic capacitor"
 			(at 52.07 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5448891"
+			(at 52.07 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3731,10 +3829,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d49a167e-1e3f-40de-ac19-632f922a4d04")
+			(uuid "1732507c-b1ef-437c-b53d-0d960b8f83b5")
 		)
 		(pin "2"
-			(uuid "0b8b6ce2-de96-4592-b964-fac316861894")
+			(uuid "93063ecf-4314-45cc-8762-39c0517d1eef")
 		)
 		(instances
 			(project "evse"
@@ -3746,7 +3844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Capacitor:1.0uF_0805_25V_10%")
+		(lib_id "coreEVSE:JLCPCB_C_1u")
 		(at 219.71 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -3778,7 +3876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 219.71 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3789,7 +3887,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/KEMET-C0805X105K3RAC3316/C3848979"
 			(at 219.71 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3802,6 +3900,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 219.71 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3848979"
+			(at 219.71 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3847,10 +3956,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "871a9b7f-6b82-46e1-99a9-291be2170cd9")
+			(uuid "197fd06a-ebfa-4696-99bb-5d427978c415")
 		)
 		(pin "2"
-			(uuid "11b53f72-ea08-4d73-a336-db912a320c51")
+			(uuid "2e82e3c5-e4e2-439f-b4da-0f0316b900ab")
 		)
 		(instances
 			(project "evse"
@@ -3862,85 +3971,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 52.07 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2b7560e-15de-4177-8384-f0a4cc9a060a")
-		(property "Reference" "#PWR018"
-			(at 52.07 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ad48c97-cb6f-4f4d-832c-98266f088f86")
-		)
-		(instances
-			(project "evse"
-				(path "/11cad39f-0746-4064-b162-743100309dbd/23bb0d6c-bab2-406a-9867-b6914afeee18"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Capacitor:1.0uF_0805_25V_10%")
+		(lib_id "coreEVSE:JLCPCB_C_1u")
 		(at 229.87 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -3972,7 +4003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 229.87 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3983,7 +4014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/KEMET-C0805X105K3RAC3316/C3848979"
 			(at 229.87 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3996,6 +4027,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 229.87 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3848979"
+			(at 229.87 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,10 +4083,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b42cb2c4-2bb2-4257-8d4f-71c7eac1d0d1")
+			(uuid "12ac5797-ee42-4c64-bdd5-19383a65df1e")
 		)
 		(pin "2"
-			(uuid "66331f47-a277-4e1f-a147-a02e8f196bfd")
+			(uuid "b246d1c9-08cd-443a-ac9f-4f1ca324f9e9")
 		)
 		(instances
 			(project "evse"
